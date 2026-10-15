@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gaidai Eats design system</title>
+<link rel="stylesheet" href="../static/eats.css">
+<style>
+  /* For this page only: the specimen's own labels. Not part of the design system. */
+  .spec { margin-bottom: var(--space-7); }
+  .spec > h2 { border-bottom: 1px solid var(--line); padding-bottom: var(--space-2); }
+  .spec__note { color: var(--ink-2); font-size: var(--text-sm); max-width: 44rem; }
+  .swatches { display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); }
+  .swatch { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--surface); font-size: var(--text-xs); }
+  .swatch__chip { height: 4rem; }
+  .swatch__label { padding: var(--space-2) var(--space-3); display: grid; }
+  .swatch__label code { color: var(--ink-2); }
+  .type-sample > * { margin: 0 0 var(--space-2); }
+  .theme-toggle { position: fixed; right: var(--space-4); bottom: var(--space-4); z-index: 20; box-shadow: var(--shadow-lift); }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="wordmark" href="#"><span class="wordmark__dot" aria-hidden="true"></span>Gaidai Eats</a>
+    <form class="search" role="search" onsubmit="return false">
+      <label class="visually-hidden" for="q">Search places</label>
+      <input id="q" type="search" placeholder="Search places">
+    </form>
+    <nav class="site-header__nav" aria-label="Account">
+      <a href="#">Log in</a>
+      <a class="btn btn--secondary" href="#">Sign up</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1>Design system</h1>
+  <p class="spec__note">Every part of the Gaidai Eats pages, on one page. The colours are Kansai
+  Gaidai University's, from its own website. The places and reviews on this page are made up.
+  Press the button at the bottom right to see the dark theme; the site itself follows the reader's
+  device setting.</p>
+
+  <section class="spec">
+    <h2>Colour</h2>
+    <p class="spec__note">The university's navy carries the brand: the header, headings, the primary
+    button. Its blue is for links and focus. Its orange, darkened until it passes contrast, is for
+    stars and ratings only. Its tile colours mark the categories.</p>
+    <div class="swatches">
+      <div class="swatch"><div class="swatch__chip" style="background:var(--kgu-navy)"></div><div class="swatch__label"><b>Navy</b><code>--kgu-navy #020b4a</code></div></div>
+      <div class="swatch"><div class="swatch__chip" style="background:var(--kgu-blue)"></div><div class="swatch__label"><b>Blue</b><code>--kgu-blue #095181</code></div></div>
+      <div class="swatch"><div class="swatch__chip" style="background:var(--kgu-mist)"></div><div class="swatch__label"><b>Mist</b><code>--kgu-mist #e1e9ef</code></div></div>
+      <div class="swatch"><div class="swatch__chip" style="background:var(--star)"></div><div class="swatch__label"><b>Star</b><code>--star</code></div></div>
+      <div class="swatch"><div class="swatch__chip" style="background:var(--kgu-coral)"></div><div class="swatch__label"><b>Coral</b><code>restaurant</code></div></div>
+      <div class="swatch"><div class="swatch__chip" style="background:var(--kgu-orange)"></div><div class="swatch__label"><b>Orange</b><code>café</code></div></div>
+      <div class="swatch"><div class="swatch__chip" style="background:var(--kgu-teal)"></div><div class="swatch__label"><b>Teal</b><code>fast food</code></div></div>
+      <div class="swatch"><div class="swatch__chip" style="background:var(--danger)"></div><div class="swatch__label"><b>Danger</b><code>--danger</code></div></div>
+    </div>
+  </section>
+
+  <section class="spec">
+    <h2>Type</h2>
+    <p class="spec__note">One family: the device's own sans-serif, with a Japanese face named
+    after it, so a Japanese name and an English one sit on one line at the same weight. Nothing is
+    downloaded.</p>
+    <div class="type-sample">
+      <h1>Places near campus</h1>
+      <h2>Reviews</h2>
+      <h3>Example Soba Kitchen <span class="name-local" style="display:inline">例そば処</span></h3>
+      <p>Body text is 16 pixels with a line height of 1.6, so a long review stays easy to read.</p>
+      <p class="spec__note">Small text is for details: a date, a count, a distance.</p>
+    </div>
+  </section>
+
+  <section class="spec">
+    <h2>Filters</h2>
+    <div class="toolbar">
+      <fieldset class="chips">
+        <legend class="visually-hidden">Category</legend>
+        <label class="chip"><input type="checkbox" checked>All</label>
+        <label class="chip"><input type="checkbox">Restaurant</label>
+        <label class="chip"><input type="checkbox">Café</label>
+        <label class="chip"><input type="checkbox">Fast food</label>
+        <label class="chip"><input type="checkbox">Ice cream</label>
+      </fieldset>
+      <label class="switch"><input type="checkbox" role="switch">Show bars and pubs</label>
+    </div>
+    <p class="result-count">962 places, nearest the Nakamiya campus first</p>
+  </section>
+
+  <section class="spec">
+    <h2>Place cards</h2>
+    <ul class="cards">
+      <li class="card">
+        <h3 class="card__title"><a href="#">Example Ramen<span class="name-local">例ラーメン</span></a></h3>
+        <p class="meta"><span class="tag tag--restaurant">Restaurant</span><span>ramen</span><span>0.4 km</span></p>
+        <div class="rating"><span class="stars" style="--rating:3.7" role="img" aria-label="3.7 out of 5 stars"></span><span class="rating__score">3.7</span><span class="rating__count">12 reviews</span></div>
+      </li>
+      <li class="card">
+        <h3 class="card__title"><a href="#">Sample Coffee Stand<span class="name-local">サンプル珈琲</span></a></h3>
+        <p class="meta"><span class="tag tag--cafe">Café</span><span>coffee shop</span><span>0.9 km</span></p>
+        <div class="rating"><span class="stars" style="--rating:4.3" role="img" aria-label="4.3 out of 5 stars"></span><span class="rating__score">4.3</span><span class="rating__count">3 reviews</span></div>
+      </li>
+      <li class="card">
+        <h3 class="card__title"><a href="#">例の定食屋</a></h3>
+        <p class="meta"><span class="tag tag--fast_food">Fast food</span><span>1.6 km</span></p>
+        <div class="rating rating--none">No reviews yet</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="spec">
+    <h2>A place</h2>
+    <div class="hero">
+      <div class="meta"><span class="tag tag--restaurant">Restaurant</span><span>ramen</span><span>0.4 km from Nakamiya</span></div>
+      <h1>Example Ramen <span class="name-local">例ラーメン</span></h1>
+      <div class="rating rating--large"><span class="stars" style="--rating:3.7" role="img" aria-label="3.7 out of 5 stars"></span><span class="rating__score">3.7</span><span class="rating__count">12 reviews</span></div>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#">Write a review</a>
+        <a class="btn btn--ghost" href="#">See it on OpenStreetMap</a>
+      </div>
+    </div>
+
+    <h2>Reviews</h2>
+    <ul class="reviews">
+      <li class="review">
+        <span class="avatar" aria-hidden="true">s</span>
+        <div class="review__head"><span class="review__author">student_a</span><span class="stars" style="--rating:4" role="img" aria-label="4 out of 5 stars"></span><span class="review__date">20 Oct 2026</span></div>
+        <p class="review__text">Quiet in the morning, busy after third period. The small bowl is enough for lunch.</p>
+      </li>
+      <li class="review">
+        <span class="avatar" aria-hidden="true">k</span>
+        <div class="review__head"><span class="review__author">kenta_example</span><span class="stars" style="--rating:3" role="img" aria-label="3 out of 5 stars"></span><span class="review__date">14 Oct 2026 · edited</span></div>
+        <p class="review__text">Good soup, long wait on Fridays.</p>
+        <div class="review__actions"><a class="btn btn--ghost" href="#">Edit</a></div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="spec">
+    <h2>Forms</h2>
+    <form class="form" onsubmit="return false">
+      <div class="message">Your review is saved.</div>
+      <fieldset class="field">
+        <legend>Your rating</legend>
+        <div class="star-picker">
+          <input type="radio" name="rating" id="r5" value="5"><label for="r5"><span class="visually-hidden">5 stars</span></label>
+          <input type="radio" name="rating" id="r4" value="4" checked><label for="r4"><span class="visually-hidden">4 stars</span></label>
+          <input type="radio" name="rating" id="r3" value="3"><label for="r3"><span class="visually-hidden">3 stars</span></label>
+          <input type="radio" name="rating" id="r2" value="2"><label for="r2"><span class="visually-hidden">2 stars</span></label>
+          <input type="radio" name="rating" id="r1" value="1"><label for="r1"><span class="visually-hidden">1 star</span></label>
+        </div>
+      </fieldset>
+      <div class="field">
+        <label for="text">Your review</label>
+        <textarea id="text" aria-describedby="text-help text-error"></textarea>
+        <span class="field__help" id="text-help">At most 2,000 characters.</span>
+        <span class="field__error" id="text-error">Write something about the place.</span>
+      </div>
+      <div class="row">
+        <button class="btn btn--primary">Post review</button>
+        <a class="btn btn--ghost" href="#">Cancel</a>
+      </div>
+    </form>
+  </section>
+
+  <section class="spec">
+    <h2>Buttons</h2>
+    <p class="spec__note">At most one primary button on a page: the thing the page is for.</p>
+    <div class="row">
+      <button class="btn btn--primary">Primary</button>
+      <button class="btn btn--secondary">Secondary</button>
+      <button class="btn btn--ghost">Ghost</button>
+      <button class="btn btn--danger">Delete</button>
+    </div>
+  </section>
+
+  <section class="spec">
+    <h2>Empty, error, pages</h2>
+    <div class="message message--error">Something went wrong. Nothing was saved.</div>
+    <div class="empty"><strong>No places match “okonomiyaki”</strong>Try fewer words, or turn on bars and pubs.</div>
+    <nav class="pagination" aria-label="Pages">
+      <a class="btn btn--secondary" href="#">Previous</a>
+      <span>Page 2 of 49</span>
+      <a class="btn btn--secondary" href="#">Next</a>
+    </nav>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <span>Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a></span>
+    <span>A student project. Not run by Kansai Gaidai University.</span>
+  </div>
+</footer>
+
+<button class="btn btn--secondary theme-toggle" type="button"
+  onclick="const r=document.documentElement; r.dataset.theme = (r.dataset.theme==='dark' || (!r.dataset.theme && matchMedia('(prefers-color-scheme: dark)').matches)) ? 'light' : 'dark'">Light / dark</button>
+</body>
+</html>

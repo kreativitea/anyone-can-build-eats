@@ -1,0 +1,9066 @@
+{
+ "source": "OpenStreetMap, through the Overpass API",
+ "attribution": "© OpenStreetMap contributors",
+ "license": "Open Database License (ODbL) 1.0, https://opendatacommons.org/licenses/odbl/1-0/",
+ "fetched": "2026-10-13",
+ "query": "[out:json][timeout:120];(nwr[\"amenity\"~\"^(restaurant|cafe|fast_food|ice_cream|bar|pub)$\"](around:5000,34.8238967,135.6649096);nwr[\"amenity\"~\"^(restaurant|cafe|fast_food|ice_cream|bar|pub)$\"](around:5000,34.8231107,135.6571861););out center tags;",
+ "left_out_without_a_name": 33,
+ "places": [
+  {
+   "osm": "node/14146066463",
+   "category": "cafe",
+   "lat": 34.8236441,
+   "lon": 135.6635768,
+   "name": "スターバックス",
+   "name_en": "Starbucks"
+  },
+  {
+   "osm": "node/6026785807",
+   "category": "restaurant",
+   "lat": 34.8215517,
+   "lon": 135.6656178,
+   "name": "ほっかほっか亭 中宮東店"
+  },
+  {
+   "osm": "node/6026807888",
+   "category": "restaurant",
+   "lat": 34.821449,
+   "lon": 135.6653804,
+   "name": "ニューデリー",
+   "cuisine": "indian"
+  },
+  {
+   "osm": "node/6026785803",
+   "category": "restaurant",
+   "lat": 34.8218974,
+   "lon": 135.6667907,
+   "name": "うどん屋ろっか"
+  },
+  {
+   "osm": "node/6026785804",
+   "category": "restaurant",
+   "lat": 34.8213382,
+   "lon": 135.6659808,
+   "name": "鉄板焼ダイニング うらら"
+  },
+  {
+   "osm": "node/6026785801",
+   "category": "restaurant",
+   "lat": 34.8224346,
+   "lon": 135.6677106,
+   "name": "いか焼き 味斗"
+  },
+  {
+   "osm": "node/6026807887",
+   "category": "fast_food",
+   "lat": 34.8221769,
+   "lon": 135.6678088,
+   "name": "すき家",
+   "name_en": "Sukiya",
+   "cuisine": "beef_bowl",
+   "opening_hours": "24/7",
+   "brand": "すき家"
+  },
+  {
+   "osm": "node/4381655486",
+   "category": "restaurant",
+   "lat": 34.82105,
+   "lon": 135.6639471,
+   "name": "きりん寺"
+  },
+  {
+   "osm": "node/5333411127",
+   "category": "restaurant",
+   "lat": 34.8209733,
+   "lon": 135.6636046,
+   "name": "Green Days",
+   "cuisine": "sandwich;salad;smoothie",
+   "opening_hours": "Mo-Fr 11:00-21:00; Sa 11:00-17:00"
+  },
+  {
+   "osm": "node/4415792141",
+   "category": "restaurant",
+   "lat": 34.820937,
+   "lon": 135.6636341,
+   "name": "paradisso"
+  },
+  {
+   "osm": "node/6026785814",
+   "category": "restaurant",
+   "lat": 34.8207963,
+   "lon": 135.6633325,
+   "name": "炭火焼肉えん"
+  },
+  {
+   "osm": "node/6026785815",
+   "category": "restaurant",
+   "lat": 34.8207889,
+   "lon": 135.6630682,
+   "name": "ちゃんぽん亭 豊助"
+  },
+  {
+   "osm": "node/6026785809",
+   "category": "restaurant",
+   "lat": 34.8203387,
+   "lon": 135.6636211,
+   "name": "お食事処 菊竹"
+  },
+  {
+   "osm": "node/6026807885",
+   "category": "restaurant",
+   "lat": 34.822671,
+   "lon": 135.6693886,
+   "name": "ラーメン どさん子大将"
+  },
+  {
+   "osm": "node/6026785811",
+   "category": "cafe",
+   "lat": 34.8199328,
+   "lon": 135.6636221,
+   "name": "喫茶シルクロード"
+  },
+  {
+   "osm": "node/6026807891",
+   "category": "cafe",
+   "lat": 34.8195407,
+   "lon": 135.6643362,
+   "name": "Zion"
+  },
+  {
+   "osm": "node/6026785796",
+   "category": "restaurant",
+   "lat": 34.823185,
+   "lon": 135.6702651,
+   "name": "さわだの担々麺"
+  },
+  {
+   "osm": "node/6026785797",
+   "category": "pub",
+   "lat": 34.8233024,
+   "lon": 135.6703993,
+   "name": "スナックあや"
+  },
+  {
+   "osm": "node/6026785795",
+   "category": "restaurant",
+   "lat": 34.8229849,
+   "lon": 135.6704246,
+   "name": "やきとり大吉 都ヶ丘店",
+   "name_en": "Yakitori Daikichi"
+  },
+  {
+   "osm": "node/6026799293",
+   "category": "restaurant",
+   "lat": 34.8199503,
+   "lon": 135.6618114,
+   "name": "沖縄家庭料理 たまき"
+  },
+  {
+   "osm": "node/6026785812",
+   "category": "restaurant",
+   "lat": 34.8192513,
+   "lon": 135.6638682,
+   "name": "ドミノ・ピザ 枚方店"
+  },
+  {
+   "osm": "node/6026799296",
+   "category": "restaurant",
+   "lat": 34.8201692,
+   "lon": 135.6610752,
+   "name": "鍋千花"
+  },
+  {
+   "osm": "node/6026785817",
+   "category": "restaurant",
+   "lat": 34.8201806,
+   "lon": 135.6610134,
+   "name": "くろくろ"
+  },
+  {
+   "osm": "node/6026785816",
+   "category": "restaurant",
+   "lat": 34.8199951,
+   "lon": 135.6610439,
+   "name": "ゆき"
+  },
+  {
+   "osm": "node/6026767390",
+   "category": "restaurant",
+   "lat": 34.8234213,
+   "lon": 135.6710998,
+   "name": "おかんのばぁ"
+  },
+  {
+   "osm": "node/6026785824",
+   "category": "bar",
+   "lat": 34.8197376,
+   "lon": 135.6611958,
+   "name": "立呑処はやし"
+  },
+  {
+   "osm": "node/6026767391",
+   "category": "cafe",
+   "lat": 34.8233078,
+   "lon": 135.6715262,
+   "name": "Van"
+  },
+  {
+   "osm": "node/6026785826",
+   "category": "cafe",
+   "lat": 34.8192169,
+   "lon": 135.6613339,
+   "name": "ひだまり"
+  },
+  {
+   "osm": "node/6026816485",
+   "category": "bar",
+   "lat": 34.8242934,
+   "lon": 135.6581369,
+   "name": "創作鉄板居酒屋 ベジタ",
+   "name_en": "Bejita"
+  },
+  {
+   "osm": "node/6026785823",
+   "category": "cafe",
+   "lat": 34.8193345,
+   "lon": 135.6610025,
+   "name": "喫茶ルンバ"
+  },
+  {
+   "osm": "node/6029009585",
+   "category": "restaurant",
+   "lat": 34.8233728,
+   "lon": 135.6716794,
+   "name": "大野屋本店 須山店"
+  },
+  {
+   "osm": "node/6026807893",
+   "category": "cafe",
+   "lat": 34.819427,
+   "lon": 135.6606728,
+   "name": "カフェ&バー マロン",
+   "name_en": "Cafe & Bar MarroN"
+  },
+  {
+   "osm": "node/6026799302",
+   "category": "cafe",
+   "lat": 34.8192099,
+   "lon": 135.6608978,
+   "name": "Sancra Bar & Cafe"
+  },
+  {
+   "osm": "node/6026799305",
+   "category": "restaurant",
+   "lat": 34.819474,
+   "lon": 135.6604648,
+   "name": "ゆうげ"
+  },
+  {
+   "osm": "node/6026799303",
+   "category": "restaurant",
+   "lat": 34.8192101,
+   "lon": 135.6607688,
+   "name": "串焼きちゅどーん"
+  },
+  {
+   "osm": "node/6026799306",
+   "category": "restaurant",
+   "lat": 34.8193614,
+   "lon": 135.6604909,
+   "name": "炙ととりや"
+  },
+  {
+   "osm": "node/6026818895",
+   "category": "bar",
+   "lat": 34.8180777,
+   "lon": 135.6647084,
+   "name": "瀬戸"
+  },
+  {
+   "osm": "node/6026807895",
+   "category": "cafe",
+   "lat": 34.81921,
+   "lon": 135.6606219,
+   "name": "アポロ"
+  },
+  {
+   "osm": "node/6029009885",
+   "category": "cafe",
+   "lat": 34.8186427,
+   "lon": 135.6615852,
+   "name": "カラオケ喫茶 夢舞台"
+  },
+  {
+   "osm": "node/6026799307",
+   "category": "restaurant",
+   "lat": 34.8198013,
+   "lon": 135.6595989,
+   "name": "やきとり和楽"
+  },
+  {
+   "osm": "node/6026785791",
+   "category": "restaurant",
+   "lat": 34.8231102,
+   "lon": 135.6723761,
+   "name": "ふみ寿し"
+  },
+  {
+   "osm": "node/5333411128",
+   "category": "bar",
+   "lat": 34.827181,
+   "lon": 135.6714858,
+   "name": "Cafe Istanbul",
+   "opening_hours": "Mo-Sa 21:00-01:00"
+  },
+  {
+   "osm": "node/6029009886",
+   "category": "fast_food",
+   "lat": 34.8180796,
+   "lon": 135.6614454,
+   "name": "たこやきふくちゃん"
+  },
+  {
+   "osm": "node/6026816593",
+   "category": "pub",
+   "lat": 34.8193568,
+   "lon": 135.6589117,
+   "name": "スナック Joker"
+  },
+  {
+   "osm": "node/6029010385",
+   "category": "restaurant",
+   "lat": 34.8194882,
+   "lon": 135.6586106,
+   "name": "あじむどり 市立ひらかた病院前店"
+  },
+  {
+   "osm": "node/6026810988",
+   "category": "pub",
+   "lat": 34.8193529,
+   "lon": 135.6587315,
+   "name": "Cheers. Jr"
+  },
+  {
+   "osm": "node/6026817493",
+   "category": "bar",
+   "lat": 34.8192054,
+   "lon": 135.6588599,
+   "name": "スナック Berries"
+  },
+  {
+   "osm": "node/6026816594",
+   "category": "pub",
+   "lat": 34.8192731,
+   "lon": 135.6587346,
+   "name": "スナック 好美"
+  },
+  {
+   "osm": "node/6029007887",
+   "category": "cafe",
+   "lat": 34.819525,
+   "lon": 135.658423,
+   "name": "Ages. Cafe"
+  },
+  {
+   "osm": "node/6026799309",
+   "category": "restaurant",
+   "lat": 34.8173625,
+   "lon": 135.6618322,
+   "name": "じゅじゅ亭",
+   "name_en": "Jujutei"
+  },
+  {
+   "osm": "node/6026818887",
+   "category": "restaurant",
+   "lat": 34.8169956,
+   "lon": 135.662335,
+   "name": "海宴",
+   "name_en": "Kaien"
+  },
+  {
+   "osm": "node/6026818899",
+   "category": "restaurant",
+   "lat": 34.8194064,
+   "lon": 135.6577181,
+   "name": "Roro"
+  },
+  {
+   "osm": "node/6026818900",
+   "category": "cafe",
+   "lat": 34.8194655,
+   "lon": 135.6575253,
+   "name": "喫茶壱番館"
+  },
+  {
+   "osm": "node/6026785790",
+   "category": "fast_food",
+   "lat": 34.8246918,
+   "lon": 135.674074,
+   "name": "ほっかほっか亭",
+   "name_en": "Hokka Hokka Tei",
+   "cuisine": "japanese",
+   "brand": "ほっかほっか亭"
+  },
+  {
+   "osm": "node/6004712085",
+   "category": "restaurant",
+   "lat": 34.8284433,
+   "lon": 135.656765,
+   "name": "魚伊寿し"
+  },
+  {
+   "osm": "node/6026817490",
+   "category": "restaurant",
+   "lat": 34.815407,
+   "lon": 135.6635704,
+   "name": "功寿し"
+  },
+  {
+   "osm": "node/6026816587",
+   "category": "pub",
+   "lat": 34.8153233,
+   "lon": 135.6675741,
+   "name": "Hiromi"
+  },
+  {
+   "osm": "node/6004710685",
+   "category": "restaurant",
+   "lat": 34.8277812,
+   "lon": 135.6547026,
+   "name": "司・鮨・割烹"
+  },
+  {
+   "osm": "node/6004710686",
+   "category": "restaurant",
+   "lat": 34.8285132,
+   "lon": 135.6551612,
+   "name": "焼肉処 和み"
+  },
+  {
+   "osm": "node/6004710985",
+   "category": "restaurant",
+   "lat": 34.8282194,
+   "lon": 135.6548826,
+   "name": "くらもち",
+   "name_en": "Kuramochi"
+  },
+  {
+   "osm": "node/4437046161",
+   "category": "restaurant",
+   "lat": 34.8198582,
+   "lon": 135.6751666,
+   "name": "びっくりドンキー",
+   "name_en": "Bikkuri Donkey",
+   "cuisine": "burger",
+   "brand": "びっくりドンキー"
+  },
+  {
+   "osm": "node/6004711185",
+   "category": "pub",
+   "lat": 34.828369,
+   "lon": 135.6548772,
+   "name": "カラオケスナック パール"
+  },
+  {
+   "osm": "node/6004366989",
+   "category": "restaurant",
+   "lat": 34.8278358,
+   "lon": 135.6544889,
+   "name": "お好み焼 益味"
+  },
+  {
+   "osm": "node/6004711485",
+   "category": "bar",
+   "lat": 34.8285486,
+   "lon": 135.654849,
+   "name": "立呑屋 兄やん"
+  },
+  {
+   "osm": "node/6004363110",
+   "category": "cafe",
+   "lat": 34.8279672,
+   "lon": 135.6543524,
+   "name": "喫茶フレンド"
+  },
+  {
+   "osm": "node/6004363829",
+   "category": "fast_food",
+   "lat": 34.8282858,
+   "lon": 135.6544113,
+   "name": "たこ焼き屋 おこ"
+  },
+  {
+   "osm": "node/6004363827",
+   "category": "restaurant",
+   "lat": 34.8284909,
+   "lon": 135.654537,
+   "name": "粉もん屋"
+  },
+  {
+   "osm": "way/1369111741",
+   "category": "bar",
+   "lat": 34.8293454,
+   "lon": 135.6551354,
+   "name": "Job"
+  },
+  {
+   "osm": "node/6004363108",
+   "category": "bar",
+   "lat": 34.8281533,
+   "lon": 135.6542786,
+   "name": "四季祭",
+   "name_en": "Shikisai"
+  },
+  {
+   "osm": "node/6004363828",
+   "category": "restaurant",
+   "lat": 34.8284444,
+   "lon": 135.6544518,
+   "name": "Lotta",
+   "cuisine": "italian"
+  },
+  {
+   "osm": "node/6026785789",
+   "category": "pub",
+   "lat": 34.8256093,
+   "lon": 135.6765748,
+   "name": "アムール"
+  },
+  {
+   "osm": "node/12680417680",
+   "category": "pub",
+   "lat": 34.8292395,
+   "lon": 135.6550025,
+   "name": "はお"
+  },
+  {
+   "osm": "node/6004711186",
+   "category": "restaurant",
+   "lat": 34.8292048,
+   "lon": 135.6549643,
+   "name": "和季あいあいえん"
+  },
+  {
+   "osm": "way/326932253",
+   "category": "restaurant",
+   "lat": 34.8251859,
+   "lon": 135.6767125,
+   "name": "ガスト",
+   "name_en": "Gusto",
+   "cuisine": "american"
+  },
+  {
+   "osm": "node/6004710689",
+   "category": "pub",
+   "lat": 34.8293904,
+   "lon": 135.655056,
+   "name": "スナック ふじ"
+  },
+  {
+   "osm": "node/6006701430",
+   "category": "bar",
+   "lat": 34.8146478,
+   "lon": 135.669523,
+   "name": "枚方池之宮酒場 情熱ホルモン"
+  },
+  {
+   "osm": "node/4437046169",
+   "category": "fast_food",
+   "lat": 34.8148345,
+   "lon": 135.6704868,
+   "name": "ケンタッキーフライドチキン",
+   "name_en": "KFC",
+   "cuisine": "chicken",
+   "brand": "ケンタッキーフライドチキン"
+  },
+  {
+   "osm": "node/6004370185",
+   "category": "bar",
+   "lat": 34.8282133,
+   "lon": 135.6536711,
+   "name": "とも"
+  },
+  {
+   "osm": "node/6004363822",
+   "category": "restaurant",
+   "lat": 34.8286614,
+   "lon": 135.6539276,
+   "name": "かつのや"
+  },
+  {
+   "osm": "node/6004363821",
+   "category": "restaurant",
+   "lat": 34.8287579,
+   "lon": 135.6539218,
+   "name": "てこや 御殿山駅前店"
+  },
+  {
+   "osm": "node/6004711491",
+   "category": "bar",
+   "lat": 34.8276989,
+   "lon": 135.6532892,
+   "name": "居酒屋 まつお"
+  },
+  {
+   "osm": "node/4435219114",
+   "category": "restaurant",
+   "lat": 34.8211893,
+   "lon": 135.6770892,
+   "name": "餃子の王将",
+   "name_en": "Gyoza no Ohsho",
+   "cuisine": "chinese;gyoza",
+   "brand": "餃子の王将"
+  },
+  {
+   "osm": "way/477485870",
+   "category": "fast_food",
+   "lat": 34.8196062,
+   "lon": 135.6531849,
+   "name": "マクドナルド",
+   "name_en": "McDonald's",
+   "cuisine": "burger",
+   "brand": "マクドナルド"
+  },
+  {
+   "osm": "node/2279443201",
+   "category": "fast_food",
+   "lat": 34.8293611,
+   "lon": 135.6536784,
+   "name": "ラーメンひふみ",
+   "cuisine": "noodle;ramen"
+  },
+  {
+   "osm": "node/6006695536",
+   "category": "cafe",
+   "lat": 34.8134466,
+   "lon": 135.6679184,
+   "name": "ハングオンカフェ"
+  },
+  {
+   "osm": "node/6006701426",
+   "category": "restaurant",
+   "lat": 34.8133325,
+   "lon": 135.6676333,
+   "name": "うどん・おでん まんぷく"
+  },
+  {
+   "osm": "node/5997162886",
+   "category": "restaurant",
+   "lat": 34.8165655,
+   "lon": 135.6552103,
+   "name": "カレーハウス CoCo壱番屋 枚方宮之阪店"
+  },
+  {
+   "osm": "node/6006695528",
+   "category": "restaurant",
+   "lat": 34.8150826,
+   "lon": 135.6572334,
+   "name": "一品料理らりる"
+  },
+  {
+   "osm": "node/5994873990",
+   "category": "cafe",
+   "lat": 34.8201017,
+   "lon": 135.6525088,
+   "name": "テン・フレンズ"
+  },
+  {
+   "osm": "node/5994871304",
+   "category": "restaurant",
+   "lat": 34.820402,
+   "lon": 135.652369,
+   "name": "みのり"
+  },
+  {
+   "osm": "node/6004363107",
+   "category": "restaurant",
+   "lat": 34.8291879,
+   "lon": 135.6532459,
+   "name": "アケティ",
+   "cuisine": "indian"
+  },
+  {
+   "osm": "way/1369111746",
+   "category": "restaurant",
+   "lat": 34.8291744,
+   "lon": 135.6532328,
+   "name": "アケティ",
+   "name_en": "AKRITI",
+   "cuisine": "indian"
+  },
+  {
+   "osm": "node/4739503326",
+   "category": "restaurant",
+   "lat": 34.8161186,
+   "lon": 135.6555313,
+   "name": "桃園",
+   "cuisine": "chinese"
+  },
+  {
+   "osm": "node/4739503325",
+   "category": "restaurant",
+   "lat": 34.8159915,
+   "lon": 135.6556484,
+   "name": "ほほえみ"
+  },
+  {
+   "osm": "node/5994871302",
+   "category": "restaurant",
+   "lat": 34.8201361,
+   "lon": 135.652339,
+   "name": "万両寿司"
+  },
+  {
+   "osm": "node/4212525851",
+   "category": "fast_food",
+   "lat": 34.8180757,
+   "lon": 135.6535427,
+   "name": "ミスタードーナツ",
+   "name_en": "Mister Donut",
+   "cuisine": "donut",
+   "brand": "ミスタードーナツ"
+  },
+  {
+   "osm": "node/5994874210",
+   "category": "restaurant",
+   "lat": 34.8205736,
+   "lon": 135.6520958,
+   "name": "増馬商店"
+  },
+  {
+   "osm": "node/5994874213",
+   "category": "restaurant",
+   "lat": 34.8227598,
+   "lon": 135.6514455,
+   "name": "Casual割烹 たち太"
+  },
+  {
+   "osm": "node/5994874212",
+   "category": "cafe",
+   "lat": 34.8210857,
+   "lon": 135.6517931,
+   "name": "カフェ カジョ"
+  },
+  {
+   "osm": "node/6006707785",
+   "category": "restaurant",
+   "lat": 34.8156463,
+   "lon": 135.6556445,
+   "name": "西京家",
+   "name_en": "Saikyoya",
+   "cuisine": "fish",
+   "opening_hours": "Mo-Su 17:00-00:00"
+  },
+  {
+   "osm": "node/5997161892",
+   "category": "restaurant",
+   "lat": 34.8179219,
+   "lon": 135.6533045,
+   "name": "Sugakiya"
+  },
+  {
+   "osm": "node/5997159392",
+   "category": "restaurant",
+   "lat": 34.8180269,
+   "lon": 135.6532234,
+   "name": "茶房ひまわり"
+  },
+  {
+   "osm": "node/6006695525",
+   "category": "restaurant",
+   "lat": 34.8154867,
+   "lon": 135.6557901,
+   "name": "北京"
+  },
+  {
+   "osm": "node/6006695524",
+   "category": "bar",
+   "lat": 34.8151837,
+   "lon": 135.6560341,
+   "name": "浜焼太郎 枚方宮之阪店"
+  },
+  {
+   "osm": "node/6006706785",
+   "category": "pub",
+   "lat": 34.8148176,
+   "lon": 135.6564976,
+   "name": "One Frame"
+  },
+  {
+   "osm": "node/6006695523",
+   "category": "restaurant",
+   "lat": 34.815066,
+   "lon": 135.6561104,
+   "name": "炭火焼串屋 どうも"
+  },
+  {
+   "osm": "node/5997159393",
+   "category": "fast_food",
+   "lat": 34.817298,
+   "lon": 135.6535374,
+   "name": "ほっかほっか亭",
+   "name_en": "Hokka Hokka Tei",
+   "cuisine": "japanese",
+   "brand": "ほっかほっか亭"
+  },
+  {
+   "osm": "node/5994874198",
+   "category": "restaurant",
+   "lat": 34.8191975,
+   "lon": 135.6521334,
+   "name": "Sun"
+  },
+  {
+   "osm": "node/6004711494",
+   "category": "restaurant",
+   "lat": 34.8323255,
+   "lon": 135.6553362,
+   "name": "手打ちうどん 団平"
+  },
+  {
+   "osm": "node/5994874200",
+   "category": "restaurant",
+   "lat": 34.8192157,
+   "lon": 135.6520609,
+   "name": "スパイス工房 燦"
+  },
+  {
+   "osm": "node/6006701425",
+   "category": "restaurant",
+   "lat": 34.8124785,
+   "lon": 135.6669582,
+   "name": "ラーメン横綱"
+  },
+  {
+   "osm": "node/5994871300",
+   "category": "restaurant",
+   "lat": 34.8190738,
+   "lon": 135.6520677,
+   "name": "炭焼きっちん こころ"
+  },
+  {
+   "osm": "node/5997161888",
+   "category": "cafe",
+   "lat": 34.8180544,
+   "lon": 135.6526872,
+   "name": "カラオケ喫茶 花月"
+  },
+  {
+   "osm": "node/4055962828",
+   "category": "fast_food",
+   "lat": 34.8146839,
+   "lon": 135.6562595,
+   "name": "なか卯",
+   "name_en": "Nakau",
+   "cuisine": "udon",
+   "brand": "なか卯"
+  },
+  {
+   "osm": "node/6006695518",
+   "category": "cafe",
+   "lat": 34.8145576,
+   "lon": 135.6563278,
+   "name": "about a Cafe"
+  },
+  {
+   "osm": "node/6006695522",
+   "category": "bar",
+   "lat": 34.8148519,
+   "lon": 135.6557565,
+   "name": "隠れ家 月光"
+  },
+  {
+   "osm": "node/6006701413",
+   "category": "restaurant",
+   "lat": 34.8142335,
+   "lon": 135.6566888,
+   "name": "やきとり大吉 宮之阪駅前店",
+   "name_en": "Yakitori Daikichi"
+  },
+  {
+   "osm": "node/6006695519",
+   "category": "restaurant",
+   "lat": 34.8141764,
+   "lon": 135.656713,
+   "name": "創作和膳うえだ"
+  },
+  {
+   "osm": "node/6006701407",
+   "category": "cafe",
+   "lat": 34.8140358,
+   "lon": 135.6568511,
+   "name": "El Dios Cafe",
+   "opening_hours": "Tu-Th 10:00-22:00; Fr-Su 11:30-00:00"
+  },
+  {
+   "osm": "node/4437046174",
+   "category": "fast_food",
+   "lat": 34.8119968,
+   "lon": 135.6644753,
+   "name": "マクドナルド",
+   "name_en": "McDonald's",
+   "cuisine": "burger",
+   "brand": "マクドナルド"
+  },
+  {
+   "osm": "node/5994871301",
+   "category": "bar",
+   "lat": 34.8195125,
+   "lon": 135.651396,
+   "name": "うずや",
+   "name_en": "Uzuya"
+  },
+  {
+   "osm": "node/6006695533",
+   "category": "fast_food",
+   "lat": 34.8116147,
+   "lon": 135.6638006,
+   "name": "くら寿司",
+   "name_en": "Kurazushi",
+   "cuisine": "sushi",
+   "brand": "くら寿司"
+  },
+  {
+   "osm": "node/6006695596",
+   "category": "cafe",
+   "lat": 34.8138674,
+   "lon": 135.6561012,
+   "name": "カラオケ喫茶 銀座"
+  },
+  {
+   "osm": "node/4437046170",
+   "category": "restaurant",
+   "lat": 34.811433,
+   "lon": 135.6644056,
+   "name": "ステーキのどん"
+  },
+  {
+   "osm": "node/4437046159",
+   "category": "fast_food",
+   "lat": 34.8113714,
+   "lon": 135.6641213,
+   "name": "スシロー",
+   "name_en": "Sushiro",
+   "cuisine": "sushi",
+   "brand": "スシロー"
+  },
+  {
+   "osm": "node/6018836385",
+   "category": "restaurant",
+   "lat": 34.8126684,
+   "lon": 135.6719537,
+   "name": "nu's kitchen"
+  },
+  {
+   "osm": "node/6006695529",
+   "category": "restaurant",
+   "lat": 34.8129094,
+   "lon": 135.6572381,
+   "name": "四季彩ダイニング 饗や"
+  },
+  {
+   "osm": "node/2494677048",
+   "category": "restaurant",
+   "lat": 34.8342782,
+   "lon": 135.655892,
+   "name": "ももたろう"
+  },
+  {
+   "osm": "node/4437046162",
+   "category": "restaurant",
+   "lat": 34.8110939,
+   "lon": 135.6647113,
+   "name": "天下一品",
+   "name_en": "Tenkaippin",
+   "cuisine": "ramen",
+   "brand": "天下一品"
+  },
+  {
+   "osm": "node/12669182141",
+   "category": "restaurant",
+   "lat": 34.8111085,
+   "lon": 135.6638808,
+   "name": "和食さと",
+   "name_en": "Washoku Sato",
+   "cuisine": "japanese",
+   "brand": "和食さと"
+  },
+  {
+   "osm": "node/6004363102",
+   "category": "restaurant",
+   "lat": 34.8162741,
+   "lon": 135.6522312,
+   "name": "日本料理 大屋"
+  },
+  {
+   "osm": "node/6004365586",
+   "category": "restaurant",
+   "lat": 34.8164742,
+   "lon": 135.651996,
+   "name": "なんとか 枚方店",
+   "name_en": "Nantoka"
+  },
+  {
+   "osm": "node/6004363813",
+   "category": "bar",
+   "lat": 34.8155192,
+   "lon": 135.6528081,
+   "name": "おでんとお酒 酒肴 山くら"
+  },
+  {
+   "osm": "node/6006701423",
+   "category": "fast_food",
+   "lat": 34.8110406,
+   "lon": 135.6625102,
+   "name": "吉野家",
+   "name_en": "Yoshinoya",
+   "cuisine": "beef_bowl",
+   "brand": "吉野家"
+  },
+  {
+   "osm": "node/6004363099",
+   "category": "restaurant",
+   "lat": 34.8155854,
+   "lon": 135.6526563,
+   "name": "まき"
+  },
+  {
+   "osm": "node/2494677063",
+   "category": "fast_food",
+   "lat": 34.8347735,
+   "lon": 135.6560832,
+   "name": "吉野家",
+   "name_en": "Yoshinoya",
+   "cuisine": "beef_bowl",
+   "brand": "吉野家"
+  },
+  {
+   "osm": "node/6004363816",
+   "category": "restaurant",
+   "lat": 34.8163919,
+   "lon": 135.6518668,
+   "name": "韓喜屋"
+  },
+  {
+   "osm": "node/6004363101",
+   "category": "restaurant",
+   "lat": 34.8162992,
+   "lon": 135.6519348,
+   "name": "ステーキハウス Amoretto"
+  },
+  {
+   "osm": "node/6004363098",
+   "category": "restaurant",
+   "lat": 34.8153965,
+   "lon": 135.65279,
+   "name": "一品料理 ふじい"
+  },
+  {
+   "osm": "node/6006695601",
+   "category": "restaurant",
+   "lat": 34.812201,
+   "lon": 135.6575145,
+   "name": "心笑屋",
+   "name_en": "Kokowaraya"
+  },
+  {
+   "osm": "node/6004363814",
+   "category": "pub",
+   "lat": 34.8156044,
+   "lon": 135.6523977,
+   "name": "ritrovo"
+  },
+  {
+   "osm": "node/5997162888",
+   "category": "restaurant",
+   "lat": 34.8199843,
+   "lon": 135.6495082,
+   "name": "イタリアンキッチン ラ・パッキオーネ",
+   "cuisine": "italian"
+  },
+  {
+   "osm": "node/6004363991",
+   "category": "cafe",
+   "lat": 34.816219,
+   "lon": 135.6517249,
+   "name": "メイド喫茶&バー ひらかた"
+  },
+  {
+   "osm": "node/6004363997",
+   "category": "restaurant",
+   "lat": 34.8155656,
+   "lon": 135.6523098,
+   "name": "美食 結",
+   "name_en": "Yui",
+   "cuisine": "japanese",
+   "opening_hours": "Mo-Sa 18:00-00:00"
+  },
+  {
+   "osm": "node/6004365886",
+   "category": "restaurant",
+   "lat": 34.8161218,
+   "lon": 135.6517695,
+   "name": "七輪焼肉 炭香"
+  },
+  {
+   "osm": "node/6004363806",
+   "category": "restaurant",
+   "lat": 34.815741,
+   "lon": 135.6521004,
+   "name": "いのうえ"
+  },
+  {
+   "osm": "node/6004363092",
+   "category": "restaurant",
+   "lat": 34.8158946,
+   "lon": 135.651911,
+   "name": "本格炭火焼鳥 山くら"
+  },
+  {
+   "osm": "node/6004363996",
+   "category": "restaurant",
+   "lat": 34.8151166,
+   "lon": 135.6526773,
+   "name": "朱鷺 枚方店",
+   "cuisine": "chinese"
+  },
+  {
+   "osm": "node/6004363093",
+   "category": "restaurant",
+   "lat": 34.8158077,
+   "lon": 135.6519618,
+   "name": "春木家"
+  },
+  {
+   "osm": "node/6004363992",
+   "category": "restaurant",
+   "lat": 34.8156969,
+   "lon": 135.6520355,
+   "name": "富久路"
+  },
+  {
+   "osm": "node/6004363100",
+   "category": "pub",
+   "lat": 34.8155094,
+   "lon": 135.6521973,
+   "name": "Bar Candy"
+  },
+  {
+   "osm": "node/3302060562",
+   "category": "restaurant",
+   "lat": 34.817032,
+   "lon": 135.650902,
+   "name": "すし一"
+  },
+  {
+   "osm": "node/6004363688",
+   "category": "pub",
+   "lat": 34.8153102,
+   "lon": 135.6523784,
+   "name": "Ciel"
+  },
+  {
+   "osm": "node/6004363687",
+   "category": "restaurant",
+   "lat": 34.8160355,
+   "lon": 135.651675,
+   "name": "あっちゃんの台所"
+  },
+  {
+   "osm": "node/6004363686",
+   "category": "pub",
+   "lat": 34.8160964,
+   "lon": 135.6516186,
+   "name": "酒楽"
+  },
+  {
+   "osm": "node/6004366987",
+   "category": "bar",
+   "lat": 34.8151594,
+   "lon": 135.6524647,
+   "name": "食美人"
+  },
+  {
+   "osm": "node/6004363812",
+   "category": "restaurant",
+   "lat": 34.8152041,
+   "lon": 135.6523963,
+   "name": "割烹ゆうな"
+  },
+  {
+   "osm": "node/6004363811",
+   "category": "restaurant",
+   "lat": 34.8152938,
+   "lon": 135.6522994,
+   "name": "のとや"
+  },
+  {
+   "osm": "node/6004365585",
+   "category": "bar",
+   "lat": 34.8157201,
+   "lon": 135.6518852,
+   "name": "居酒屋 修ちゃん"
+  },
+  {
+   "osm": "node/5994871101",
+   "category": "restaurant",
+   "lat": 34.8162139,
+   "lon": 135.651429,
+   "name": "アミーコ アミーカ"
+  },
+  {
+   "osm": "node/6004363993",
+   "category": "restaurant",
+   "lat": 34.8156035,
+   "lon": 135.6519491,
+   "name": "ラウンジアオヤマ"
+  },
+  {
+   "osm": "node/6004366986",
+   "category": "restaurant",
+   "lat": 34.815053,
+   "lon": 135.6524871,
+   "name": "中国料理 香格里拉"
+  },
+  {
+   "osm": "node/6004363995",
+   "category": "restaurant",
+   "lat": 34.8151039,
+   "lon": 135.6524212,
+   "name": "鳥ゆら 枚方店"
+  },
+  {
+   "osm": "node/6004363990",
+   "category": "bar",
+   "lat": 34.8154696,
+   "lon": 135.6520524,
+   "name": "居酒屋 紋樓"
+  },
+  {
+   "osm": "node/6004363097",
+   "category": "pub",
+   "lat": 34.8149779,
+   "lon": 135.6525412,
+   "name": "アリオン"
+  },
+  {
+   "osm": "node/6004363090",
+   "category": "restaurant",
+   "lat": 34.8160014,
+   "lon": 135.6515368,
+   "name": "海鮮花田"
+  },
+  {
+   "osm": "node/6004365885",
+   "category": "bar",
+   "lat": 34.8158986,
+   "lon": 135.6516178,
+   "name": "仙水"
+  },
+  {
+   "osm": "node/6004363810",
+   "category": "restaurant",
+   "lat": 34.8153539,
+   "lon": 135.6521156,
+   "name": "えん満 枚方店"
+  },
+  {
+   "osm": "node/6004363096",
+   "category": "restaurant",
+   "lat": 34.8152852,
+   "lon": 135.652175,
+   "name": "馬肉料理専門店 馬桜"
+  },
+  {
+   "osm": "node/6004363807",
+   "category": "bar",
+   "lat": 34.8148884,
+   "lon": 135.6525737,
+   "name": "立喰酒場 粋"
+  },
+  {
+   "osm": "node/6004363809",
+   "category": "bar",
+   "lat": 34.8151961,
+   "lon": 135.6522426,
+   "name": "別邸 一期一会"
+  },
+  {
+   "osm": "node/5994874189",
+   "category": "fast_food",
+   "lat": 34.8168488,
+   "lon": 135.6507635,
+   "name": "モスバーガー 枚方市駅店"
+  },
+  {
+   "osm": "node/6004363808",
+   "category": "bar",
+   "lat": 34.815086,
+   "lon": 135.6523148,
+   "name": "白うさぎ"
+  },
+  {
+   "osm": "node/6004363994",
+   "category": "pub",
+   "lat": 34.8150317,
+   "lon": 135.6523323,
+   "name": "Bar 19IKU"
+  },
+  {
+   "osm": "node/5994874188",
+   "category": "restaurant",
+   "lat": 34.8161588,
+   "lon": 135.651242,
+   "name": "焼肉 MowMowファイヤー"
+  },
+  {
+   "osm": "node/6004363804",
+   "category": "restaurant",
+   "lat": 34.8153945,
+   "lon": 135.6519238,
+   "name": "枚方もりもり亭"
+  },
+  {
+   "osm": "node/6004363103",
+   "category": "restaurant",
+   "lat": 34.8144069,
+   "lon": 135.6529763,
+   "name": "リザキッチン"
+  },
+  {
+   "osm": "node/6004366985",
+   "category": "cafe",
+   "lat": 34.8147259,
+   "lon": 135.6526018,
+   "name": "葡萄の木"
+  },
+  {
+   "osm": "node/6004363094",
+   "category": "restaurant",
+   "lat": 34.8148779,
+   "lon": 135.6522918,
+   "name": "一琳庵",
+   "cuisine": "soba"
+  },
+  {
+   "osm": "node/6004367485",
+   "category": "restaurant",
+   "lat": 34.8148248,
+   "lon": 135.6523377,
+   "name": "リブ ゴーシュ",
+   "name_en": "Rive Gauche",
+   "cuisine": "french"
+  },
+  {
+   "osm": "node/6004363803",
+   "category": "restaurant",
+   "lat": 34.815342,
+   "lon": 135.6517891,
+   "name": "真っ赤ならーめん とまこ"
+  },
+  {
+   "osm": "node/6004712285",
+   "category": "restaurant",
+   "lat": 34.8363037,
+   "lon": 135.6575549,
+   "name": "四川ラーメン 牧野店"
+  },
+  {
+   "osm": "node/6004701690",
+   "category": "fast_food",
+   "lat": 34.8360638,
+   "lon": 135.6569696,
+   "name": "丸亀製麺",
+   "name_en": "Marugame Seimen",
+   "cuisine": "noodle",
+   "brand": "丸亀製麺"
+  },
+  {
+   "osm": "node/6004363095",
+   "category": "restaurant",
+   "lat": 34.8148306,
+   "lon": 135.6522266,
+   "name": "大助 川原町店",
+   "cuisine": "chicken"
+  },
+  {
+   "osm": "node/5994871103",
+   "category": "restaurant",
+   "lat": 34.8169682,
+   "lon": 135.6502681,
+   "name": "やきとりバル 八金"
+  },
+  {
+   "osm": "node/6009338887",
+   "category": "restaurant",
+   "lat": 34.8122685,
+   "lon": 135.6741895,
+   "name": "人生三割三分三厘"
+  },
+  {
+   "osm": "node/6006695602",
+   "category": "restaurant",
+   "lat": 34.8103745,
+   "lon": 135.6607515,
+   "name": "じゅうじゅうカルビ"
+  },
+  {
+   "osm": "node/5994871290",
+   "category": "restaurant",
+   "lat": 34.8159442,
+   "lon": 135.6509272,
+   "name": "串焼 バードル"
+  },
+  {
+   "osm": "node/5994874191",
+   "category": "bar",
+   "lat": 34.8165642,
+   "lon": 135.6504283,
+   "name": "居酒屋千両"
+  },
+  {
+   "osm": "node/5994871102",
+   "category": "restaurant",
+   "lat": 34.8169266,
+   "lon": 135.6501358,
+   "name": "きゅうろく鉄板焼屋"
+  },
+  {
+   "osm": "way/425917119",
+   "category": "restaurant",
+   "lat": 34.8264034,
+   "lon": 135.6817238,
+   "name": "そば太鼓亭"
+  },
+  {
+   "osm": "node/5994871291",
+   "category": "restaurant",
+   "lat": 34.8168827,
+   "lon": 135.6500588,
+   "name": "大阪王将",
+   "name_en": "Osaka Ohsho",
+   "cuisine": "japanese;chinese",
+   "brand": "大阪王将"
+  },
+  {
+   "osm": "node/5994873987",
+   "category": "restaurant",
+   "lat": 34.8162614,
+   "lon": 135.650478,
+   "name": "寿し活"
+  },
+  {
+   "osm": "node/5994871105",
+   "category": "bar",
+   "lat": 34.8162053,
+   "lon": 135.6505187,
+   "name": "蔵六",
+   "name_en": "Zouroku"
+  },
+  {
+   "osm": "node/3003038614",
+   "category": "restaurant",
+   "lat": 34.8166096,
+   "lon": 135.650192,
+   "name": "餃子の王将",
+   "name_en": "Gyoza no Ohsho",
+   "cuisine": "chinese;gyoza",
+   "opening_hours": "Mo-Sa 11:00-05:30, Su 11:00-23:00",
+   "brand": "餃子の王将"
+  },
+  {
+   "osm": "node/5994871099",
+   "category": "restaurant",
+   "lat": 34.8160652,
+   "lon": 135.6505867,
+   "name": "ビストロ魚丸"
+  },
+  {
+   "osm": "node/5994871104",
+   "category": "pub",
+   "lat": 34.8164347,
+   "lon": 135.6502926,
+   "name": "Bar Genesis"
+  },
+  {
+   "osm": "node/5994871292",
+   "category": "bar",
+   "lat": 34.8167417,
+   "lon": 135.6500639,
+   "name": "じんべい",
+   "name_en": "Jimbei",
+   "opening_hours": "Mo-Su 11:30-00:00"
+  },
+  {
+   "osm": "node/5982872889",
+   "category": "cafe",
+   "lat": 34.8137652,
+   "lon": 135.6528304,
+   "name": "リフ"
+  },
+  {
+   "osm": "node/10158556337",
+   "category": "bar",
+   "lat": 34.8158619,
+   "lon": 135.6505732,
+   "name": "Cafe Istanbul",
+   "cuisine": "turkish",
+   "opening_hours": "Mo-Sa 20:00-24:00"
+  },
+  {
+   "osm": "node/4437046158",
+   "category": "fast_food",
+   "lat": 34.8244693,
+   "lon": 135.6822577,
+   "name": "マクドナルド",
+   "name_en": "McDonald's",
+   "cuisine": "burger",
+   "opening_hours": "24/7",
+   "brand": "マクドナルド"
+  },
+  {
+   "osm": "node/5994871289",
+   "category": "restaurant",
+   "lat": 34.8158597,
+   "lon": 135.650567,
+   "name": "土佐料理 四万十 寺田屋 枚方店"
+  },
+  {
+   "osm": "node/5994871097",
+   "category": "restaurant",
+   "lat": 34.8157595,
+   "lon": 135.6504249,
+   "name": "がんこ寿司 枚方店"
+  },
+  {
+   "osm": "node/13666318194",
+   "category": "cafe",
+   "lat": 34.8157962,
+   "lon": 135.6503941,
+   "name": "コメダ珈琲店",
+   "name_en": "Komeda's Coffee",
+   "cuisine": "coffee_shop",
+   "brand": "コメダ珈琲店"
+  },
+  {
+   "osm": "node/4437046157",
+   "category": "fast_food",
+   "lat": 34.8249907,
+   "lon": 135.6825835,
+   "name": "CoCo壱番屋",
+   "name_en": "CoCo Ichibanya",
+   "cuisine": "japanese",
+   "brand": "CoCo壱番屋"
+  },
+  {
+   "osm": "node/5982872486",
+   "category": "restaurant",
+   "lat": 34.813822,
+   "lon": 135.6520616,
+   "name": "Dining 和"
+  },
+  {
+   "osm": "node/5994871095",
+   "category": "restaurant",
+   "lat": 34.8160407,
+   "lon": 135.6499034,
+   "name": "定食&カフェ オリエント"
+  },
+  {
+   "osm": "node/5994871287",
+   "category": "restaurant",
+   "lat": 34.816108,
+   "lon": 135.6498471,
+   "name": "ミールトゥギャザー ルーフテラス"
+  },
+  {
+   "osm": "node/5982872891",
+   "category": "restaurant",
+   "lat": 34.8157991,
+   "lon": 135.6500845,
+   "name": "食のつむぎ"
+  },
+  {
+   "osm": "node/5994874186",
+   "category": "cafe",
+   "lat": 34.81618,
+   "lon": 135.6497671,
+   "name": "台湾甜商店"
+  },
+  {
+   "osm": "node/5982872491",
+   "category": "cafe",
+   "lat": 34.8154237,
+   "lon": 135.6503479,
+   "name": "サンマルクカフェ",
+   "name_en": "Saint Marc Cafe",
+   "cuisine": "coffee_shop",
+   "brand": "サンマルクカフェ"
+  },
+  {
+   "osm": "node/5994873986",
+   "category": "cafe",
+   "lat": 34.8161061,
+   "lon": 135.6497369,
+   "name": "治一郎"
+  },
+  {
+   "osm": "way/562999027",
+   "category": "restaurant",
+   "lat": 34.8163257,
+   "lon": 135.6495609,
+   "name": "Ron",
+   "cuisine": "coffee_shop;curry;pasta"
+  },
+  {
+   "osm": "node/5994871094",
+   "category": "cafe",
+   "lat": 34.8160257,
+   "lon": 135.6497803,
+   "name": "Aura"
+  },
+  {
+   "osm": "node/4199710739",
+   "category": "restaurant",
+   "lat": 34.8154584,
+   "lon": 135.6501922,
+   "name": "サイゼリヤ",
+   "name_en": "Saizeriya",
+   "cuisine": "italian",
+   "opening_hours": "10:30-00:00",
+   "brand": "サイゼリヤ"
+  },
+  {
+   "osm": "node/5994873985",
+   "category": "restaurant",
+   "lat": 34.8161217,
+   "lon": 135.6496426,
+   "name": "モクモク"
+  },
+  {
+   "osm": "node/5994874185",
+   "category": "cafe",
+   "lat": 34.8160385,
+   "lon": 135.6496853,
+   "name": "生活の木"
+  },
+  {
+   "osm": "node/5994874285",
+   "category": "restaurant",
+   "lat": 34.8159586,
+   "lon": 135.6497335,
+   "name": "フジマル食堂"
+  },
+  {
+   "osm": "node/4199710735",
+   "category": "cafe",
+   "lat": 34.8157174,
+   "lon": 135.6499085,
+   "name": "スターバックス",
+   "name_en": "Starbucks",
+   "cuisine": "coffee_shop",
+   "brand": "スターバックス"
+  },
+  {
+   "osm": "node/14180067487",
+   "category": "restaurant",
+   "lat": 34.8158932,
+   "lon": 135.6497487,
+   "name": "しゃぶ葉",
+   "name_en": "Syabuyo",
+   "cuisine": "buffet",
+   "brand": "しゃぶ葉"
+  },
+  {
+   "osm": "node/5994871092",
+   "category": "cafe",
+   "lat": 34.8159653,
+   "lon": 135.6496411,
+   "name": "錦一葉"
+  },
+  {
+   "osm": "node/5994871093",
+   "category": "restaurant",
+   "lat": 34.8160381,
+   "lon": 135.6495778,
+   "name": "京鼎樓"
+  },
+  {
+   "osm": "node/6008366292",
+   "category": "cafe",
+   "lat": 34.8091385,
+   "lon": 135.6683029,
+   "name": "シエル"
+  },
+  {
+   "osm": "node/4252304643",
+   "category": "fast_food",
+   "lat": 34.8261674,
+   "lon": 135.6830469,
+   "name": "かっぱ寿司",
+   "name_en": "Kappazushi",
+   "cuisine": "sushi",
+   "brand": "かっぱ寿司"
+  },
+  {
+   "osm": "node/5994874194",
+   "category": "bar",
+   "lat": 34.8173367,
+   "lon": 135.6481887,
+   "name": "いちごいちえ 枚方本店"
+  },
+  {
+   "osm": "node/6009340286",
+   "category": "cafe",
+   "lat": 34.8133948,
+   "lon": 135.6784284,
+   "name": "喫茶アーバン"
+  },
+  {
+   "osm": "node/13677725633",
+   "category": "restaurant",
+   "lat": 34.8167662,
+   "lon": 135.6484307,
+   "name": "すし松",
+   "cuisine": "sushi"
+  },
+  {
+   "osm": "node/13677725634",
+   "category": "restaurant",
+   "lat": 34.8167904,
+   "lon": 135.6483945,
+   "name": "大戸屋",
+   "name_en": "Ootoya",
+   "cuisine": "japanese",
+   "brand": "大戸屋"
+  },
+  {
+   "osm": "node/5977938386",
+   "category": "restaurant",
+   "lat": 34.8135434,
+   "lon": 135.6509832,
+   "name": "大同門 枚方店"
+  },
+  {
+   "osm": "node/6018836524",
+   "category": "restaurant",
+   "lat": 34.8270543,
+   "lon": 135.6833098,
+   "name": "河童ラーメン本舗"
+  },
+  {
+   "osm": "node/5977939585",
+   "category": "restaurant",
+   "lat": 34.8133245,
+   "lon": 135.651113,
+   "name": "つけ麺・らーめん eiTo8"
+  },
+  {
+   "osm": "node/5994871106",
+   "category": "bar",
+   "lat": 34.8167411,
+   "lon": 135.6481281,
+   "name": "北六"
+  },
+  {
+   "osm": "node/5977938285",
+   "category": "restaurant",
+   "lat": 34.8139327,
+   "lon": 135.6504044,
+   "name": "よってこや 枚方市役所前店",
+   "name_en": "Yottekoya",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/5994874193",
+   "category": "restaurant",
+   "lat": 34.8168802,
+   "lon": 135.6480244,
+   "name": "チファジャ"
+  },
+  {
+   "osm": "node/5982872888",
+   "category": "pub",
+   "lat": 34.8137583,
+   "lon": 135.6505389,
+   "name": "Ma・sa・ka"
+  },
+  {
+   "osm": "node/5977938485",
+   "category": "restaurant",
+   "lat": 34.8138006,
+   "lon": 135.6504793,
+   "name": "夢屋（Yumeya）",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/2589929124",
+   "category": "fast_food",
+   "lat": 34.8147461,
+   "lon": 135.6495522,
+   "name": "松屋",
+   "name_en": "Matsuya",
+   "cuisine": "japanese",
+   "opening_hours": "24/7",
+   "brand": "松屋"
+  },
+  {
+   "osm": "node/5994871111",
+   "category": "restaurant",
+   "lat": 34.8169377,
+   "lon": 135.6479252,
+   "name": "粋月"
+  },
+  {
+   "osm": "node/3184095461",
+   "category": "cafe",
+   "lat": 34.81615,
+   "lon": 135.648426,
+   "name": "プレッソ"
+  },
+  {
+   "osm": "node/5994876485",
+   "category": "bar",
+   "lat": 34.8168479,
+   "lon": 135.6479174,
+   "name": "火のや温"
+  },
+  {
+   "osm": "node/5994871110",
+   "category": "bar",
+   "lat": 34.817,
+   "lon": 135.6478102,
+   "name": "沖縄 あっぱりしゃん"
+  },
+  {
+   "osm": "node/5977914793",
+   "category": "cafe",
+   "lat": 34.8133755,
+   "lon": 135.6508014,
+   "name": "コーヒー・ロースト"
+  },
+  {
+   "osm": "node/5994871293",
+   "category": "bar",
+   "lat": 34.8169072,
+   "lon": 135.6478048,
+   "name": "贔屓屋"
+  },
+  {
+   "osm": "node/5977905900",
+   "category": "bar",
+   "lat": 34.8135108,
+   "lon": 135.6505815,
+   "name": "あっぱりしゃん 大垣内店"
+  },
+  {
+   "osm": "node/5994871114",
+   "category": "ice_cream",
+   "lat": 34.8153715,
+   "lon": 135.6488262,
+   "name": "サーティワンアイスクリーム",
+   "name_en": "Baskin-Robbins",
+   "cuisine": "ice_cream",
+   "brand": "バスキン・ロビンス"
+  },
+  {
+   "osm": "node/5977939586",
+   "category": "restaurant",
+   "lat": 34.8130897,
+   "lon": 135.6509725,
+   "name": "かごの屋 枚方市役所前店",
+   "name_en": "Kagonoya"
+  },
+  {
+   "osm": "node/4166914638",
+   "category": "restaurant",
+   "lat": 34.8166726,
+   "lon": 135.647844,
+   "name": "やよい軒",
+   "name_en": "Yayoiken",
+   "cuisine": "japanese",
+   "brand": "やよい軒"
+  },
+  {
+   "osm": "node/13680826317",
+   "category": "pub",
+   "lat": 34.816849,
+   "lon": 135.647723,
+   "name": "た藁や"
+  },
+  {
+   "osm": "node/2279442844",
+   "category": "fast_food",
+   "lat": 34.8167958,
+   "lon": 135.6476741,
+   "name": "たかばしラーメン",
+   "cuisine": "noodle;ramen"
+  },
+  {
+   "osm": "node/6008366291",
+   "category": "cafe",
+   "lat": 34.8080376,
+   "lon": 135.6650895,
+   "name": "喫茶ビーナス"
+  },
+  {
+   "osm": "node/6008353192",
+   "category": "restaurant",
+   "lat": 34.8080456,
+   "lon": 135.6632112,
+   "name": "ラージガネーシャ 星ヶ丘店"
+  },
+  {
+   "osm": "node/6008353195",
+   "category": "restaurant",
+   "lat": 34.8079769,
+   "lon": 135.6653859,
+   "name": "お食事処 佐藤"
+  },
+  {
+   "osm": "node/3184096161",
+   "category": "restaurant",
+   "lat": 34.816485,
+   "lon": 135.647739,
+   "name": "よってこや"
+  },
+  {
+   "osm": "node/5977921293",
+   "category": "restaurant",
+   "lat": 34.8137848,
+   "lon": 135.6499177,
+   "name": "和菜 おか蔵",
+   "name_en": "Okakura"
+  },
+  {
+   "osm": "node/4416144679",
+   "category": "restaurant",
+   "lat": 34.8168493,
+   "lon": 135.6475062,
+   "name": "すし健",
+   "cuisine": "sushi"
+  },
+  {
+   "osm": "node/5977939887",
+   "category": "restaurant",
+   "lat": 34.812513,
+   "lon": 135.6513145,
+   "name": "Totoya",
+   "cuisine": "friture",
+   "opening_hours": "Mo-Su 17:00-22:00"
+  },
+  {
+   "osm": "node/5977905604",
+   "category": "cafe",
+   "lat": 34.8139458,
+   "lon": 135.6497224,
+   "name": "Cafe Piccolo Cane"
+  },
+  {
+   "osm": "node/4258610690",
+   "category": "cafe",
+   "lat": 34.8159131,
+   "lon": 135.6480581,
+   "name": "スターバックス",
+   "name_en": "Starbucks",
+   "cuisine": "coffee_shop",
+   "brand": "スターバックス"
+  },
+  {
+   "osm": "node/6008377986",
+   "category": "restaurant",
+   "lat": 34.8079886,
+   "lon": 135.6630091,
+   "name": "サプロン"
+  },
+  {
+   "osm": "node/13677725632",
+   "category": "fast_food",
+   "lat": 34.8158744,
+   "lon": 135.6480096,
+   "name": "Zetteria",
+   "cuisine": "burger"
+  },
+  {
+   "osm": "way/444075367",
+   "category": "restaurant",
+   "lat": 34.8263397,
+   "lon": 135.6842507,
+   "name": "丸源",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/6008377987",
+   "category": "restaurant",
+   "lat": 34.8078734,
+   "lon": 135.6633545,
+   "name": "鉄板ダイニング といろ"
+  },
+  {
+   "osm": "node/6004357798",
+   "category": "bar",
+   "lat": 34.8157431,
+   "lon": 135.6479534,
+   "name": "つくしんぼう"
+  },
+  {
+   "osm": "node/5977909101",
+   "category": "restaurant",
+   "lat": 34.8138776,
+   "lon": 135.6494955,
+   "name": "Hisui201"
+  },
+  {
+   "osm": "node/6004357797",
+   "category": "bar",
+   "lat": 34.8157851,
+   "lon": 135.6478861,
+   "name": "Kichiri"
+  },
+  {
+   "osm": "node/6004363796",
+   "category": "restaurant",
+   "lat": 34.8157634,
+   "lon": 135.6476223,
+   "name": "ビストロFumi"
+  },
+  {
+   "osm": "node/6004710790",
+   "category": "fast_food",
+   "lat": 34.8399114,
+   "lon": 135.6602619,
+   "name": "すき家",
+   "name_en": "Sukiya",
+   "cuisine": "beef_bowl",
+   "brand": "すき家"
+  },
+  {
+   "osm": "node/2279442843",
+   "category": "fast_food",
+   "lat": 34.8154964,
+   "lon": 135.6475918,
+   "name": "すき家",
+   "name_en": "Sukiya",
+   "cuisine": "beef_bowl",
+   "brand": "すき家"
+  },
+  {
+   "osm": "node/6008353187",
+   "category": "cafe",
+   "lat": 34.8076339,
+   "lon": 135.6612568,
+   "name": "カフェ アントルメ"
+  },
+  {
+   "osm": "node/12452500995",
+   "category": "fast_food",
+   "lat": 34.8156258,
+   "lon": 135.647459,
+   "name": "ジャンボ酒場"
+  },
+  {
+   "osm": "node/5977920895",
+   "category": "cafe",
+   "lat": 34.81392,
+   "lon": 135.6488144,
+   "name": "リザ&リザ カフェ"
+  },
+  {
+   "osm": "node/6004363088",
+   "category": "restaurant",
+   "lat": 34.8166007,
+   "lon": 135.6467249,
+   "name": "Hawaiian-BBQ Hulichiki",
+   "cuisine": "hawaiian"
+  },
+  {
+   "osm": "node/5977938086",
+   "category": "restaurant",
+   "lat": 34.8146277,
+   "lon": 135.6480964,
+   "name": "炭火やきとり心 枚方店"
+  },
+  {
+   "osm": "node/5977939787",
+   "category": "cafe",
+   "lat": 34.8116338,
+   "lon": 135.6512334,
+   "name": "エイト"
+  },
+  {
+   "osm": "node/2279442846",
+   "category": "fast_food",
+   "lat": 34.8151767,
+   "lon": 135.6474963,
+   "name": "ケンタッキーフライドチキン",
+   "name_en": "KFC",
+   "cuisine": "chicken",
+   "brand": "ケンタッキーフライドチキン"
+  },
+  {
+   "osm": "node/6008353189",
+   "category": "bar",
+   "lat": 34.8074761,
+   "lon": 135.6608619,
+   "name": "喜助どん"
+  },
+  {
+   "osm": "node/6006701450",
+   "category": "pub",
+   "lat": 34.8076227,
+   "lon": 135.6599599,
+   "name": "Acoustic Bar にじの木"
+  },
+  {
+   "osm": "node/6008377385",
+   "category": "restaurant",
+   "lat": 34.8074029,
+   "lon": 135.6606424,
+   "name": "鶏鳥 京阪星ヶ丘駅前店"
+  },
+  {
+   "osm": "node/6004363086",
+   "category": "fast_food",
+   "lat": 34.8156676,
+   "lon": 135.6468883,
+   "name": "マクドナルド",
+   "name_en": "McDonald's",
+   "cuisine": "burger",
+   "brand": "マクドナルド"
+  },
+  {
+   "osm": "node/4436142293",
+   "category": "restaurant",
+   "lat": 34.8155638,
+   "lon": 135.6469478,
+   "name": "ガスト",
+   "name_en": "Gusto",
+   "cuisine": "western;japanese",
+   "brand": "ガスト"
+  },
+  {
+   "osm": "node/5334493870",
+   "category": "cafe",
+   "lat": 34.8153079,
+   "lon": 135.6471207,
+   "name": "Holly's Cafè",
+   "opening_hours": "Mo-Su,PH 07:00-22:00"
+  },
+  {
+   "osm": "node/6004357790",
+   "category": "restaurant",
+   "lat": 34.8152146,
+   "lon": 135.6471298,
+   "name": "大起水産 回転寿司"
+  },
+  {
+   "osm": "node/6004357789",
+   "category": "fast_food",
+   "lat": 34.8151409,
+   "lon": 135.6470822,
+   "name": "ケンタッキーフライドチキン",
+   "name_en": "KFC",
+   "cuisine": "chicken",
+   "brand": "ケンタッキーフライドチキン"
+  },
+  {
+   "osm": "node/6004357788",
+   "category": "restaurant",
+   "lat": 34.8152343,
+   "lon": 135.6470026,
+   "name": "とんかつ いなば和幸"
+  },
+  {
+   "osm": "node/5997161913",
+   "category": "restaurant",
+   "lat": 34.8160024,
+   "lon": 135.6464682,
+   "name": "Moonlight"
+  },
+  {
+   "osm": "node/6006701446",
+   "category": "bar",
+   "lat": 34.8071985,
+   "lon": 135.6605009,
+   "name": "居酒屋志希"
+  },
+  {
+   "osm": "node/5997159404",
+   "category": "restaurant",
+   "lat": 34.8158778,
+   "lon": 135.6465279,
+   "name": "ラーメン荘 歴史を刻め"
+  },
+  {
+   "osm": "node/5997159405",
+   "category": "restaurant",
+   "lat": 34.8157342,
+   "lon": 135.6466049,
+   "name": "丼丼亭"
+  },
+  {
+   "osm": "node/5997162186",
+   "category": "restaurant",
+   "lat": 34.8156058,
+   "lon": 135.646677,
+   "name": "おらが蕎麦"
+  },
+  {
+   "osm": "node/5997159406",
+   "category": "restaurant",
+   "lat": 34.8154768,
+   "lon": 135.6467526,
+   "name": "たなかや"
+  },
+  {
+   "osm": "node/6004363791",
+   "category": "bar",
+   "lat": 34.8151586,
+   "lon": 135.6469701,
+   "name": "志なのすけ"
+  },
+  {
+   "osm": "node/6004363790",
+   "category": "restaurant",
+   "lat": 34.8151808,
+   "lon": 135.6468582,
+   "name": "カプリチョーザ",
+   "name_en": "Capricciosa",
+   "cuisine": "italian",
+   "brand": "カプリチョーザ"
+  },
+  {
+   "osm": "node/6006701447",
+   "category": "fast_food",
+   "lat": 34.8071215,
+   "lon": 135.6602887,
+   "name": "三代目たくちゃん 星ヶ丘店"
+  },
+  {
+   "osm": "node/6009339691",
+   "category": "restaurant",
+   "lat": 34.8138437,
+   "lon": 135.6819336,
+   "name": "Kの食卓 枚方店"
+  },
+  {
+   "osm": "way/327813460",
+   "category": "cafe",
+   "lat": 34.8273563,
+   "lon": 135.6855907,
+   "name": "快活CLUB"
+  },
+  {
+   "osm": "node/6004701696",
+   "category": "restaurant",
+   "lat": 34.8409508,
+   "lon": 135.6609097,
+   "name": "枚方塩元帥"
+  },
+  {
+   "osm": "node/6006701441",
+   "category": "restaurant",
+   "lat": 34.8069606,
+   "lon": 135.6592942,
+   "name": "辰巳寿司 星ヶ丘店"
+  },
+  {
+   "osm": "node/6009225589",
+   "category": "restaurant",
+   "lat": 34.8069897,
+   "lon": 135.6708061,
+   "name": "まごころ弁当 枚方山城店"
+  },
+  {
+   "osm": "node/6006701443",
+   "category": "bar",
+   "lat": 34.8067115,
+   "lon": 135.6603079,
+   "name": "酒処京子"
+  },
+  {
+   "osm": "way/603304516",
+   "category": "restaurant",
+   "lat": 34.8130679,
+   "lon": 135.6478887,
+   "name": "ら・ぶーか",
+   "cuisine": "italian"
+  },
+  {
+   "osm": "node/6006701445",
+   "category": "pub",
+   "lat": 34.8064863,
+   "lon": 135.6608066,
+   "name": "カラオケ&スナック とまり木"
+  },
+  {
+   "osm": "node/6006695608",
+   "category": "cafe",
+   "lat": 34.8067032,
+   "lon": 135.6593569,
+   "name": "喫茶たんぽぽ"
+  },
+  {
+   "osm": "node/6004357793",
+   "category": "restaurant",
+   "lat": 34.8155573,
+   "lon": 135.6456585,
+   "name": "トラットリア パンジャ",
+   "name_en": "Trattoria Panja",
+   "opening_hours": "Mo-Su 11:30-15:00"
+  },
+  {
+   "osm": "node/6004363087",
+   "category": "cafe",
+   "lat": 34.8149578,
+   "lon": 135.6459939,
+   "name": "ディクディク",
+   "name_en": "Dik Dik",
+   "opening_hours": "Mo, We-Fr 09:00-19:00; Sa-Su 09:00-18:00"
+  },
+  {
+   "osm": "node/5977909195",
+   "category": "restaurant",
+   "lat": 34.8144552,
+   "lon": 135.6461001,
+   "name": "そば切り天笑"
+  },
+  {
+   "osm": "node/12810744425",
+   "category": "restaurant",
+   "lat": 34.8282119,
+   "lon": 135.6864647,
+   "name": "かに道楽 枚方店"
+  },
+  {
+   "osm": "node/6006695594",
+   "category": "cafe",
+   "lat": 34.8414941,
+   "lon": 135.6707779,
+   "name": "カフェはな"
+  },
+  {
+   "osm": "node/6006701404",
+   "category": "bar",
+   "lat": 34.8417522,
+   "lon": 135.6697349,
+   "name": "ふる里"
+  },
+  {
+   "osm": "node/6009339692",
+   "category": "restaurant",
+   "lat": 34.8129421,
+   "lon": 135.6831142,
+   "name": "ラーメン藤 枚方店"
+  },
+  {
+   "osm": "node/6004363105",
+   "category": "cafe",
+   "lat": 34.8079244,
+   "lon": 135.6533479,
+   "name": "Raffinee Cafe"
+  },
+  {
+   "osm": "node/6004366988",
+   "category": "restaurant",
+   "lat": 34.8087058,
+   "lon": 135.6517694,
+   "name": "茶々"
+  },
+  {
+   "osm": "node/6006695512",
+   "category": "cafe",
+   "lat": 34.8427042,
+   "lon": 135.6686346,
+   "name": "お野菜カフェ Green Crops"
+  },
+  {
+   "osm": "node/6004701697",
+   "category": "pub",
+   "lat": 34.8431846,
+   "lon": 135.664819,
+   "name": "鳥貴族",
+   "name_en": "Torikizoku",
+   "brand": "鳥貴族"
+  },
+  {
+   "osm": "node/5977910799",
+   "category": "restaurant",
+   "lat": 34.8142765,
+   "lon": 135.6445006,
+   "name": "天の川 かささぎ",
+   "name_en": "Kasasagi",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/6004710794",
+   "category": "bar",
+   "lat": 34.8432885,
+   "lon": 135.6649062,
+   "name": "大和水産 牧野店"
+  },
+  {
+   "osm": "node/6009339695",
+   "category": "restaurant",
+   "lat": 34.8130767,
+   "lon": 135.6845434,
+   "name": "炭火とり金"
+  },
+  {
+   "osm": "node/9771011418",
+   "category": "restaurant",
+   "lat": 34.8087196,
+   "lon": 135.6804992,
+   "name": "大起園",
+   "cuisine": "barbecue"
+  },
+  {
+   "osm": "node/6006695592",
+   "category": "bar",
+   "lat": 34.8437343,
+   "lon": 135.6671959,
+   "name": "立呑処 丸天房"
+  },
+  {
+   "osm": "node/9771011419",
+   "category": "restaurant",
+   "lat": 34.8086667,
+   "lon": 135.6806508,
+   "name": "札幌らーめん",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/6006701401",
+   "category": "restaurant",
+   "lat": 34.8438463,
+   "lon": 135.6669717,
+   "name": "黒毛和牛 田蔵"
+  },
+  {
+   "osm": "node/6124546351",
+   "category": "restaurant",
+   "lat": 34.830302,
+   "lon": 135.6881306,
+   "name": "和食さと",
+   "name_en": "Washoku Sato",
+   "cuisine": "japanese",
+   "brand": "和食さと"
+  },
+  {
+   "osm": "node/6006701399",
+   "category": "restaurant",
+   "lat": 34.8439585,
+   "lon": 135.6666949,
+   "name": "牧野サクラ会"
+  },
+  {
+   "osm": "node/6006695587",
+   "category": "restaurant",
+   "lat": 34.8439963,
+   "lon": 135.6662087,
+   "name": "いただきや"
+  },
+  {
+   "osm": "node/6004710795",
+   "category": "restaurant",
+   "lat": 34.844083,
+   "lon": 135.6651645,
+   "name": "グランソリーゾ",
+   "name_en": "Gran Sorriso",
+   "cuisine": "italian"
+  },
+  {
+   "osm": "node/6004710796",
+   "category": "restaurant",
+   "lat": 34.8441199,
+   "lon": 135.6650054,
+   "name": "大阪王将",
+   "name_en": "Osaka Ohsho",
+   "cuisine": "japanese;chinese",
+   "brand": "大阪王将"
+  },
+  {
+   "osm": "node/6006700989",
+   "category": "restaurant",
+   "lat": 34.8441242,
+   "lon": 135.6661629,
+   "name": "Brasserie Tamutamu"
+  },
+  {
+   "osm": "node/6009339697",
+   "category": "restaurant",
+   "lat": 34.8128922,
+   "lon": 135.6856587,
+   "name": "麺麓",
+   "name_en": "Menroku"
+  },
+  {
+   "osm": "node/4437620766",
+   "category": "fast_food",
+   "lat": 34.805913,
+   "lon": 135.6532871,
+   "name": "すき家",
+   "name_en": "Sukiya",
+   "cuisine": "beef_bowl",
+   "brand": "すき家"
+  },
+  {
+   "osm": "node/9295456271",
+   "category": "restaurant",
+   "lat": 34.8307105,
+   "lon": 135.6884898,
+   "name": "ブロンコビリー",
+   "cuisine": "steak_house;american"
+  },
+  {
+   "osm": "node/6006695507",
+   "category": "restaurant",
+   "lat": 34.8443881,
+   "lon": 135.6668314,
+   "name": "拉麺開花"
+  },
+  {
+   "osm": "node/6006695386",
+   "category": "fast_food",
+   "lat": 34.8444495,
+   "lon": 135.6669409,
+   "name": "北むら"
+  },
+  {
+   "osm": "node/6009340294",
+   "category": "bar",
+   "lat": 34.8126255,
+   "lon": 135.6862513,
+   "name": "やたい"
+  },
+  {
+   "osm": "node/6006695589",
+   "category": "cafe",
+   "lat": 34.8446004,
+   "lon": 135.6678867,
+   "name": "カミュゥ"
+  },
+  {
+   "osm": "node/6009344388",
+   "category": "restaurant",
+   "lat": 34.8125342,
+   "lon": 135.6862272,
+   "name": "ジョイフル",
+   "name_en": "Joyfull",
+   "cuisine": "western",
+   "brand": "ジョイフル"
+  },
+  {
+   "osm": "node/6009340295",
+   "category": "bar",
+   "lat": 34.8126015,
+   "lon": 135.6863954,
+   "name": "志真"
+  },
+  {
+   "osm": "node/5982872685",
+   "category": "cafe",
+   "lat": 34.8133839,
+   "lon": 135.6428366,
+   "name": "草々徒"
+  },
+  {
+   "osm": "node/6006701392",
+   "category": "cafe",
+   "lat": 34.8447896,
+   "lon": 135.668525,
+   "name": "きのこ食堂"
+  },
+  {
+   "osm": "node/6006700994",
+   "category": "pub",
+   "lat": 34.8449029,
+   "lon": 135.667876,
+   "name": "カボチャソース"
+  },
+  {
+   "osm": "node/6006701391",
+   "category": "restaurant",
+   "lat": 34.844884,
+   "lon": 135.6684468,
+   "name": "栄寿司"
+  },
+  {
+   "osm": "node/9771011330",
+   "category": "restaurant",
+   "lat": 34.805714,
+   "lon": 135.6784574,
+   "name": "ちびた",
+   "cuisine": "curry"
+  },
+  {
+   "osm": "node/6006695508",
+   "category": "restaurant",
+   "lat": 34.8451595,
+   "lon": 135.6684839,
+   "name": "焼肉黒江"
+  },
+  {
+   "osm": "node/6006700997",
+   "category": "restaurant",
+   "lat": 34.8452523,
+   "lon": 135.6684915,
+   "name": "りぶのとなり"
+  },
+  {
+   "osm": "way/1063515699",
+   "category": "fast_food",
+   "lat": 34.8312053,
+   "lon": 135.6897793,
+   "name": "回転寿司 弁慶",
+   "cuisine": "sushi"
+  },
+  {
+   "osm": "node/6006701393",
+   "category": "bar",
+   "lat": 34.8454936,
+   "lon": 135.6684406,
+   "name": "かか舎"
+  },
+  {
+   "osm": "node/6006701397",
+   "category": "restaurant",
+   "lat": 34.8458799,
+   "lon": 135.6677126,
+   "name": "ふく家",
+   "name_en": "Fukuya"
+  },
+  {
+   "osm": "node/6009340302",
+   "category": "bar",
+   "lat": 34.8123275,
+   "lon": 135.6879274,
+   "name": "竜馬"
+  },
+  {
+   "osm": "node/6009339700",
+   "category": "restaurant",
+   "lat": 34.8126078,
+   "lon": 135.6882477,
+   "name": "大黒屋 大峰本店"
+  },
+  {
+   "osm": "node/6009344086",
+   "category": "restaurant",
+   "lat": 34.8123071,
+   "lon": 135.6881257,
+   "name": "むくげ"
+  },
+  {
+   "osm": "node/6009340303",
+   "category": "cafe",
+   "lat": 34.812453,
+   "lon": 135.6884248,
+   "name": "喫茶軽食みわ"
+  },
+  {
+   "osm": "node/1827504859",
+   "category": "restaurant",
+   "lat": 34.8015411,
+   "lon": 135.6750126,
+   "name": "楽々",
+   "cuisine": "noodle"
+  },
+  {
+   "osm": "way/442593144",
+   "category": "restaurant",
+   "lat": 34.8459211,
+   "lon": 135.6762242,
+   "name": "ガスト 枚方養父店",
+   "name_en": "Gusto",
+   "cuisine": "western;japanese",
+   "brand": "ガスト"
+  },
+  {
+   "osm": "way/442593146",
+   "category": "fast_food",
+   "lat": 34.8457886,
+   "lon": 135.6768101,
+   "name": "なか卯",
+   "name_en": "Nakau",
+   "cuisine": "udon",
+   "opening_hours": "24/7",
+   "brand": "なか卯"
+  },
+  {
+   "osm": "node/3416927817",
+   "category": "fast_food",
+   "lat": 34.8452903,
+   "lon": 135.678119,
+   "name": "本家かまどや",
+   "name_en": "Honke Kamadoya",
+   "cuisine": "japanese",
+   "brand": "本家かまどや"
+  },
+  {
+   "osm": "node/3410495493",
+   "category": "restaurant",
+   "lat": 34.8265,
+   "lon": 135.69407,
+   "name": "パン・デ・トール",
+   "name_en": "Pan de tolle"
+  },
+  {
+   "osm": "way/442593202",
+   "category": "restaurant",
+   "lat": 34.8456883,
+   "lon": 135.677476,
+   "name": "コッペ田島 枚方店",
+   "cuisine": "パン"
+  },
+  {
+   "osm": "way/442593145",
+   "category": "restaurant",
+   "lat": 34.8455205,
+   "lon": 135.6783425,
+   "name": "きん太枚方養父店",
+   "cuisine": "お好み焼き"
+  },
+  {
+   "osm": "node/4506278816",
+   "category": "restaurant",
+   "lat": 34.8107131,
+   "lon": 135.6399892,
+   "name": "JUJU"
+  },
+  {
+   "osm": "node/2384110915",
+   "category": "fast_food",
+   "lat": 34.8482323,
+   "lon": 135.6677342,
+   "name": "マクドナルド",
+   "name_en": "McDonald's",
+   "cuisine": "burger",
+   "brand": "マクドナルド"
+  },
+  {
+   "osm": "node/5977920889",
+   "category": "fast_food",
+   "lat": 34.8105184,
+   "lon": 135.6396961,
+   "name": "じゃんぼ總本店"
+  },
+  {
+   "osm": "node/5977910791",
+   "category": "restaurant",
+   "lat": 34.810578,
+   "lon": 135.6396231,
+   "name": "大阪王将",
+   "name_en": "Osaka Ohsho",
+   "cuisine": "japanese;chinese",
+   "brand": "大阪王将"
+  },
+  {
+   "osm": "node/5977920890",
+   "category": "restaurant",
+   "lat": 34.8106283,
+   "lon": 135.6395014,
+   "name": "マリソル",
+   "name_en": "Mar.y.Sol",
+   "opening_hours": "Mo-Fr 11:00-22:00; Sa-Su 11:00-23:00"
+  },
+  {
+   "osm": "way/440213587",
+   "category": "restaurant",
+   "lat": 34.8458419,
+   "lon": 135.6789999,
+   "name": "薩摩の牛太牧野店",
+   "cuisine": "焼肉"
+  },
+  {
+   "osm": "node/5977909190",
+   "category": "restaurant",
+   "lat": 34.8107689,
+   "lon": 135.639136,
+   "name": "一力食堂"
+  },
+  {
+   "osm": "node/5977910792",
+   "category": "restaurant",
+   "lat": 34.8094757,
+   "lon": 135.6398453,
+   "name": "ももやきちゃん"
+  },
+  {
+   "osm": "way/562520958",
+   "category": "fast_food",
+   "lat": 34.7999041,
+   "lon": 135.6740032,
+   "name": "くら寿司",
+   "name_en": "Kurazushi",
+   "cuisine": "sushi",
+   "brand": "くら寿司"
+  },
+  {
+   "osm": "node/5977908988",
+   "category": "cafe",
+   "lat": 34.8114445,
+   "lon": 135.63825,
+   "name": "ビービーブー"
+  },
+  {
+   "osm": "node/4570270418",
+   "category": "restaurant",
+   "lat": 34.8109669,
+   "lon": 135.6383879,
+   "name": "コハク"
+  },
+  {
+   "osm": "node/3295789662",
+   "category": "restaurant",
+   "lat": 34.838551,
+   "lon": 135.690434,
+   "name": "Log"
+  },
+  {
+   "osm": "way/1377329995",
+   "category": "fast_food",
+   "lat": 34.84565,
+   "lon": 135.6813867,
+   "name": "バーガーキング",
+   "name_en": "Burger King",
+   "cuisine": "burger",
+   "brand": "バーガーキング"
+  },
+  {
+   "osm": "node/5977914788",
+   "category": "cafe",
+   "lat": 34.8096231,
+   "lon": 135.6389739,
+   "name": "コーヒーハウス エル・トーク"
+  },
+  {
+   "osm": "way/438580503",
+   "category": "restaurant",
+   "lat": 34.840605,
+   "lon": 135.6889229,
+   "name": "シノワーズ厨花",
+   "cuisine": "chinese"
+  },
+  {
+   "osm": "node/5977920887",
+   "category": "restaurant",
+   "lat": 34.8107615,
+   "lon": 135.6377778,
+   "name": "割烹藤"
+  },
+  {
+   "osm": "node/5977908990",
+   "category": "fast_food",
+   "lat": 34.8108904,
+   "lon": 135.6375491,
+   "name": "三代目 たくちゃん"
+  },
+  {
+   "osm": "way/440213621",
+   "category": "restaurant",
+   "lat": 34.8455547,
+   "lon": 135.6823548,
+   "name": "香の川製麺",
+   "cuisine": "うどん"
+  },
+  {
+   "osm": "way/438580501",
+   "category": "restaurant",
+   "lat": 34.8414845,
+   "lon": 135.6884143,
+   "name": "ひむか",
+   "cuisine": "焼肉"
+  },
+  {
+   "osm": "way/322889981",
+   "category": "restaurant",
+   "lat": 34.8455427,
+   "lon": 135.6827408,
+   "name": "にぎり長次郎",
+   "cuisine": "sushi"
+  },
+  {
+   "osm": "node/3416910524",
+   "category": "cafe",
+   "lat": 34.841793,
+   "lon": 135.6881207,
+   "name": "コメダ珈琲",
+   "cuisine": "喫茶店"
+  },
+  {
+   "osm": "way/441443859",
+   "category": "fast_food",
+   "lat": 34.8454446,
+   "lon": 135.6837426,
+   "name": "すき家",
+   "name_en": "Sukiya",
+   "cuisine": "beef_bowl",
+   "brand": "すき家"
+  },
+  {
+   "osm": "node/12753271758",
+   "category": "restaurant",
+   "lat": 34.8460324,
+   "lon": 135.6827994,
+   "name": "うなぎ処うな豊 枚方店"
+  },
+  {
+   "osm": "way/442895384",
+   "category": "restaurant",
+   "lat": 34.8198107,
+   "lon": 135.6329278,
+   "name": "高槻大塚食堂"
+  },
+  {
+   "osm": "node/6009344391",
+   "category": "restaurant",
+   "lat": 34.8111583,
+   "lon": 135.693365,
+   "name": "ほっともっと 枚方野村店"
+  },
+  {
+   "osm": "way/441443862",
+   "category": "restaurant",
+   "lat": 34.8459093,
+   "lon": 135.6832663,
+   "name": "ジョリーパスタ",
+   "name_en": "Jolly Pasta",
+   "cuisine": "italian;pasta;pizza"
+  },
+  {
+   "osm": "way/419219212",
+   "category": "fast_food",
+   "lat": 34.8206707,
+   "lon": 135.6325969,
+   "name": "熟成豚骨ラーメン一番軒",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/4029452590",
+   "category": "restaurant",
+   "lat": 34.8347635,
+   "lon": 135.6351686,
+   "name": "まいどおおきに食堂高槻食堂"
+  },
+  {
+   "osm": "node/3295813361",
+   "category": "restaurant",
+   "lat": 34.849803,
+   "lon": 135.672979,
+   "name": "備長扇屋"
+  },
+  {
+   "osm": "node/4029474302",
+   "category": "restaurant",
+   "lat": 34.8225791,
+   "lon": 135.632363,
+   "name": "ラーメン甚",
+   "cuisine": "noodle"
+  },
+  {
+   "osm": "node/3416921680",
+   "category": "restaurant",
+   "lat": 34.843831,
+   "lon": 135.6872178,
+   "name": "焼肉処黒麒麟",
+   "cuisine": "焼肉"
+  },
+  {
+   "osm": "way/257447051",
+   "category": "restaurant",
+   "lat": 34.8075544,
+   "lon": 135.638523,
+   "name": "グラン・ローズ"
+  },
+  {
+   "osm": "way/441443903",
+   "category": "restaurant",
+   "lat": 34.8464038,
+   "lon": 135.6834206,
+   "name": "来来亭"
+  },
+  {
+   "osm": "node/4029474314",
+   "category": "restaurant",
+   "lat": 34.8270753,
+   "lon": 135.6318641,
+   "name": "PISOLA高槻店"
+  },
+  {
+   "osm": "way/441443923",
+   "category": "restaurant",
+   "lat": 34.8466239,
+   "lon": 135.6835023,
+   "name": "焼肉牛角"
+  },
+  {
+   "osm": "node/9308453954",
+   "category": "restaurant",
+   "lat": 34.8071703,
+   "lon": 135.6384435,
+   "name": "ポムの樹"
+  },
+  {
+   "osm": "node/4029474303",
+   "category": "restaurant",
+   "lat": 34.825785,
+   "lon": 135.6315154,
+   "name": "丸亀製麺高槻店"
+  },
+  {
+   "osm": "way/441443863",
+   "category": "fast_food",
+   "lat": 34.846778,
+   "lon": 135.6836091,
+   "name": "スシロー",
+   "name_en": "Sushiro",
+   "cuisine": "sushi",
+   "brand": "スシロー"
+  },
+  {
+   "osm": "node/5974204396",
+   "category": "restaurant",
+   "lat": 34.8016303,
+   "lon": 135.6450983,
+   "name": "すし処たかの"
+  },
+  {
+   "osm": "node/2595371202",
+   "category": "restaurant",
+   "lat": 34.8208994,
+   "lon": 135.698346,
+   "name": "喫茶壱番館",
+   "cuisine": "coffee_shop"
+  },
+  {
+   "osm": "node/3335962294",
+   "category": "restaurant",
+   "lat": 34.821101,
+   "lon": 135.698383,
+   "name": "万両寿司",
+   "cuisine": "sushi"
+  },
+  {
+   "osm": "node/3295783761",
+   "category": "restaurant",
+   "lat": 34.831439,
+   "lon": 135.69836,
+   "name": "串王"
+  },
+  {
+   "osm": "way/431290828",
+   "category": "fast_food",
+   "lat": 34.831508,
+   "lon": 135.6314637,
+   "name": "マクドナルド",
+   "name_en": "McDonald's",
+   "cuisine": "burger",
+   "brand": "マクドナルド"
+  },
+  {
+   "osm": "node/4435219109",
+   "category": "fast_food",
+   "lat": 34.8103815,
+   "lon": 135.6958915,
+   "name": "すき家"
+  },
+  {
+   "osm": "node/1243276537",
+   "category": "restaurant",
+   "lat": 34.8260102,
+   "lon": 135.6999288,
+   "name": "とりあえず吾平",
+   "name_en": "Toriaezu Gohei"
+  },
+  {
+   "osm": "way/449491319",
+   "category": "restaurant",
+   "lat": 34.8326553,
+   "lon": 135.6313515,
+   "name": "大起水産 街のみなと 高槻店",
+   "cuisine": "sushi"
+  },
+  {
+   "osm": "node/6029019912",
+   "category": "restaurant",
+   "lat": 34.7949423,
+   "lon": 135.6691353,
+   "name": "さつま屋食堂"
+  },
+  {
+   "osm": "node/6009340307",
+   "category": "restaurant",
+   "lat": 34.8094348,
+   "lon": 135.6959029,
+   "name": "広路",
+   "cuisine": "soba"
+  },
+  {
+   "osm": "node/5974144925",
+   "category": "restaurant",
+   "lat": 34.7989503,
+   "lon": 135.6462461,
+   "name": "本家かまどや さつき丘店"
+  },
+  {
+   "osm": "way/602647588",
+   "category": "cafe",
+   "lat": 34.810179,
+   "lon": 135.6331961,
+   "name": "mine cafe"
+  },
+  {
+   "osm": "node/12218846214",
+   "category": "restaurant",
+   "lat": 34.8325589,
+   "lon": 135.6306276,
+   "name": "らーめん一作",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/12218846213",
+   "category": "fast_food",
+   "lat": 34.8326753,
+   "lon": 135.6306473,
+   "name": "スシロー",
+   "name_en": "Sushiro",
+   "cuisine": "sushi",
+   "brand": "スシロー"
+  },
+  {
+   "osm": "node/3184099965",
+   "category": "restaurant",
+   "lat": 34.822474,
+   "lon": 135.701172,
+   "name": "La Ponta",
+   "cuisine": "pizza",
+   "opening_hours": "Tu-Su 11:30-13:45,17:30-20:45"
+  },
+  {
+   "osm": "node/1243276524",
+   "category": "restaurant",
+   "lat": 34.8259199,
+   "lon": 135.7011495,
+   "name": "とりどーる",
+   "name_en": "Toridoll",
+   "cuisine": "chicken"
+  },
+  {
+   "osm": "node/4226382822",
+   "category": "restaurant",
+   "lat": 34.8338073,
+   "lon": 135.6306041,
+   "name": "ステーキハウス ブロンコビリー",
+   "name_en": "BR9NCO BILLY",
+   "cuisine": "steak_house"
+  },
+  {
+   "osm": "node/6029010409",
+   "category": "restaurant",
+   "lat": 34.8379099,
+   "lon": 135.6972257,
+   "name": "カプリチョーザ",
+   "name_en": "Capricciosa",
+   "cuisine": "italian",
+   "brand": "カプリチョーザ"
+  },
+  {
+   "osm": "node/6029009595",
+   "category": "restaurant",
+   "lat": 34.7940971,
+   "lon": 135.6691864,
+   "name": "お好み焼き サムさん"
+  },
+  {
+   "osm": "node/6029010414",
+   "category": "restaurant",
+   "lat": 34.8378501,
+   "lon": 135.69738,
+   "name": "はなまるうどん",
+   "name_en": "Hanamarūdon",
+   "cuisine": "japanese;udon",
+   "brand": "はなまるうどん"
+  },
+  {
+   "osm": "node/6026810995",
+   "category": "cafe",
+   "lat": 34.8512581,
+   "lon": 135.6802957,
+   "name": "カフェ 汎想亭"
+  },
+  {
+   "osm": "node/6009340308",
+   "category": "cafe",
+   "lat": 34.8085768,
+   "lon": 135.6965442,
+   "name": "カフェレスト 19ハウス"
+  },
+  {
+   "osm": "node/6029010411",
+   "category": "cafe",
+   "lat": 34.8382054,
+   "lon": 135.6972673,
+   "name": "サンマルクカフェ",
+   "name_en": "ST.MARC CAFÉ",
+   "cuisine": "coffee_shop",
+   "brand": "サンマルクカフェ"
+  },
+  {
+   "osm": "node/9295484095",
+   "category": "fast_food",
+   "lat": 34.8379584,
+   "lon": 135.6974389,
+   "name": "ミスタードーナツ",
+   "name_en": "Mister Donut",
+   "cuisine": "donut",
+   "brand": "ミスタードーナツ"
+  },
+  {
+   "osm": "node/3357678893",
+   "category": "cafe",
+   "lat": 34.829928,
+   "lon": 135.700944,
+   "name": "喫茶マイルド",
+   "name_en": "Café Mild"
+  },
+  {
+   "osm": "node/6029025886",
+   "category": "restaurant",
+   "lat": 34.7940569,
+   "lon": 135.6705589,
+   "name": "ホルモン屋 ピー太郎"
+  },
+  {
+   "osm": "node/6031321486",
+   "category": "cafe",
+   "lat": 34.7938512,
+   "lon": 135.6687024,
+   "name": "楓の木"
+  },
+  {
+   "osm": "node/6029009598",
+   "category": "restaurant",
+   "lat": 34.793867,
+   "lon": 135.6693462,
+   "name": "すし秀"
+  },
+  {
+   "osm": "node/6029010413",
+   "category": "restaurant",
+   "lat": 34.8381087,
+   "lon": 135.6974616,
+   "name": "たんとと和くら"
+  },
+  {
+   "osm": "node/6029009688",
+   "category": "bar",
+   "lat": 34.7943244,
+   "lon": 135.6729295,
+   "name": "やすこ"
+  },
+  {
+   "osm": "node/6026810994",
+   "category": "cafe",
+   "lat": 34.8512699,
+   "lon": 135.6807501,
+   "name": "パパカフェ"
+  },
+  {
+   "osm": "node/6029009808",
+   "category": "restaurant",
+   "lat": 34.8379427,
+   "lon": 135.6976291,
+   "name": "リンガーハット",
+   "name_en": "Ringer Hut",
+   "cuisine": "japanese",
+   "brand": "リンガーハット"
+  },
+  {
+   "osm": "node/6029009602",
+   "category": "pub",
+   "lat": 34.7941427,
+   "lon": 135.6720453,
+   "name": "ばってん"
+  },
+  {
+   "osm": "node/6029010412",
+   "category": "restaurant",
+   "lat": 34.8381376,
+   "lon": 135.6975464,
+   "name": "Ranchos Kitchen"
+  },
+  {
+   "osm": "node/6029009601",
+   "category": "bar",
+   "lat": 34.7941661,
+   "lon": 135.6723062,
+   "name": "あっちゃん"
+  },
+  {
+   "osm": "node/5965694126",
+   "category": "restaurant",
+   "lat": 34.8060931,
+   "lon": 135.6348708,
+   "name": "すし清"
+  },
+  {
+   "osm": "node/6029009600",
+   "category": "restaurant",
+   "lat": 34.7941736,
+   "lon": 135.6727766,
+   "name": "Hale Lani,:"
+  },
+  {
+   "osm": "node/6029010410",
+   "category": "fast_food",
+   "lat": 34.8381146,
+   "lon": 135.6976968,
+   "name": "くら寿司",
+   "name_en": "Kurazushi",
+   "cuisine": "sushi",
+   "brand": "くら寿司"
+  },
+  {
+   "osm": "node/6029012087",
+   "category": "restaurant",
+   "lat": 34.7935887,
+   "lon": 135.6688422,
+   "name": "手打ちそば 乃田"
+  },
+  {
+   "osm": "node/5423236848",
+   "category": "cafe",
+   "lat": 34.7947854,
+   "lon": 135.6759498,
+   "name": "cafe mina"
+  },
+  {
+   "osm": "node/5965694128",
+   "category": "cafe",
+   "lat": 34.806186,
+   "lon": 135.6346715,
+   "name": "ふれんど"
+  },
+  {
+   "osm": "node/1243276521",
+   "category": "restaurant",
+   "lat": 34.825713,
+   "lon": 135.70203,
+   "name": "大阪王将",
+   "name_en": "Osaka Ohsho",
+   "cuisine": "japanese;chinese",
+   "opening_hours": "11:00-22:00",
+   "brand": "大阪王将"
+  },
+  {
+   "osm": "node/6029012091",
+   "category": "restaurant",
+   "lat": 34.7943421,
+   "lon": 135.674779,
+   "name": "お食事処 きぬ川"
+  },
+  {
+   "osm": "node/6029009907",
+   "category": "restaurant",
+   "lat": 34.8384994,
+   "lon": 135.6977736,
+   "name": "Pepper Lunch",
+   "cuisine": "steak",
+   "brand": "Pepper Lunch"
+  },
+  {
+   "osm": "node/6026816606",
+   "category": "restaurant",
+   "lat": 34.8512335,
+   "lon": 135.6821186,
+   "name": "炭火焼鳥 八金亭 船橋店"
+  },
+  {
+   "osm": "node/7125413173",
+   "category": "restaurant",
+   "lat": 34.8371214,
+   "lon": 135.6308922,
+   "name": "源ぺい",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/8911591571",
+   "category": "fast_food",
+   "lat": 34.8362222,
+   "lon": 135.6303675,
+   "name": "吉野家",
+   "name_en": "Yoshinoya",
+   "cuisine": "beef_bowl",
+   "brand": "吉野家"
+  },
+  {
+   "osm": "node/6026819387",
+   "category": "cafe",
+   "lat": 34.8546884,
+   "lon": 135.6713903,
+   "name": "喫茶リーベ"
+  },
+  {
+   "osm": "node/5965694228",
+   "category": "restaurant",
+   "lat": 34.8050802,
+   "lon": 135.6343469,
+   "name": "小政寿司"
+  },
+  {
+   "osm": "node/4029474337",
+   "category": "restaurant",
+   "lat": 34.8370267,
+   "lon": 135.6301796,
+   "name": "木曽路",
+   "name_en": "Kisoji",
+   "cuisine": "japanese",
+   "brand": "木曽路"
+  },
+  {
+   "osm": "node/6018836493",
+   "category": "restaurant",
+   "lat": 34.8093378,
+   "lon": 135.6989018,
+   "name": "割烹川上"
+  },
+  {
+   "osm": "node/6018833529",
+   "category": "restaurant",
+   "lat": 34.8176292,
+   "lon": 135.7025753,
+   "name": "手打ちそば 太郎右衛門"
+  },
+  {
+   "osm": "node/6029012093",
+   "category": "pub",
+   "lat": 34.7946308,
+   "lon": 135.6792683,
+   "name": "カラオケスナックL"
+  },
+  {
+   "osm": "node/6026838185",
+   "category": "cafe",
+   "lat": 34.8519406,
+   "lon": 135.6828357,
+   "name": "喫茶SKi"
+  },
+  {
+   "osm": "node/6018833499",
+   "category": "restaurant",
+   "lat": 34.8092354,
+   "lon": 135.6991209,
+   "name": "四川ラーメン 津田店"
+  },
+  {
+   "osm": "node/6026816607",
+   "category": "bar",
+   "lat": 34.8514641,
+   "lon": 135.6839896,
+   "name": "辻よし",
+   "name_en": "Tsujiyoshi"
+  },
+  {
+   "osm": "node/3357655993",
+   "category": "cafe",
+   "lat": 34.851607,
+   "lon": 135.683712,
+   "name": "まいど"
+  },
+  {
+   "osm": "node/13373498666",
+   "category": "fast_food",
+   "lat": 34.8379433,
+   "lon": 135.6302487,
+   "name": "ラーメン魁力屋",
+   "name_en": "Ramen Kairikiya",
+   "cuisine": "ramen",
+   "brand": "ラーメン魁力屋"
+  },
+  {
+   "osm": "node/6026819389",
+   "category": "restaurant",
+   "lat": 34.8509799,
+   "lon": 135.6851307,
+   "name": "麗華",
+   "cuisine": "chinese"
+  },
+  {
+   "osm": "node/1243276562",
+   "category": "fast_food",
+   "lat": 34.814573,
+   "lon": 135.7021059,
+   "name": "来来亭",
+   "name_en": "rairai-tei",
+   "cuisine": "noodle;ramen"
+  },
+  {
+   "osm": "node/1243276554",
+   "category": "cafe",
+   "lat": 34.8144115,
+   "lon": 135.7020493,
+   "name": "珈琲館",
+   "name_en": "Kohikan",
+   "cuisine": "coffee_shop",
+   "brand": "珈琲館"
+  },
+  {
+   "osm": "node/6026817498",
+   "category": "bar",
+   "lat": 34.8512052,
+   "lon": 135.6851369,
+   "name": "味人"
+  },
+  {
+   "osm": "node/3610412094",
+   "category": "cafe",
+   "lat": 34.847343,
+   "lon": 135.691531,
+   "name": "エミユ"
+  },
+  {
+   "osm": "node/6026836185",
+   "category": "restaurant",
+   "lat": 34.8514562,
+   "lon": 135.6849112,
+   "name": "兆"
+  },
+  {
+   "osm": "node/1243276550",
+   "category": "restaurant",
+   "lat": 34.8141215,
+   "lon": 135.7021975,
+   "name": "串虎",
+   "cuisine": "串揚げ,鉄板焼き,お寿司",
+   "opening_hours": "11:30-14:00,17:00-23:00"
+  },
+  {
+   "osm": "node/5271547734",
+   "category": "restaurant",
+   "lat": 34.8476956,
+   "lon": 135.6386039,
+   "name": "天安菜館"
+  },
+  {
+   "osm": "node/6026810997",
+   "category": "bar",
+   "lat": 34.851235,
+   "lon": 135.685748,
+   "name": "大衆酒場 タイのタイ"
+  },
+  {
+   "osm": "node/6018833526",
+   "category": "restaurant",
+   "lat": 34.815485,
+   "lon": 135.7028984,
+   "name": "ふじさか食堂"
+  },
+  {
+   "osm": "node/6026819388",
+   "category": "restaurant",
+   "lat": 34.851551,
+   "lon": 135.6853148,
+   "name": "おはる 東船橋店"
+  },
+  {
+   "osm": "node/6018833498",
+   "category": "restaurant",
+   "lat": 34.809296,
+   "lon": 135.7001576,
+   "name": "香の川製麺 枚方津田店"
+  },
+  {
+   "osm": "node/3610410794",
+   "category": "cafe",
+   "lat": 34.851208,
+   "lon": 135.686511,
+   "name": "BAMBU"
+  },
+  {
+   "osm": "node/9818865417",
+   "category": "restaurant",
+   "lat": 34.8400644,
+   "lon": 135.6304747,
+   "name": "五右衛門"
+  },
+  {
+   "osm": "node/6026817499",
+   "category": "restaurant",
+   "lat": 34.8514322,
+   "lon": 135.6861658,
+   "name": "あんきや",
+   "name_en": "Ankiya",
+   "cuisine": "chicken"
+  },
+  {
+   "osm": "node/6026837492",
+   "category": "restaurant",
+   "lat": 34.8527913,
+   "lon": 135.683322,
+   "name": "家族亭"
+  },
+  {
+   "osm": "node/6018836411",
+   "category": "restaurant",
+   "lat": 34.8083836,
+   "lon": 135.6998734,
+   "name": "さぶろう"
+  },
+  {
+   "osm": "way/1384831781",
+   "category": "restaurant",
+   "lat": 34.8096948,
+   "lon": 135.7007016,
+   "name": "松のや",
+   "cuisine": "japanese",
+   "opening_hours": "09:00-23:29"
+  },
+  {
+   "osm": "node/6026837491",
+   "category": "restaurant",
+   "lat": 34.8529015,
+   "lon": 135.6833247,
+   "name": "炭焼・釜飯 あすなろ食堂"
+  },
+  {
+   "osm": "node/6026819390",
+   "category": "pub",
+   "lat": 34.8510718,
+   "lon": 135.6875022,
+   "name": "ラウンジさくら"
+  },
+  {
+   "osm": "node/3475181450",
+   "category": "fast_food",
+   "lat": 34.8143537,
+   "lon": 135.7032998,
+   "name": "たこ焼き 居酒屋 くう～"
+  },
+  {
+   "osm": "node/6018836406",
+   "category": "cafe",
+   "lat": 34.8064721,
+   "lon": 135.6989609,
+   "name": "珈琲蔵"
+  },
+  {
+   "osm": "node/3357659593",
+   "category": "fast_food",
+   "lat": 34.85023,
+   "lon": 135.689121,
+   "name": "ピザ・サントロペ"
+  },
+  {
+   "osm": "node/6026837485",
+   "category": "restaurant",
+   "lat": 34.8503507,
+   "lon": 135.6889534,
+   "name": "大寿司"
+  },
+  {
+   "osm": "node/5271547350",
+   "category": "restaurant",
+   "lat": 34.848791,
+   "lon": 135.638471,
+   "name": "沖縄厨房ゆんたく"
+  },
+  {
+   "osm": "node/6018833531",
+   "category": "restaurant",
+   "lat": 34.8196624,
+   "lon": 135.7048418,
+   "name": "弥生お好み焼"
+  },
+  {
+   "osm": "way/430466793",
+   "category": "restaurant",
+   "lat": 34.8403465,
+   "lon": 135.6299689,
+   "name": "ジョリーパスタ",
+   "name_en": "Jolly-Pasta",
+   "cuisine": "pasta",
+   "brand": "ジョリーパスタ"
+  },
+  {
+   "osm": "node/6026811186",
+   "category": "restaurant",
+   "lat": 34.8503245,
+   "lon": 135.6891345,
+   "name": "シェ モリウチ"
+  },
+  {
+   "osm": "node/5974144911",
+   "category": "cafe",
+   "lat": 34.7913298,
+   "lon": 135.6578565,
+   "name": "ベーカリーレストラン サンマルク 枚方香里園店"
+  },
+  {
+   "osm": "node/6018836404",
+   "category": "restaurant",
+   "lat": 34.805888,
+   "lon": 135.6987168,
+   "name": "味処 丸山"
+  },
+  {
+   "osm": "node/6029010386",
+   "category": "restaurant",
+   "lat": 34.8505208,
+   "lon": 135.6888403,
+   "name": "きまぐれ 東山店"
+  },
+  {
+   "osm": "node/5965694399",
+   "category": "pub",
+   "lat": 34.7960451,
+   "lon": 135.64306,
+   "name": "ダイニングバー 志摩"
+  },
+  {
+   "osm": "node/5271547735",
+   "category": "restaurant",
+   "lat": 34.8490583,
+   "lon": 135.6384974,
+   "name": "そば処 まさ吉"
+  },
+  {
+   "osm": "node/6029007889",
+   "category": "pub",
+   "lat": 34.8533091,
+   "lon": 135.683807,
+   "name": "Pub The Thistle"
+  },
+  {
+   "osm": "node/8793682917",
+   "category": "restaurant",
+   "lat": 34.8556865,
+   "lon": 135.6526299,
+   "name": "天ぷら 平右衛門",
+   "opening_hours": "Tu-Fr 11:00-14:30"
+  },
+  {
+   "osm": "node/5271546447",
+   "category": "bar",
+   "lat": 34.8484934,
+   "lon": 135.6374429,
+   "name": "居酒屋花夕"
+  },
+  {
+   "osm": "node/6026842787",
+   "category": "restaurant",
+   "lat": 34.853698,
+   "lon": 135.6833004,
+   "name": "トラットリア リベロコータロー"
+  },
+  {
+   "osm": "node/5271549223",
+   "category": "cafe",
+   "lat": 34.8493682,
+   "lon": 135.6384511,
+   "name": "いづみ"
+  },
+  {
+   "osm": "node/6026842786",
+   "category": "restaurant",
+   "lat": 34.8537218,
+   "lon": 135.6835545,
+   "name": "龍門",
+   "cuisine": "chinese"
+  },
+  {
+   "osm": "node/5977910789",
+   "category": "cafe",
+   "lat": 34.794821,
+   "lon": 135.6443331,
+   "name": "サント・シャペル 自然派焼菓子&カフェ"
+  },
+  {
+   "osm": "node/6026816605",
+   "category": "restaurant",
+   "lat": 34.8562717,
+   "lon": 135.6762685,
+   "name": "あっちゃんの台所 くずは店"
+  },
+  {
+   "osm": "node/6029029994",
+   "category": "cafe",
+   "lat": 34.8302121,
+   "lon": 135.7052968,
+   "name": "カラオケ喫茶りおん"
+  },
+  {
+   "osm": "node/5974204399",
+   "category": "bar",
+   "lat": 34.8025042,
+   "lon": 135.6330695,
+   "name": "鉄平",
+   "name_en": "Teppei"
+  },
+  {
+   "osm": "node/5974144909",
+   "category": "restaurant",
+   "lat": 34.7904639,
+   "lon": 135.6586432,
+   "name": "銀のさら 枚方香里ヶ丘店"
+  },
+  {
+   "osm": "node/5974204601",
+   "category": "restaurant",
+   "lat": 34.7903846,
+   "lon": 135.6590487,
+   "name": "お食事処 亀ちゃん"
+  },
+  {
+   "osm": "node/5271546449",
+   "category": "restaurant",
+   "lat": 34.8497316,
+   "lon": 135.6382472,
+   "name": "天座"
+  },
+  {
+   "osm": "node/5965694114",
+   "category": "cafe",
+   "lat": 34.796777,
+   "lon": 135.6401842,
+   "name": "la colline"
+  },
+  {
+   "osm": "node/6026816601",
+   "category": "restaurant",
+   "lat": 34.8565331,
+   "lon": 135.6760942,
+   "name": "Cavatappi30",
+   "cuisine": "italian"
+  },
+  {
+   "osm": "node/6018836494",
+   "category": "fast_food",
+   "lat": 34.8084696,
+   "lon": 135.7017526,
+   "name": "マクドナルド",
+   "name_en": "McDonald's",
+   "cuisine": "burger",
+   "brand": "マクドナルド"
+  },
+  {
+   "osm": "node/5974204608",
+   "category": "cafe",
+   "lat": 34.8020664,
+   "lon": 135.6332309,
+   "name": "バードラン月や"
+  },
+  {
+   "osm": "node/5974144915",
+   "category": "cafe",
+   "lat": 34.7911477,
+   "lon": 135.6539569,
+   "name": "三番館プラス"
+  },
+  {
+   "osm": "node/6021351886",
+   "category": "pub",
+   "lat": 34.8035805,
+   "lon": 135.698095,
+   "name": "スナック 恋するお店"
+  },
+  {
+   "osm": "node/5974204391",
+   "category": "restaurant",
+   "lat": 34.7910847,
+   "lon": 135.6538285,
+   "name": "天ぷらダイニング 紅家"
+  },
+  {
+   "osm": "node/3416934744",
+   "category": "restaurant",
+   "lat": 34.8437974,
+   "lon": 135.6985896,
+   "name": "うどんそば家族亭",
+   "cuisine": "うどん"
+  },
+  {
+   "osm": "node/6018833502",
+   "category": "fast_food",
+   "lat": 34.8083721,
+   "lon": 135.7018617,
+   "name": "千成家"
+  },
+  {
+   "osm": "node/5974144914",
+   "category": "restaurant",
+   "lat": 34.7910297,
+   "lon": 135.6537856,
+   "name": "煮干し拉麺 アンチョビー 枚方香里ヶ丘店"
+  },
+  {
+   "osm": "node/5271547352",
+   "category": "fast_food",
+   "lat": 34.8500705,
+   "lon": 135.6382513,
+   "name": "お好み焼 たこ八"
+  },
+  {
+   "osm": "node/6018833532",
+   "category": "bar",
+   "lat": 34.8206659,
+   "lon": 135.7062946,
+   "name": "季遊人"
+  },
+  {
+   "osm": "node/6018833501",
+   "category": "cafe",
+   "lat": 34.8084595,
+   "lon": 135.7019856,
+   "name": "珈琲の山本"
+  },
+  {
+   "osm": "way/602364943",
+   "category": "restaurant",
+   "lat": 34.8425871,
+   "lon": 135.630072,
+   "name": "シカゴデリータ高槻中央店",
+   "cuisine": "pizza",
+   "opening_hours": "Mo-Su 11:00-22:00"
+  },
+  {
+   "osm": "node/6018836488",
+   "category": "cafe",
+   "lat": 34.8025398,
+   "lon": 135.697452,
+   "name": "喫茶・スナック エデン"
+  },
+  {
+   "osm": "node/3416932824",
+   "category": "restaurant",
+   "lat": 34.8437044,
+   "lon": 135.6988869,
+   "name": "高野道食道",
+   "cuisine": "大衆食堂"
+  },
+  {
+   "osm": "node/6026836193",
+   "category": "bar",
+   "lat": 34.8546352,
+   "lon": 135.68332,
+   "name": "魚居酒屋 頑ばりや"
+  },
+  {
+   "osm": "node/6018836497",
+   "category": "restaurant",
+   "lat": 34.8090857,
+   "lon": 135.7025474,
+   "name": "美和寿司"
+  },
+  {
+   "osm": "node/5977909087",
+   "category": "restaurant",
+   "lat": 34.7909134,
+   "lon": 135.6535549,
+   "name": "Felice Dining"
+  },
+  {
+   "osm": "node/6018836495",
+   "category": "restaurant",
+   "lat": 34.8084469,
+   "lon": 135.7022242,
+   "name": "めん屋 一福"
+  },
+  {
+   "osm": "node/6021320987",
+   "category": "cafe",
+   "lat": 34.8002851,
+   "lon": 135.6953477,
+   "name": "Cafe Amber"
+  },
+  {
+   "osm": "node/6018836398",
+   "category": "bar",
+   "lat": 34.8026432,
+   "lon": 135.6978949,
+   "name": "カラオケ酒処 赫里"
+  },
+  {
+   "osm": "node/6018836392",
+   "category": "restaurant",
+   "lat": 34.801811,
+   "lon": 135.6971483,
+   "name": "味香佐"
+  },
+  {
+   "osm": "node/6018833508",
+   "category": "cafe",
+   "lat": 34.8092032,
+   "lon": 135.7029093,
+   "name": "Cafe LuAna"
+  },
+  {
+   "osm": "node/4383575515",
+   "category": "fast_food",
+   "lat": 34.7935219,
+   "lon": 135.6849013,
+   "name": "ほっかほっか亭",
+   "name_en": "Hokka Hokka Tei",
+   "cuisine": "japanese",
+   "brand": "ほっかほっか亭"
+  },
+  {
+   "osm": "node/5271546445",
+   "category": "pub",
+   "lat": 34.848559,
+   "lon": 135.6354775,
+   "name": "リトル・ツリー"
+  },
+  {
+   "osm": "node/6018836396",
+   "category": "pub",
+   "lat": 34.8019785,
+   "lon": 135.697418,
+   "name": "マダーズバー"
+  },
+  {
+   "osm": "node/5974204597",
+   "category": "cafe",
+   "lat": 34.7896717,
+   "lon": 135.6590799,
+   "name": "ABCコーヒー 茄子作店"
+  },
+  {
+   "osm": "way/339066772",
+   "category": "cafe",
+   "lat": 34.812702,
+   "lon": 135.7048075,
+   "name": "時遊人"
+  },
+  {
+   "osm": "node/5271547733",
+   "category": "bar",
+   "lat": 34.8485776,
+   "lon": 135.6353273,
+   "name": "きたむら"
+  },
+  {
+   "osm": "node/5974204603",
+   "category": "restaurant",
+   "lat": 34.7905901,
+   "lon": 135.6530558,
+   "name": "お好み焼 こな壹"
+  },
+  {
+   "osm": "node/3416932511",
+   "category": "fast_food",
+   "lat": 34.8441575,
+   "lon": 135.6993399,
+   "name": "スシロー",
+   "name_en": "Sushiro",
+   "cuisine": "sushi",
+   "brand": "スシロー"
+  },
+  {
+   "osm": "node/6009339705",
+   "category": "bar",
+   "lat": 34.8008131,
+   "lon": 135.6967765,
+   "name": "無名屋"
+  },
+  {
+   "osm": "node/6009339704",
+   "category": "fast_food",
+   "lat": 34.8006588,
+   "lon": 135.6967181,
+   "name": "たこ琉",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/6018833490",
+   "category": "bar",
+   "lat": 34.8014764,
+   "lon": 135.6976217,
+   "name": "一",
+   "name_en": "Kazu"
+  },
+  {
+   "osm": "node/6026837495",
+   "category": "restaurant",
+   "lat": 34.8554876,
+   "lon": 135.6832265,
+   "name": "かごの屋 くずは店",
+   "name_en": "Kagonoya"
+  },
+  {
+   "osm": "node/6029020487",
+   "category": "restaurant",
+   "lat": 34.7933234,
+   "lon": 135.6857819,
+   "name": "炭火焼鳥 もくもく"
+  },
+  {
+   "osm": "node/6029007891",
+   "category": "bar",
+   "lat": 34.855437,
+   "lon": 135.6836903,
+   "name": "Shin-ka511"
+  },
+  {
+   "osm": "node/5974204390",
+   "category": "restaurant",
+   "lat": 34.7891853,
+   "lon": 135.6583544,
+   "name": "ラ・サンテ",
+   "cuisine": "french"
+  },
+  {
+   "osm": "node/2108087239",
+   "category": "cafe",
+   "lat": 34.7888908,
+   "lon": 135.6686842,
+   "name": "コメダ珈琲店",
+   "name_en": "Komeda's Coffee",
+   "cuisine": "coffee_shop",
+   "brand": "コメダ珈琲店"
+  },
+  {
+   "osm": "node/6029009605",
+   "category": "cafe",
+   "lat": 34.7925321,
+   "lon": 135.6843287,
+   "name": "ガンパチ"
+  },
+  {
+   "osm": "node/6029012107",
+   "category": "bar",
+   "lat": 34.7998629,
+   "lon": 135.6962394,
+   "name": "馳どり屋 津田駅前店"
+  },
+  {
+   "osm": "node/6018833513",
+   "category": "bar",
+   "lat": 34.8103409,
+   "lon": 135.7045416,
+   "name": "じん",
+   "name_en": "Jin"
+  },
+  {
+   "osm": "node/6029038590",
+   "category": "restaurant",
+   "lat": 34.7933271,
+   "lon": 135.6866326,
+   "name": "福すし"
+  },
+  {
+   "osm": "node/6031321488",
+   "category": "bar",
+   "lat": 34.793246,
+   "lon": 135.6865205,
+   "name": "酒房だるま"
+  },
+  {
+   "osm": "node/2384110929",
+   "category": "restaurant",
+   "lat": 34.7902306,
+   "lon": 135.6513797,
+   "name": "昇嘉鶏"
+  },
+  {
+   "osm": "way/558302421",
+   "category": "restaurant",
+   "lat": 34.7903279,
+   "lon": 135.6788787,
+   "name": "餃子専門舗三國志"
+  },
+  {
+   "osm": "node/6029009700",
+   "category": "bar",
+   "lat": 34.7994692,
+   "lon": 135.6962967,
+   "name": "居酒屋開元"
+  },
+  {
+   "osm": "node/5977920885",
+   "category": "restaurant",
+   "lat": 34.7900826,
+   "lon": 135.6517111,
+   "name": "インド料理 ミラン"
+  },
+  {
+   "osm": "node/6029009695",
+   "category": "restaurant",
+   "lat": 34.7938277,
+   "lon": 135.6879469,
+   "name": "大安門"
+  },
+  {
+   "osm": "node/6029038589",
+   "category": "bar",
+   "lat": 34.7929274,
+   "lon": 135.6861557,
+   "name": "野武士",
+   "name_en": "Nobushi"
+  },
+  {
+   "osm": "node/3610420893",
+   "category": "cafe",
+   "lat": 34.855971,
+   "lon": 135.683573,
+   "name": "カフェ・ド・カルネ"
+  },
+  {
+   "osm": "node/1825680773",
+   "category": "cafe",
+   "lat": 34.7901278,
+   "lon": 135.65139,
+   "name": "珈琲館",
+   "name_en": "KO:HI:KAN",
+   "cuisine": "coffee_shop",
+   "brand": "珈琲館"
+  },
+  {
+   "osm": "node/1825682327",
+   "category": "restaurant",
+   "lat": 34.7900804,
+   "lon": 135.6515489,
+   "name": "餃子の王将",
+   "name_en": "OHSHO",
+   "cuisine": "chinese",
+   "brand": "餃子の王将"
+  },
+  {
+   "osm": "node/6018833536",
+   "category": "fast_food",
+   "lat": 34.8224324,
+   "lon": 135.7081977,
+   "name": "たこ焼き100円"
+  },
+  {
+   "osm": "node/6029012099",
+   "category": "bar",
+   "lat": 34.7927972,
+   "lon": 135.6860404,
+   "name": "雫"
+  },
+  {
+   "osm": "node/6018836399",
+   "category": "restaurant",
+   "lat": 34.8010115,
+   "lon": 135.6982756,
+   "name": "おらんく",
+   "name_en": "Oranku"
+  },
+  {
+   "osm": "node/6029009588",
+   "category": "cafe",
+   "lat": 34.8563761,
+   "lon": 135.6830611,
+   "name": "サンタモニカ"
+  },
+  {
+   "osm": "node/6029007894",
+   "category": "restaurant",
+   "lat": 34.8563814,
+   "lon": 135.6835173,
+   "name": "海鮮どんぶり太郎 楠葉朝日店"
+  },
+  {
+   "osm": "node/5271530555",
+   "category": "restaurant",
+   "lat": 34.8486279,
+   "lon": 135.6332033,
+   "name": "と金すし"
+  },
+  {
+   "osm": "node/5974144917",
+   "category": "cafe",
+   "lat": 34.7892883,
+   "lon": 135.6528047,
+   "name": "Cafe Zakka Gallery FLAG"
+  },
+  {
+   "osm": "node/3698121025",
+   "category": "restaurant",
+   "lat": 34.844123,
+   "lon": 135.628555,
+   "name": "かごの屋",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/6018833515",
+   "category": "cafe",
+   "lat": 34.8104388,
+   "lon": 135.7056704,
+   "name": "青い空カフェ"
+  },
+  {
+   "osm": "node/4193361769",
+   "category": "restaurant",
+   "lat": 34.8444319,
+   "lon": 135.6285559,
+   "name": "ビックボーイ高槻店"
+  },
+  {
+   "osm": "node/6029007897",
+   "category": "restaurant",
+   "lat": 34.8568361,
+   "lon": 135.6835409,
+   "name": "中津からあげ専門店 からいち"
+  },
+  {
+   "osm": "node/6018836692",
+   "category": "cafe",
+   "lat": 34.8228683,
+   "lon": 135.7091386,
+   "name": "マホロバ珈琲堂 自家焙煎"
+  },
+  {
+   "osm": "node/4193361770",
+   "category": "restaurant",
+   "lat": 34.8446168,
+   "lon": 135.6284888,
+   "name": "だいこんや高槻城東店"
+  },
+  {
+   "osm": "way/1228381025",
+   "category": "cafe",
+   "lat": 34.8359492,
+   "lon": 135.6230463,
+   "name": "喫茶　わがママ"
+  },
+  {
+   "osm": "way/776892025",
+   "category": "restaurant",
+   "lat": 34.8019087,
+   "lon": 135.7004495,
+   "name": "そば重",
+   "cuisine": "japanese",
+   "opening_hours": "11:30-14:00,17:00-21:00"
+  },
+  {
+   "osm": "node/6029007896",
+   "category": "cafe",
+   "lat": 34.8571456,
+   "lon": 135.6835356,
+   "name": "Cafe de Roro くずは店"
+  },
+  {
+   "osm": "node/6018833517",
+   "category": "restaurant",
+   "lat": 34.8109924,
+   "lon": 135.7066718,
+   "name": "冨すし"
+  },
+  {
+   "osm": "node/5271547341",
+   "category": "fast_food",
+   "lat": 34.8482943,
+   "lon": 135.6315029,
+   "name": "たこ焼き たこむ"
+  },
+  {
+   "osm": "node/5550080338",
+   "category": "restaurant",
+   "lat": 34.8335816,
+   "lon": 135.62176,
+   "name": "サイゼリヤ",
+   "name_en": "Saizeriya",
+   "cuisine": "italian",
+   "opening_hours": "11:00-02:00",
+   "brand": "サイゼリヤ"
+  },
+  {
+   "osm": "node/6018833541",
+   "category": "restaurant",
+   "lat": 34.8234804,
+   "lon": 135.7096985,
+   "name": "やきとり七福神"
+  },
+  {
+   "osm": "node/5271547339",
+   "category": "pub",
+   "lat": 34.8486613,
+   "lon": 135.6316819,
+   "name": "Begin"
+  },
+  {
+   "osm": "node/6018836513",
+   "category": "cafe",
+   "lat": 34.8236598,
+   "lon": 135.7098435,
+   "name": "カラオケ喫茶 エコー"
+  },
+  {
+   "osm": "node/5974144900",
+   "category": "restaurant",
+   "lat": 34.7871442,
+   "lon": 135.6584893,
+   "name": "ご馳走中華厨房 はっちん"
+  },
+  {
+   "osm": "node/5977910687",
+   "category": "restaurant",
+   "lat": 34.7915293,
+   "lon": 135.642726,
+   "name": "サンタ・バーバラ",
+   "cuisine": "french"
+  },
+  {
+   "osm": "node/6029019898",
+   "category": "restaurant",
+   "lat": 34.8372808,
+   "lon": 135.7071738,
+   "name": "お食事亭 だいこん"
+  },
+  {
+   "osm": "node/6018836489",
+   "category": "cafe",
+   "lat": 34.799753,
+   "lon": 135.699398,
+   "name": "プラリア"
+  },
+  {
+   "osm": "node/4440032026",
+   "category": "fast_food",
+   "lat": 34.7877744,
+   "lon": 135.6757941,
+   "name": "ほっかほっか亭",
+   "name_en": "Hokka Hokka Tei",
+   "cuisine": "japanese",
+   "brand": "ほっかほっか亭"
+  },
+  {
+   "osm": "node/1726254030",
+   "category": "restaurant",
+   "lat": 34.7874618,
+   "lon": 135.6743099,
+   "name": "大阪王将",
+   "name_en": "Osaka Ohsho",
+   "cuisine": "japanese;chinese",
+   "brand": "大阪王将"
+  },
+  {
+   "osm": "node/6029012105",
+   "category": "restaurant",
+   "lat": 34.79391,
+   "lon": 135.6918314,
+   "name": "交野きんせい 浪越商店"
+  },
+  {
+   "osm": "node/1814299266",
+   "category": "fast_food",
+   "lat": 34.7867217,
+   "lon": 135.6682159,
+   "name": "スシロー",
+   "name_en": "Sushiro",
+   "cuisine": "sushi",
+   "brand": "スシロー"
+  },
+  {
+   "osm": "node/6029009889",
+   "category": "cafe",
+   "lat": 34.8580489,
+   "lon": 135.6832719,
+   "name": "茶肆ゆにわ"
+  },
+  {
+   "osm": "node/4415896249",
+   "category": "restaurant",
+   "lat": 34.7984223,
+   "lon": 135.6316496,
+   "name": "旬和席 さだ家",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/6029010388",
+   "category": "restaurant",
+   "lat": 34.8579681,
+   "lon": 135.6835475,
+   "name": "銀のさら"
+  },
+  {
+   "osm": "node/1814301099",
+   "category": "restaurant",
+   "lat": 34.7866023,
+   "lon": 135.6687718,
+   "name": "きん太",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/5271546439",
+   "category": "cafe",
+   "lat": 34.8492212,
+   "lon": 135.6313311,
+   "name": "中世カフェ Pastimes"
+  },
+  {
+   "osm": "way/562285481",
+   "category": "restaurant",
+   "lat": 34.7881551,
+   "lon": 135.6787667,
+   "name": "味楽鮨"
+  },
+  {
+   "osm": "way/561829303",
+   "category": "restaurant",
+   "lat": 34.7878386,
+   "lon": 135.6775019,
+   "name": "ジュリア"
+  },
+  {
+   "osm": "node/6029009803",
+   "category": "fast_food",
+   "lat": 34.860307,
+   "lon": 135.676415,
+   "name": "ケンタッキーフライドチキン",
+   "name_en": "KFC",
+   "cuisine": "chicken",
+   "brand": "ケンタッキーフライドチキン"
+  },
+  {
+   "osm": "node/6029009904",
+   "category": "restaurant",
+   "lat": 34.8603465,
+   "lon": 135.6765622,
+   "name": "ブッフェスタイルアソート"
+  },
+  {
+   "osm": "node/4439981711",
+   "category": "fast_food",
+   "lat": 34.7989196,
+   "lon": 135.6304786,
+   "name": "本家かまどや",
+   "name_en": "Honke Kamadoya",
+   "cuisine": "japanese",
+   "brand": "本家かまどや"
+  },
+  {
+   "osm": "node/6304788087",
+   "category": "restaurant",
+   "lat": 34.8596848,
+   "lon": 135.6501588,
+   "name": "一風堂"
+  },
+  {
+   "osm": "node/4439981759",
+   "category": "restaurant",
+   "lat": 34.798772,
+   "lon": 135.6305191,
+   "name": "炭火や 八"
+  },
+  {
+   "osm": "node/5271530542",
+   "category": "cafe",
+   "lat": 34.8530781,
+   "lon": 135.6356213,
+   "name": "カフェドリーム"
+  },
+  {
+   "osm": "node/14025470201",
+   "category": "restaurant",
+   "lat": 34.8466453,
+   "lon": 135.7017846,
+   "name": "ゆで太郎　もつ二郎",
+   "cuisine": "soba"
+  },
+  {
+   "osm": "node/4242751927",
+   "category": "restaurant",
+   "lat": 34.8606906,
+   "lon": 135.6758487,
+   "name": "ガスト",
+   "name_en": "Gusto",
+   "cuisine": "western;japanese",
+   "brand": "ガスト"
+  },
+  {
+   "osm": "node/6006695544",
+   "category": "restaurant",
+   "lat": 34.8595035,
+   "lon": 135.64918,
+   "name": "焼肉一番"
+  },
+  {
+   "osm": "node/4595554013",
+   "category": "restaurant",
+   "lat": 34.8598949,
+   "lon": 135.6505487,
+   "name": "田所商店",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/5271530536",
+   "category": "restaurant",
+   "lat": 34.8541729,
+   "lon": 135.6371329,
+   "name": "ガスト 高槻東店"
+  },
+  {
+   "osm": "node/1731283461",
+   "category": "restaurant",
+   "lat": 34.7926316,
+   "lon": 135.6912079,
+   "name": "夢庵",
+   "name_en": "Yumean",
+   "cuisine": "japanese",
+   "brand": "夢庵"
+  },
+  {
+   "osm": "node/5974204593",
+   "category": "restaurant",
+   "lat": 34.7861824,
+   "lon": 135.6589856,
+   "name": "なんじゃもんじゃ"
+  },
+  {
+   "osm": "node/5965694122",
+   "category": "restaurant",
+   "lat": 34.8007627,
+   "lon": 135.6281056,
+   "name": "大力食堂"
+  },
+  {
+   "osm": "node/6029010390",
+   "category": "restaurant",
+   "lat": 34.8587445,
+   "lon": 135.6835757,
+   "name": "大阪王将",
+   "name_en": "Osaka Ohsho",
+   "cuisine": "japanese;chinese",
+   "brand": "大阪王将"
+  },
+  {
+   "osm": "node/6029019986",
+   "category": "restaurant",
+   "lat": 34.8465752,
+   "lon": 135.7022016,
+   "name": "中国料理 麒麟閣"
+  },
+  {
+   "osm": "node/6021351887",
+   "category": "restaurant",
+   "lat": 34.8076743,
+   "lon": 135.7069117,
+   "name": "ステーキカッポー恒づね"
+  },
+  {
+   "osm": "node/4439981709",
+   "category": "restaurant",
+   "lat": 34.7985412,
+   "lon": 135.6301899,
+   "name": "光善寺のたぬきばやし",
+   "cuisine": "sushi"
+  },
+  {
+   "osm": "node/6029019897",
+   "category": "pub",
+   "lat": 34.8393877,
+   "lon": 135.7073819,
+   "name": "スナック ユウ",
+   "name_en": "YOU"
+  },
+  {
+   "osm": "node/4415804063",
+   "category": "pub",
+   "lat": 34.7984061,
+   "lon": 135.6303117,
+   "name": "おかえり"
+  },
+  {
+   "osm": "node/2379709603",
+   "category": "restaurant",
+   "lat": 34.7923062,
+   "lon": 135.6909975,
+   "name": "きん太",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/4439981714",
+   "category": "restaurant",
+   "lat": 34.7983935,
+   "lon": 135.6302512,
+   "name": "わだ",
+   "opening_hours": "17:00-23:00"
+  },
+  {
+   "osm": "node/6029019889",
+   "category": "restaurant",
+   "lat": 34.8468556,
+   "lon": 135.7021978,
+   "name": "ワンカルビ"
+  },
+  {
+   "osm": "node/6006701439",
+   "category": "restaurant",
+   "lat": 34.8602525,
+   "lon": 135.6503697,
+   "name": "無添くら寿司 五領店"
+  },
+  {
+   "osm": "way/422920641",
+   "category": "restaurant",
+   "lat": 34.8334226,
+   "lon": 135.6197138,
+   "name": "大阪王将",
+   "name_en": "Osaka Ohsho",
+   "cuisine": "japanese;chinese",
+   "brand": "大阪王将"
+  },
+  {
+   "osm": "node/5271530535",
+   "category": "fast_food",
+   "lat": 34.8548862,
+   "lon": 135.6373783,
+   "name": "かつや",
+   "name_en": "Katsuya",
+   "cuisine": "fried_food",
+   "brand": "かつや"
+  },
+  {
+   "osm": "node/4439981703",
+   "category": "cafe",
+   "lat": 34.7982192,
+   "lon": 135.6301731,
+   "name": "MAMMY"
+  },
+  {
+   "osm": "node/5271530539",
+   "category": "fast_food",
+   "lat": 34.8541488,
+   "lon": 135.6360832,
+   "name": "マクドナルド",
+   "name_en": "McDonald's",
+   "cuisine": "burger",
+   "brand": "マクドナルド"
+  },
+  {
+   "osm": "node/9938633517",
+   "category": "fast_food",
+   "lat": 34.8582597,
+   "lon": 135.6438893,
+   "name": "ケンタッキーフライドチキン"
+  },
+  {
+   "osm": "node/9938633417",
+   "category": "fast_food",
+   "lat": 34.8583069,
+   "lon": 135.6439871,
+   "name": "LOTTERIA"
+  },
+  {
+   "osm": "node/6018836518",
+   "category": "restaurant",
+   "lat": 34.8255785,
+   "lon": 135.7117499,
+   "name": "春"
+  },
+  {
+   "osm": "node/5271547329",
+   "category": "restaurant",
+   "lat": 34.85386,
+   "lon": 135.6354361,
+   "name": "お好み焼わらい 高槻店"
+  },
+  {
+   "osm": "node/6029007903",
+   "category": "restaurant",
+   "lat": 34.8593587,
+   "lon": 135.6832786,
+   "name": "和蔵"
+  },
+  {
+   "osm": "node/3357502200",
+   "category": "fast_food",
+   "lat": 34.861463,
+   "lon": 135.675518,
+   "name": "MOS CAFE",
+   "opening_hours": "07:00-23:00"
+  },
+  {
+   "osm": "node/6029019895",
+   "category": "restaurant",
+   "lat": 34.8398069,
+   "lon": 135.7077526,
+   "name": "きく寿司"
+  },
+  {
+   "osm": "node/6159159048",
+   "category": "restaurant",
+   "lat": 34.8583028,
+   "lon": 135.64358,
+   "name": "サイゼリヤ",
+   "name_en": "Saizeriya",
+   "cuisine": "italian",
+   "opening_hours": "Mo-Fr 10:00-22:00; Sa-Su 09:00-22:00",
+   "brand": "サイゼリヤ"
+  },
+  {
+   "osm": "node/8793753117",
+   "category": "fast_food",
+   "lat": 34.858423,
+   "lon": 135.6437311,
+   "name": "Sugakiya"
+  },
+  {
+   "osm": "node/4440104827",
+   "category": "restaurant",
+   "lat": 34.7981314,
+   "lon": 135.6297964,
+   "name": "新羅",
+   "cuisine": "barbecue"
+  },
+  {
+   "osm": "node/4440104362",
+   "category": "pub",
+   "lat": 34.7982236,
+   "lon": 135.6296745,
+   "name": "居酒屋 大丸屋",
+   "opening_hours": "17:00-23:00"
+  },
+  {
+   "osm": "node/4238693250",
+   "category": "cafe",
+   "lat": 34.8615783,
+   "lon": 135.6755253,
+   "name": "TORAJA COFFEE",
+   "opening_hours": "08:00-21:00"
+  },
+  {
+   "osm": "node/6029009800",
+   "category": "cafe",
+   "lat": 34.8599518,
+   "lon": 135.6821047,
+   "name": "カフェ ユアーズ"
+  },
+  {
+   "osm": "node/6029029991",
+   "category": "restaurant",
+   "lat": 34.8373176,
+   "lon": 135.7091765,
+   "name": "大衆焼肉ホルモン 気まぐれ"
+  },
+  {
+   "osm": "node/6029009899",
+   "category": "restaurant",
+   "lat": 34.8597813,
+   "lon": 135.6827693,
+   "name": "弁慶 楠葉並木店",
+   "name_en": "Benkei Sushi",
+   "cuisine": "sushi"
+  },
+  {
+   "osm": "node/6029009791",
+   "category": "bar",
+   "lat": 34.8596329,
+   "lon": 135.6832604,
+   "name": "どうひら",
+   "name_en": "Douhira"
+  },
+  {
+   "osm": "node/3323058961",
+   "category": "cafe",
+   "lat": 34.8616826,
+   "lon": 135.6756303,
+   "name": "BURN SIDE ST CAFE"
+  },
+  {
+   "osm": "node/6029009901",
+   "category": "cafe",
+   "lat": 34.8604238,
+   "lon": 135.6808396,
+   "name": "アトリエ ヴィ"
+  },
+  {
+   "osm": "node/4440104831",
+   "category": "restaurant",
+   "lat": 34.7984638,
+   "lon": 135.6291853,
+   "name": "明大"
+  },
+  {
+   "osm": "way/239376306",
+   "category": "fast_food",
+   "lat": 34.8258673,
+   "lon": 135.712173,
+   "name": "ほっかほっか亭",
+   "name_en": "Hokka Hokka Tei",
+   "cuisine": "japanese",
+   "brand": "ほっかほっか亭"
+  },
+  {
+   "osm": "node/9938521917",
+   "category": "cafe",
+   "lat": 34.8586015,
+   "lon": 135.6436084,
+   "name": "ミスタードーナツ"
+  },
+  {
+   "osm": "node/5965694112",
+   "category": "restaurant",
+   "lat": 34.7976905,
+   "lon": 135.6298701,
+   "name": "焼肉桜鈴"
+  },
+  {
+   "osm": "node/3295838761",
+   "category": "restaurant",
+   "lat": 34.8618188,
+   "lon": 135.6755557,
+   "name": "あしかり",
+   "cuisine": "noodle"
+  },
+  {
+   "osm": "node/3323074761",
+   "category": "restaurant",
+   "lat": 34.8598843,
+   "lon": 135.6829604,
+   "name": "弁慶ずし",
+   "cuisine": "sushi"
+  },
+  {
+   "osm": "node/4440104377",
+   "category": "restaurant",
+   "lat": 34.7981217,
+   "lon": 135.6293776,
+   "name": "一番"
+  },
+  {
+   "osm": "node/5271530546",
+   "category": "cafe",
+   "lat": 34.8529595,
+   "lon": 135.6333483,
+   "name": "緑町カフェ"
+  },
+  {
+   "osm": "node/3295845961",
+   "category": "bar",
+   "lat": 34.8618768,
+   "lon": 135.6755959,
+   "name": "フジマル醸造所"
+  },
+  {
+   "osm": "node/8219599169",
+   "category": "restaurant",
+   "lat": 34.8530553,
+   "lon": 135.6964663,
+   "name": "都飯店",
+   "cuisine": "noodle"
+  },
+  {
+   "osm": "node/5965694111",
+   "category": "cafe",
+   "lat": 34.7975693,
+   "lon": 135.6298518,
+   "name": "軽食喫茶いれぶん"
+  },
+  {
+   "osm": "node/6029009902",
+   "category": "restaurant",
+   "lat": 34.860741,
+   "lon": 135.6805453,
+   "name": "カフェレストラン きたら"
+  },
+  {
+   "osm": "node/4440275935",
+   "category": "restaurant",
+   "lat": 34.7984775,
+   "lon": 135.6288407,
+   "name": "湧喜屋"
+  },
+  {
+   "osm": "node/4440104357",
+   "category": "pub",
+   "lat": 34.798098,
+   "lon": 135.629241,
+   "name": "居酒屋 和"
+  },
+  {
+   "osm": "node/4440275962",
+   "category": "pub",
+   "lat": 34.7984201,
+   "lon": 135.6288824,
+   "name": "GO.T DE MERE"
+  },
+  {
+   "osm": "node/6031321585",
+   "category": "restaurant",
+   "lat": 34.8458911,
+   "lon": 135.7041954,
+   "name": "和食 あご屋"
+  },
+  {
+   "osm": "node/4440276435",
+   "category": "pub",
+   "lat": 34.7983273,
+   "lon": 135.6288695,
+   "name": "まつもと"
+  },
+  {
+   "osm": "way/562069382",
+   "category": "fast_food",
+   "lat": 34.7859517,
+   "lon": 135.6764534,
+   "name": "弁慶すし　交野店"
+  },
+  {
+   "osm": "node/4440104858",
+   "category": "restaurant",
+   "lat": 34.7989757,
+   "lon": 135.6281618,
+   "name": "ロッキー",
+   "cuisine": "chinese",
+   "opening_hours": "11:00-03:00"
+  },
+  {
+   "osm": "node/13870836539",
+   "category": "cafe",
+   "lat": 34.8529125,
+   "lon": 135.6328924,
+   "name": "タリーズコーヒー",
+   "name_en": "Tully's Coffee",
+   "cuisine": "coffee_shop",
+   "brand": "タリーズコーヒー"
+  },
+  {
+   "osm": "node/6029010399",
+   "category": "restaurant",
+   "lat": 34.8601319,
+   "lon": 135.6830276,
+   "name": "ラーメン あおやま"
+  },
+  {
+   "osm": "node/6029010400",
+   "category": "cafe",
+   "lat": 34.8601796,
+   "lon": 135.6829331,
+   "name": "ドネモアカフェ"
+  },
+  {
+   "osm": "node/13870836538",
+   "category": "fast_food",
+   "lat": 34.8528945,
+   "lon": 135.6327369,
+   "name": "バーガーキング",
+   "name_en": "Burger King",
+   "cuisine": "burger",
+   "brand": "バーガーキング"
+  },
+  {
+   "osm": "node/6029009801",
+   "category": "restaurant",
+   "lat": 34.8609186,
+   "lon": 135.6807193,
+   "name": "パパイヤ タイ食堂"
+  },
+  {
+   "osm": "node/4595554010",
+   "category": "fast_food",
+   "lat": 34.8515575,
+   "lon": 135.6310168,
+   "name": "松のや",
+   "name_en": "Matsunoya",
+   "cuisine": "japanese",
+   "opening_hours": "24/7",
+   "brand": "松のや"
+  },
+  {
+   "osm": "way/562067919",
+   "category": "restaurant",
+   "lat": 34.7855298,
+   "lon": 135.6755092,
+   "name": "風の街　交野店"
+  },
+  {
+   "osm": "node/4406185126",
+   "category": "restaurant",
+   "lat": 34.7855159,
+   "lon": 135.675438,
+   "name": "風の街"
+  },
+  {
+   "osm": "node/5972175252",
+   "category": "restaurant",
+   "lat": 34.8599123,
+   "lon": 135.684218,
+   "name": "べじらーめんゆにわ",
+   "cuisine": "noodle",
+   "opening_hours": "11:30-15:00; 17:50-21:00"
+  },
+  {
+   "osm": "node/6029010398",
+   "category": "restaurant",
+   "lat": 34.8602516,
+   "lon": 135.6833458,
+   "name": "カプリシオ",
+   "name_en": "Capriccio"
+  },
+  {
+   "osm": "way/240662321",
+   "category": "pub",
+   "lat": 34.8264837,
+   "lon": 135.712821,
+   "name": "はるちよ"
+  },
+  {
+   "osm": "node/6029009799",
+   "category": "cafe",
+   "lat": 34.8603226,
+   "lon": 135.6833576,
+   "name": "アイティーハウス"
+  },
+  {
+   "osm": "node/4406185127",
+   "category": "cafe",
+   "lat": 34.7854035,
+   "lon": 135.6754943,
+   "name": "sucre"
+  },
+  {
+   "osm": "node/6029009793",
+   "category": "restaurant",
+   "lat": 34.8602162,
+   "lon": 135.6837917,
+   "name": "ネパールキッチン クマリ 枚方店"
+  },
+  {
+   "osm": "node/6029009792",
+   "category": "restaurant",
+   "lat": 34.8599013,
+   "lon": 135.6849096,
+   "name": "玄品 楠葉"
+  },
+  {
+   "osm": "node/5963480411",
+   "category": "restaurant",
+   "lat": 34.7966691,
+   "lon": 135.6299261,
+   "name": "やきとり笑吉"
+  },
+  {
+   "osm": "node/5271547368",
+   "category": "bar",
+   "lat": 34.8479638,
+   "lon": 135.6266207,
+   "name": "居酒屋おふくろの味 おかあさん"
+  },
+  {
+   "osm": "node/5271547360",
+   "category": "pub",
+   "lat": 34.8482229,
+   "lon": 135.6268543,
+   "name": "さんぶんのいち"
+  },
+  {
+   "osm": "node/5271547361",
+   "category": "restaurant",
+   "lat": 34.8484624,
+   "lon": 135.6270735,
+   "name": "からあげ大吉 高槻すえひろ店"
+  },
+  {
+   "osm": "node/6029007907",
+   "category": "cafe",
+   "lat": 34.8598853,
+   "lon": 135.6850754,
+   "name": "Cafe季庵"
+  },
+  {
+   "osm": "node/5271546456",
+   "category": "restaurant",
+   "lat": 34.8485343,
+   "lon": 135.6270718,
+   "name": "よかしこ食堂 ずんずん"
+  },
+  {
+   "osm": "node/4437025486",
+   "category": "fast_food",
+   "lat": 34.7850686,
+   "lon": 135.6749091,
+   "name": "金比羅製麺"
+  },
+  {
+   "osm": "node/6029010396",
+   "category": "restaurant",
+   "lat": 34.8598889,
+   "lon": 135.6855986,
+   "name": "四川ラーメン",
+   "cuisine": "noodle",
+   "opening_hours": "24/7"
+  },
+  {
+   "osm": "node/6029019894",
+   "category": "cafe",
+   "lat": 34.840937,
+   "lon": 135.7087446,
+   "name": "道 カラオケ喫茶"
+  },
+  {
+   "osm": "node/5271548625",
+   "category": "restaurant",
+   "lat": 34.8486818,
+   "lon": 135.6269409,
+   "name": "伊と長"
+  },
+  {
+   "osm": "node/6029009893",
+   "category": "fast_food",
+   "lat": 34.8596797,
+   "lon": 135.6862089,
+   "name": "マクドナルド",
+   "name_en": "McDonald's",
+   "cuisine": "burger",
+   "opening_hours": "Mo-Su 06:00-23:00",
+   "brand": "マクドナルド"
+  },
+  {
+   "osm": "node/5963480410",
+   "category": "cafe",
+   "lat": 34.7967351,
+   "lon": 135.6294234,
+   "name": "かりゆしカフェ"
+  },
+  {
+   "osm": "node/5271546458",
+   "category": "restaurant",
+   "lat": 34.8483875,
+   "lon": 135.6266209,
+   "name": "寿司ダイニング 実"
+  },
+  {
+   "osm": "node/6026785787",
+   "category": "fast_food",
+   "lat": 34.8265454,
+   "lon": 135.7134369,
+   "name": "三代目たくちゃん 長尾駅前店"
+  },
+  {
+   "osm": "node/5271547745",
+   "category": "restaurant",
+   "lat": 34.8484846,
+   "lon": 135.626573,
+   "name": "ばらもん十八番"
+  },
+  {
+   "osm": "node/12908470172",
+   "category": "fast_food",
+   "lat": 34.7848351,
+   "lon": 135.6752073,
+   "name": "マクドナルド",
+   "name_en": "McDonald's",
+   "cuisine": "burger",
+   "brand": "マクドナルド"
+  },
+  {
+   "osm": "node/6029019896",
+   "category": "fast_food",
+   "lat": 34.8398011,
+   "lon": 135.7096092,
+   "name": "蛸まる"
+  },
+  {
+   "osm": "node/6026785788",
+   "category": "restaurant",
+   "lat": 34.8272697,
+   "lon": 135.7135245,
+   "name": "辰巳ずし"
+  },
+  {
+   "osm": "node/5271547358",
+   "category": "restaurant",
+   "lat": 34.8487748,
+   "lon": 135.6265454,
+   "name": "焼肉ホルモン 一龍"
+  },
+  {
+   "osm": "node/9971654216",
+   "category": "cafe",
+   "lat": 34.8509318,
+   "lon": 135.6285925,
+   "name": "珈琲館",
+   "name_en": "Kohikan",
+   "brand": "珈琲館"
+  },
+  {
+   "osm": "node/5271547744",
+   "category": "restaurant",
+   "lat": 34.8486464,
+   "lon": 135.6262073,
+   "name": "本家 やきとり道場"
+  },
+  {
+   "osm": "node/5974204388",
+   "category": "cafe",
+   "lat": 34.7837885,
+   "lon": 135.6600964,
+   "name": "ぽけっと"
+  },
+  {
+   "osm": "node/2202695265",
+   "category": "restaurant",
+   "lat": 34.7835841,
+   "lon": 135.6662296,
+   "name": "とん吉",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/6029019892",
+   "category": "restaurant",
+   "lat": 34.841463,
+   "lon": 135.7092195,
+   "name": "ちぼね 鉄板・居酒屋"
+  },
+  {
+   "osm": "way/239382252",
+   "category": "restaurant",
+   "lat": 34.8223413,
+   "lon": 135.7141055,
+   "name": "MILAN",
+   "cuisine": "indian",
+   "opening_hours": "11:00-14:30, 17:00-22:00"
+  },
+  {
+   "osm": "way/632519501",
+   "category": "cafe",
+   "lat": 34.8596955,
+   "lon": 135.6878034,
+   "name": "スターバックス",
+   "name_en": "Starbucks",
+   "cuisine": "coffee_shop",
+   "brand": "スターバックス"
+  },
+  {
+   "osm": "node/4441562892",
+   "category": "restaurant",
+   "lat": 34.8274592,
+   "lon": 135.7140426,
+   "name": "大阪王将長尾店",
+   "name_en": "Osaka Ohsho Nagao-Shop",
+   "cuisine": "chinese"
+  },
+  {
+   "osm": "way/239382279",
+   "category": "restaurant",
+   "lat": 34.8219932,
+   "lon": 135.7141821,
+   "name": "香楽園"
+  },
+  {
+   "osm": "way/239382267",
+   "category": "restaurant",
+   "lat": 34.8219256,
+   "lon": 135.7141937,
+   "name": "お好み焼 花茶栗",
+   "cuisine": "japanese",
+   "opening_hours": "11:00-22:00"
+  },
+  {
+   "osm": "node/12164536083",
+   "category": "restaurant",
+   "lat": 34.8597383,
+   "lon": 135.6883719,
+   "name": "御食事ゆにわ",
+   "opening_hours": "Mo-Tu, Fr-Su 12:00-15:00, 18:00-21:00; We-Th off"
+  },
+  {
+   "osm": "way/239383561",
+   "category": "restaurant",
+   "lat": 34.820683,
+   "lon": 135.7143731,
+   "name": "台湾料理 万福館",
+   "cuisine": "chinese"
+  },
+  {
+   "osm": "way/446799564",
+   "category": "fast_food",
+   "lat": 34.7971922,
+   "lon": 135.6272871,
+   "name": "すき家",
+   "name_en": "Sukiya",
+   "cuisine": "beef_bowl",
+   "brand": "すき家"
+  },
+  {
+   "osm": "node/6029019903",
+   "category": "cafe",
+   "lat": 34.8404078,
+   "lon": 135.7104738,
+   "name": "ひなパン"
+  },
+  {
+   "osm": "node/6029019901",
+   "category": "bar",
+   "lat": 34.8405128,
+   "lon": 135.7104385,
+   "name": "居酒屋 浜ちゃん"
+  },
+  {
+   "osm": "node/6029029989",
+   "category": "bar",
+   "lat": 34.8406852,
+   "lon": 135.7103658,
+   "name": "はこべ"
+  },
+  {
+   "osm": "node/5271547367",
+   "category": "restaurant",
+   "lat": 34.8488473,
+   "lon": 135.6253859,
+   "name": "京口町てるい"
+  },
+  {
+   "osm": "node/5706983858",
+   "category": "restaurant",
+   "lat": 34.8640891,
+   "lon": 135.6552125,
+   "name": "麺長"
+  },
+  {
+   "osm": "node/5271547366",
+   "category": "cafe",
+   "lat": 34.8487333,
+   "lon": 135.6252117,
+   "name": "M's 珈琲"
+  },
+  {
+   "osm": "node/2990361533",
+   "category": "restaurant",
+   "lat": 34.820658,
+   "lon": 135.714671,
+   "name": "Taverna. Cucinetta",
+   "cuisine": "italian"
+  },
+  {
+   "osm": "node/10864134029",
+   "category": "cafe",
+   "lat": 34.8443698,
+   "lon": 135.6216424,
+   "name": "THE CITY BAKERY",
+   "opening_hours": "Mo-Su 08:00-19:00"
+  },
+  {
+   "osm": "node/6029019991",
+   "category": "restaurant",
+   "lat": 34.8419181,
+   "lon": 135.7097664,
+   "name": "千成寿司"
+  },
+  {
+   "osm": "way/585255092",
+   "category": "restaurant",
+   "lat": 34.8503755,
+   "lon": 135.7030652,
+   "name": "さん天",
+   "name_en": "Santen",
+   "cuisine": "japanese",
+   "opening_hours": "Mo-Su 10:30-24:00"
+  },
+  {
+   "osm": "way/924975400",
+   "category": "cafe",
+   "lat": 34.8553943,
+   "lon": 135.6328418,
+   "name": "STARBUCKS"
+  },
+  {
+   "osm": "node/11464525249",
+   "category": "restaurant",
+   "lat": 34.855386,
+   "lon": 135.697021,
+   "name": "エルチョロ",
+   "cuisine": "american"
+  },
+  {
+   "osm": "way/446799569",
+   "category": "restaurant",
+   "lat": 34.7969376,
+   "lon": 135.6270859,
+   "name": "がんてつ",
+   "cuisine": "barbecue"
+  },
+  {
+   "osm": "way/442385966",
+   "category": "fast_food",
+   "lat": 34.8336904,
+   "lon": 135.6162284,
+   "name": "すき家",
+   "name_en": "Sukiya",
+   "cuisine": "beef_bowl",
+   "brand": "すき家"
+  },
+  {
+   "osm": "way/559746371",
+   "category": "restaurant",
+   "lat": 34.7837957,
+   "lon": 135.6762364,
+   "name": "ガスト",
+   "name_en": "Gusto",
+   "cuisine": "western;japanese",
+   "brand": "ガスト"
+  },
+  {
+   "osm": "node/5271547736",
+   "category": "restaurant",
+   "lat": 34.8515701,
+   "lon": 135.6277745,
+   "name": "ビストロ モナミ"
+  },
+  {
+   "osm": "way/431358652",
+   "category": "restaurant",
+   "lat": 34.8352271,
+   "lon": 135.6166434,
+   "name": "七輪高槻店"
+  },
+  {
+   "osm": "node/5563301254",
+   "category": "restaurant",
+   "lat": 34.8506024,
+   "lon": 135.703173,
+   "name": "ラーメン まこと屋",
+   "name_en": "Ramen Makotoya",
+   "cuisine": "noodle",
+   "opening_hours": "Mo-Su 11:00-00:00"
+  },
+  {
+   "osm": "node/5974204592",
+   "category": "restaurant",
+   "lat": 34.7829607,
+   "lon": 135.6588887,
+   "name": "Charo",
+   "cuisine": "peruvian"
+  },
+  {
+   "osm": "node/13110294595",
+   "category": "restaurant",
+   "lat": 34.8348539,
+   "lon": 135.616445,
+   "name": "鶏Soba 座銀",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "way/311507262",
+   "category": "restaurant",
+   "lat": 34.8499944,
+   "lon": 135.6259496,
+   "name": "きんのぶた"
+  },
+  {
+   "osm": "way/431358650",
+   "category": "restaurant",
+   "lat": 34.835001,
+   "lon": 135.6164674,
+   "name": "藤平らー麺"
+  },
+  {
+   "osm": "way/239383555",
+   "category": "pub",
+   "lat": 34.8192701,
+   "lon": 135.7149031,
+   "name": "じゃがじゃが"
+  },
+  {
+   "osm": "node/5285527953",
+   "category": "restaurant",
+   "lat": 34.8489305,
+   "lon": 135.6248772,
+   "name": "らー麺 雅"
+  },
+  {
+   "osm": "node/6031321091",
+   "category": "restaurant",
+   "lat": 34.8433161,
+   "lon": 135.7093788,
+   "name": "美味しんぼ のぶや"
+  },
+  {
+   "osm": "node/7122093886",
+   "category": "restaurant",
+   "lat": 34.8487078,
+   "lon": 135.624589,
+   "name": "祥来"
+  },
+  {
+   "osm": "node/6031321088",
+   "category": "restaurant",
+   "lat": 34.8600671,
+   "lon": 135.6894998,
+   "name": "社員食堂ゆにわ"
+  },
+  {
+   "osm": "node/12438391569",
+   "category": "restaurant",
+   "lat": 34.8516442,
+   "lon": 135.6272762,
+   "name": "SHEEPかれーHOUSE",
+   "cuisine": "curry"
+  },
+  {
+   "osm": "node/12495632011",
+   "category": "fast_food",
+   "lat": 34.8379634,
+   "lon": 135.6172616,
+   "name": "魚べい",
+   "name_en": "Uobei",
+   "cuisine": "sushi",
+   "brand": "魚べい"
+  },
+  {
+   "osm": "node/5285528244",
+   "category": "restaurant",
+   "lat": 34.8481896,
+   "lon": 135.6238165,
+   "name": "いててや"
+  },
+  {
+   "osm": "way/442375149",
+   "category": "restaurant",
+   "lat": 34.8495041,
+   "lon": 135.6249589,
+   "name": "旬菜旬魚きくの"
+  },
+  {
+   "osm": "node/11100511310",
+   "category": "restaurant",
+   "lat": 34.8486661,
+   "lon": 135.624177,
+   "name": "One"
+  },
+  {
+   "osm": "node/9506813017",
+   "category": "bar",
+   "lat": 34.8486509,
+   "lon": 135.6241388,
+   "name": "でゅうー"
+  },
+  {
+   "osm": "node/12560391609",
+   "category": "fast_food",
+   "lat": 34.7967712,
+   "lon": 135.6263899,
+   "name": "好きやねん",
+   "opening_hours": "10:00-18:00"
+  },
+  {
+   "osm": "node/5285527952",
+   "category": "restaurant",
+   "lat": 34.8487036,
+   "lon": 135.6240813,
+   "name": "ハンバーグ ワン"
+  },
+  {
+   "osm": "way/490786091",
+   "category": "restaurant",
+   "lat": 34.8650776,
+   "lon": 135.6565456,
+   "name": "ラー麺　ずんどう屋",
+   "name_en": "Zundo-ya",
+   "cuisine": "noodle"
+  },
+  {
+   "osm": "node/4226426886",
+   "category": "restaurant",
+   "lat": 34.8364689,
+   "lon": 135.6163917,
+   "name": "ココス",
+   "name_en": "Coco's",
+   "cuisine": "western;japanese",
+   "brand": "ココス"
+  },
+  {
+   "osm": "node/5965694401",
+   "category": "cafe",
+   "lat": 34.8025685,
+   "lon": 135.6210442,
+   "name": "珈琲専科 待"
+  },
+  {
+   "osm": "node/1725042743",
+   "category": "fast_food",
+   "lat": 34.7820093,
+   "lon": 135.6647922,
+   "name": "モスバーガー",
+   "name_en": "MOS Burger",
+   "cuisine": "burger",
+   "brand": "モスバーガー"
+  },
+  {
+   "osm": "node/12730563662",
+   "category": "restaurant",
+   "lat": 34.8400216,
+   "lon": 135.6178001,
+   "name": "ラーメン まこと屋",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/5283585734",
+   "category": "restaurant",
+   "lat": 34.8487433,
+   "lon": 135.62378,
+   "name": "ダイニングぶん"
+  },
+  {
+   "osm": "way/442375143",
+   "category": "cafe",
+   "lat": 34.8499663,
+   "lon": 135.6246613,
+   "name": "ノアズカフェ"
+  },
+  {
+   "osm": "node/3230803861",
+   "category": "restaurant",
+   "lat": 34.817867,
+   "lon": 135.71565,
+   "name": "かじや",
+   "cuisine": "steak_house",
+   "opening_hours": "17:30-24:00"
+  },
+  {
+   "osm": "node/5283572623",
+   "category": "restaurant",
+   "lat": 34.8497612,
+   "lon": 135.6243772,
+   "name": "えい参"
+  },
+  {
+   "osm": "node/13797632083",
+   "category": "fast_food",
+   "lat": 34.8483373,
+   "lon": 135.6230831,
+   "name": "たこ焼きまる"
+  },
+  {
+   "osm": "node/7575235943",
+   "category": "restaurant",
+   "lat": 34.8539398,
+   "lon": 135.6288886,
+   "name": "SUNDAY'S BAKE 569",
+   "cuisine": "pizza;italian"
+  },
+  {
+   "osm": "node/5283586927",
+   "category": "restaurant",
+   "lat": 34.8482719,
+   "lon": 135.6230027,
+   "name": "日本酒武蔵"
+  },
+  {
+   "osm": "node/5971325285",
+   "category": "cafe",
+   "lat": 34.7841963,
+   "lon": 135.6476019,
+   "name": "カフェ ボアクレール"
+  },
+  {
+   "osm": "node/7392657906",
+   "category": "fast_food",
+   "lat": 34.8551543,
+   "lon": 135.6994293,
+   "name": "かっぱ寿司",
+   "name_en": "Kappazushi",
+   "cuisine": "sushi",
+   "brand": "かっぱ寿司"
+  },
+  {
+   "osm": "node/5283586721",
+   "category": "restaurant",
+   "lat": 34.8494948,
+   "lon": 135.6240389,
+   "name": "焼き鳥八金 高槻はなれ店"
+  },
+  {
+   "osm": "node/6029012114",
+   "category": "bar",
+   "lat": 34.7816991,
+   "lon": 135.6640827,
+   "name": "居酒屋つる吉"
+  },
+  {
+   "osm": "way/442375147",
+   "category": "restaurant",
+   "lat": 34.8502084,
+   "lon": 135.6246961,
+   "name": "One's Own Way"
+  },
+  {
+   "osm": "node/13478855216",
+   "category": "fast_food",
+   "lat": 34.8385051,
+   "lon": 135.6166502,
+   "name": "マクドナルド",
+   "name_en": "McDonald's",
+   "cuisine": "burger",
+   "brand": "マクドナルド"
+  },
+  {
+   "osm": "node/5283572624",
+   "category": "restaurant",
+   "lat": 34.849592,
+   "lon": 135.6240438,
+   "name": "馬力ホルモン"
+  },
+  {
+   "osm": "node/8118538990",
+   "category": "restaurant",
+   "lat": 34.8546272,
+   "lon": 135.7003177,
+   "name": "食事処 かぐや",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/5283585733",
+   "category": "restaurant",
+   "lat": 34.8486136,
+   "lon": 135.6230893,
+   "name": "餃子の王将",
+   "name_en": "Gyoza no Ohsho",
+   "cuisine": "chinese;gyoza",
+   "opening_hours": "Mo-Th 11:00-23:30;Fr-Sa 11:00-24:00;PH,Su 11:00-22:30",
+   "brand": "餃子の王将"
+  },
+  {
+   "osm": "way/422920644",
+   "category": "restaurant",
+   "lat": 34.8396386,
+   "lon": 135.6170523,
+   "name": "のら屋"
+  },
+  {
+   "osm": "node/5283585736",
+   "category": "restaurant",
+   "lat": 34.8484794,
+   "lon": 135.6228787,
+   "name": "鉄板キュイージーヌ フー"
+  },
+  {
+   "osm": "node/5283585740",
+   "category": "pub",
+   "lat": 34.8482162,
+   "lon": 135.6226288,
+   "name": "Muse Ball♪ パリ子"
+  },
+  {
+   "osm": "node/5283585735",
+   "category": "restaurant",
+   "lat": 34.8484158,
+   "lon": 135.6227709,
+   "name": "地鶏 蔵"
+  },
+  {
+   "osm": "node/5283586626",
+   "category": "pub",
+   "lat": 34.848634,
+   "lon": 135.6229342,
+   "name": "高槻スナック・アモーレ"
+  },
+  {
+   "osm": "node/14211725668",
+   "category": "pub",
+   "lat": 34.849304,
+   "lon": 135.623526,
+   "name": "鳥貴族",
+   "name_en": "Torikizoku",
+   "brand": "鳥貴族"
+  },
+  {
+   "osm": "node/5283586926",
+   "category": "pub",
+   "lat": 34.8484876,
+   "lon": 135.6227745,
+   "name": "+8"
+  },
+  {
+   "osm": "node/6123517285",
+   "category": "restaurant",
+   "lat": 34.8555425,
+   "lon": 135.6993956,
+   "name": "ルイジアナ・ママ 京都八幡店",
+   "name_en": "Louisiana Mama",
+   "cuisine": "italian;pasta;pizza",
+   "opening_hours": "Mo-Su 11:00-22:00"
+  },
+  {
+   "osm": "node/10864208009",
+   "category": "cafe",
+   "lat": 34.8407041,
+   "lon": 135.6174066,
+   "name": "Ras"
+  },
+  {
+   "osm": "node/5283585739",
+   "category": "restaurant",
+   "lat": 34.8483387,
+   "lon": 135.622571,
+   "name": "かにかくに鶏"
+  },
+  {
+   "osm": "node/5283585724",
+   "category": "restaurant",
+   "lat": 34.8493369,
+   "lon": 135.6234274,
+   "name": "CoCo壱番屋",
+   "name_en": "CoCo ICHIBANYA",
+   "cuisine": "curry;japanese",
+   "brand": "CoCo壱番屋"
+  },
+  {
+   "osm": "way/442376747",
+   "category": "cafe",
+   "lat": 34.848945,
+   "lon": 135.623063,
+   "name": "からふね屋"
+  },
+  {
+   "osm": "node/5283572627",
+   "category": "restaurant",
+   "lat": 34.8497272,
+   "lon": 135.6237537,
+   "name": "あぶりや",
+   "cuisine": "barbecue"
+  },
+  {
+   "osm": "node/5283585741",
+   "category": "pub",
+   "lat": 34.8482605,
+   "lon": 135.6224156,
+   "name": "高槻Destiny"
+  },
+  {
+   "osm": "node/6926410979",
+   "category": "restaurant",
+   "lat": 34.7848814,
+   "lon": 135.6442265,
+   "name": "ハイデ・ドイツ菓"
+  },
+  {
+   "osm": "node/5283585744",
+   "category": "restaurant",
+   "lat": 34.8479643,
+   "lon": 135.6221628,
+   "name": "炭火焼肉ハラミの向こう側",
+   "cuisine": "barbecue"
+  },
+  {
+   "osm": "node/5283586929",
+   "category": "restaurant",
+   "lat": 34.8478829,
+   "lon": 135.6220829,
+   "name": "一発屋 博多長浜ラーメン"
+  },
+  {
+   "osm": "node/5283586928",
+   "category": "bar",
+   "lat": 34.8484155,
+   "lon": 135.6225248,
+   "name": "宇久"
+  },
+  {
+   "osm": "node/5283585745",
+   "category": "restaurant",
+   "lat": 34.8479051,
+   "lon": 135.6220888,
+   "name": "創作お好み焼 鉄板いづみ"
+  },
+  {
+   "osm": "node/5283572642",
+   "category": "restaurant",
+   "lat": 34.8486475,
+   "lon": 135.622714,
+   "name": "はるぴん"
+  },
+  {
+   "osm": "node/5283586629",
+   "category": "restaurant",
+   "lat": 34.8483302,
+   "lon": 135.6224289,
+   "name": "料理道楽 築漸"
+  },
+  {
+   "osm": "node/5283572635",
+   "category": "restaurant",
+   "lat": 34.8487881,
+   "lon": 135.6228235,
+   "name": "にぎり鮨 すしてつ"
+  },
+  {
+   "osm": "node/10086861318",
+   "category": "restaurant",
+   "lat": 34.8499157,
+   "lon": 135.6238449,
+   "name": "津の田ミート"
+  },
+  {
+   "osm": "node/14211725651",
+   "category": "pub",
+   "lat": 34.8491288,
+   "lon": 135.6231147,
+   "name": "道場"
+  },
+  {
+   "osm": "node/14211725666",
+   "category": "pub",
+   "lat": 34.8493656,
+   "lon": 135.6232853,
+   "name": "高槻地下酒場"
+  },
+  {
+   "osm": "node/14211725654",
+   "category": "restaurant",
+   "lat": 34.8491892,
+   "lon": 135.6231154,
+   "name": "円蔵",
+   "cuisine": "barbecue"
+  },
+  {
+   "osm": "node/5971298901",
+   "category": "restaurant",
+   "lat": 34.784819,
+   "lon": 135.6441513,
+   "name": "Kitchen さくら"
+  },
+  {
+   "osm": "node/12196664084",
+   "category": "restaurant",
+   "lat": 34.8498477,
+   "lon": 135.6237075,
+   "name": "Tsunoda Curry",
+   "cuisine": "indian"
+  },
+  {
+   "osm": "node/5283585738",
+   "category": "pub",
+   "lat": 34.8484849,
+   "lon": 135.6224818,
+   "name": "Piano Lounge Allure"
+  },
+  {
+   "osm": "node/5283572636",
+   "category": "restaurant",
+   "lat": 34.8488834,
+   "lon": 135.622828,
+   "name": "かすうどん ガチンコ"
+  },
+  {
+   "osm": "node/5283586625",
+   "category": "bar",
+   "lat": 34.8485783,
+   "lon": 135.6225541,
+   "name": "炭焼き&ワイン酒場 Ebisu"
+  },
+  {
+   "osm": "node/14211725655",
+   "category": "restaurant",
+   "lat": 34.8491155,
+   "lon": 135.623003,
+   "name": "希望軒",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/5283586922",
+   "category": "pub",
+   "lat": 34.849358,
+   "lon": 135.6232174,
+   "name": "とも吉"
+  },
+  {
+   "osm": "node/4831974022",
+   "category": "restaurant",
+   "lat": 34.8479146,
+   "lon": 135.6219651,
+   "name": "チャンチ",
+   "cuisine": "korean"
+  },
+  {
+   "osm": "node/11634371323",
+   "category": "bar",
+   "lat": 34.8481929,
+   "lon": 135.6221947,
+   "name": "Bar Seven"
+  },
+  {
+   "osm": "node/5283572637",
+   "category": "pub",
+   "lat": 34.8489508,
+   "lon": 135.6228363,
+   "name": "カーニヴォ"
+  },
+  {
+   "osm": "node/4831974021",
+   "category": "restaurant",
+   "lat": 34.8481356,
+   "lon": 135.6221164,
+   "name": "香港屋",
+   "cuisine": "chinese"
+  },
+  {
+   "osm": "node/11634371324",
+   "category": "restaurant",
+   "lat": 34.8479244,
+   "lon": 135.6219392,
+   "name": "39 việt quán",
+   "cuisine": "vietnamese"
+  },
+  {
+   "osm": "node/5283585732",
+   "category": "bar",
+   "lat": 34.8486553,
+   "lon": 135.6225558,
+   "name": "居酒屋 だるま"
+  },
+  {
+   "osm": "node/7037590561",
+   "category": "cafe",
+   "lat": 34.8495189,
+   "lon": 135.6233159,
+   "name": "コメダ珈琲"
+  },
+  {
+   "osm": "way/601210584",
+   "category": "restaurant",
+   "lat": 34.8406961,
+   "lon": 135.6170917,
+   "name": "ドミノ・ピザ高槻城西店",
+   "cuisine": "pizza"
+  },
+  {
+   "osm": "node/5283585742",
+   "category": "restaurant",
+   "lat": 34.8482173,
+   "lon": 135.6221565,
+   "name": "餃子天国 阪急高槻店"
+  },
+  {
+   "osm": "node/4297490644",
+   "category": "restaurant",
+   "lat": 34.8493456,
+   "lon": 135.6231312,
+   "name": "とも吉",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/5283572638",
+   "category": "restaurant",
+   "lat": 34.8490233,
+   "lon": 135.6228336,
+   "name": "ビッキオーレ"
+  },
+  {
+   "osm": "node/5285528232",
+   "category": "pub",
+   "lat": 34.8474305,
+   "lon": 135.6214647,
+   "name": "Kitchen Ba松本"
+  },
+  {
+   "osm": "node/5283585746",
+   "category": "cafe",
+   "lat": 34.8480655,
+   "lon": 135.6219727,
+   "name": "喫茶白樺"
+  },
+  {
+   "osm": "node/5283572641",
+   "category": "pub",
+   "lat": 34.8485929,
+   "lon": 135.6223823,
+   "name": "スナック さくらん"
+  },
+  {
+   "osm": "node/12823412257",
+   "category": "cafe",
+   "lat": 34.849134,
+   "lon": 135.6228372,
+   "name": "Holly's Cafe"
+  },
+  {
+   "osm": "node/5283586930",
+   "category": "cafe",
+   "lat": 34.8481269,
+   "lon": 135.62196,
+   "name": "JKカフェ"
+  },
+  {
+   "osm": "node/5585565021",
+   "category": "fast_food",
+   "lat": 34.8496361,
+   "lon": 135.6232725,
+   "name": "麺屋　たけ井"
+  },
+  {
+   "osm": "node/5283586624",
+   "category": "pub",
+   "lat": 34.8486673,
+   "lon": 135.6223935,
+   "name": "スナック 由佳"
+  },
+  {
+   "osm": "node/5283585726",
+   "category": "pub",
+   "lat": 34.8491365,
+   "lon": 135.6227998,
+   "name": "JK's Bird"
+  },
+  {
+   "osm": "way/442378542",
+   "category": "restaurant",
+   "lat": 34.8484494,
+   "lon": 135.6221622,
+   "name": "小だるま"
+  },
+  {
+   "osm": "node/10086708117",
+   "category": "restaurant",
+   "lat": 34.8495612,
+   "lon": 135.6231136,
+   "name": "大起水産　街のみなと"
+  },
+  {
+   "osm": "node/5283586622",
+   "category": "restaurant",
+   "lat": 34.8491754,
+   "lon": 135.6227067,
+   "name": "世界の山ちゃん 阪急高槻店"
+  },
+  {
+   "osm": "node/5283572634",
+   "category": "fast_food",
+   "lat": 34.8493078,
+   "lon": 135.6228116,
+   "name": "じゃんぼ總本店 阪急高槻駅前店"
+  },
+  {
+   "osm": "node/11634371321",
+   "category": "restaurant",
+   "lat": 34.8484055,
+   "lon": 135.6220149,
+   "name": "焼肉やまかわ",
+   "cuisine": "barbecue"
+  },
+  {
+   "osm": "node/6029056485",
+   "category": "cafe",
+   "lat": 34.7836503,
+   "lon": 135.6831184,
+   "name": "喫茶&パブ ぷらす・わん"
+  },
+  {
+   "osm": "node/5283586632",
+   "category": "restaurant",
+   "lat": 34.8484564,
+   "lon": 135.6220129,
+   "name": "あか馬"
+  },
+  {
+   "osm": "node/4405447991",
+   "category": "fast_food",
+   "lat": 34.8492292,
+   "lon": 135.6226701,
+   "name": "松屋",
+   "name_en": "Matsuya",
+   "cuisine": "japanese",
+   "brand": "松屋"
+  },
+  {
+   "osm": "node/10983519921",
+   "category": "cafe",
+   "lat": 34.8428302,
+   "lon": 135.617934,
+   "name": "COFFEE 館"
+  },
+  {
+   "osm": "node/1731283465",
+   "category": "restaurant",
+   "lat": 34.786022,
+   "lon": 135.689657,
+   "name": "向井田 食堂",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/5974204590",
+   "category": "cafe",
+   "lat": 34.7810695,
+   "lon": 135.6602878,
+   "name": "カフェ・ル・ポン",
+   "name_en": "Cafe Le Pont"
+  },
+  {
+   "osm": "node/10983519920",
+   "category": "restaurant",
+   "lat": 34.8428915,
+   "lon": 135.6179102,
+   "name": "シマカレー",
+   "cuisine": "indian"
+  },
+  {
+   "osm": "node/5971323896",
+   "category": "bar",
+   "lat": 34.7829656,
+   "lon": 135.6488297,
+   "name": "鮮鶏炙処 よしだ家"
+  },
+  {
+   "osm": "node/5283585731",
+   "category": "restaurant",
+   "lat": 34.8486245,
+   "lon": 135.6220333,
+   "name": "祥来"
+  },
+  {
+   "osm": "node/5283586623",
+   "category": "restaurant",
+   "lat": 34.848784,
+   "lon": 135.6221513,
+   "name": "寿し圭"
+  },
+  {
+   "osm": "node/10656499405",
+   "category": "cafe",
+   "lat": 34.8465082,
+   "lon": 135.6203022,
+   "name": "Bonne Maman"
+  },
+  {
+   "osm": "node/6029009706",
+   "category": "fast_food",
+   "lat": 34.7833517,
+   "lon": 135.6825725,
+   "name": "ジャンボたこ焼き よっちゃん"
+  },
+  {
+   "osm": "node/5285521069",
+   "category": "cafe",
+   "lat": 34.8460056,
+   "lon": 135.619889,
+   "name": "珈琲屋ほっぺ"
+  },
+  {
+   "osm": "node/5283585728",
+   "category": "bar",
+   "lat": 34.8488273,
+   "lon": 135.6221171,
+   "name": "居酒屋 まんま"
+  },
+  {
+   "osm": "node/5285527936",
+   "category": "pub",
+   "lat": 34.8477199,
+   "lon": 135.6211812,
+   "name": "Bar Gran Reserva"
+  },
+  {
+   "osm": "node/5283572640",
+   "category": "restaurant",
+   "lat": 34.8486758,
+   "lon": 135.6219443,
+   "name": "牛串 ちん串"
+  },
+  {
+   "osm": "node/5283586925",
+   "category": "restaurant",
+   "lat": 34.848609,
+   "lon": 135.6218856,
+   "name": "インド料理 ナマステ タージマハル"
+  },
+  {
+   "osm": "node/7574421136",
+   "category": "restaurant",
+   "lat": 34.8501938,
+   "lon": 135.623286,
+   "name": "フレンチバル Cou Cou",
+   "cuisine": "french"
+  },
+  {
+   "osm": "node/5971325286",
+   "category": "bar",
+   "lat": 34.782834,
+   "lon": 135.6488411,
+   "name": "魚酒炭菜おどりや 成田東店"
+  },
+  {
+   "osm": "node/11091198700",
+   "category": "restaurant",
+   "lat": 34.8488851,
+   "lon": 135.6220572,
+   "name": "タケル",
+   "cuisine": "steak_house"
+  },
+  {
+   "osm": "node/1166259551",
+   "category": "restaurant",
+   "lat": 34.7819576,
+   "lon": 135.6523281,
+   "name": "コシニール"
+  },
+  {
+   "osm": "node/13797683217",
+   "category": "ice_cream",
+   "lat": 34.8497127,
+   "lon": 135.6226673,
+   "name": "サーティワンアイスクリーム",
+   "name_en": "Baskin-Robbins",
+   "brand": "バスキン・ロビンス"
+  },
+  {
+   "osm": "node/12823412260",
+   "category": "cafe",
+   "lat": 34.8495418,
+   "lon": 135.6224948,
+   "name": "Tully's Coffee"
+  },
+  {
+   "osm": "node/5283585730",
+   "category": "bar",
+   "lat": 34.8487663,
+   "lon": 135.621807,
+   "name": "赤ちょうちん"
+  },
+  {
+   "osm": "node/5971298905",
+   "category": "restaurant",
+   "lat": 34.7818859,
+   "lon": 135.6519757,
+   "name": "CoCo壱番屋",
+   "name_en": "CoCo ICHIBANYA",
+   "cuisine": "curry;japanese",
+   "brand": "CoCo壱番屋"
+  },
+  {
+   "osm": "node/5971323899",
+   "category": "restaurant",
+   "lat": 34.7816621,
+   "lon": 135.653086,
+   "name": "サフラン",
+   "cuisine": "indian"
+  },
+  {
+   "osm": "node/5971323900",
+   "category": "restaurant",
+   "lat": 34.7815962,
+   "lon": 135.6533475,
+   "name": "寿司藤喜"
+  },
+  {
+   "osm": "node/5971323893",
+   "category": "restaurant",
+   "lat": 34.7843174,
+   "lon": 135.6432253,
+   "name": "得得うどん"
+  },
+  {
+   "osm": "node/5974204585",
+   "category": "cafe",
+   "lat": 34.7810614,
+   "lon": 135.6561363,
+   "name": "珈琲工房 まめ福"
+  },
+  {
+   "osm": "node/2384110858",
+   "category": "restaurant",
+   "lat": 34.7840816,
+   "lon": 135.643603,
+   "name": "すし政",
+   "cuisine": "sushi"
+  },
+  {
+   "osm": "node/5971323898",
+   "category": "fast_food",
+   "lat": 34.7816231,
+   "lon": 135.6522894,
+   "name": "たこ焼き 藤田川"
+  },
+  {
+   "osm": "node/5971310393",
+   "category": "restaurant",
+   "lat": 34.7815284,
+   "lon": 135.6524758,
+   "name": "朱夏"
+  },
+  {
+   "osm": "node/5971323897",
+   "category": "restaurant",
+   "lat": 34.7816377,
+   "lon": 135.6518818,
+   "name": "鉄板べろにこ"
+  },
+  {
+   "osm": "node/5279270321",
+   "category": "restaurant",
+   "lat": 34.849611,
+   "lon": 135.6220022,
+   "name": "美味焼肉いただき 阪急高槻店"
+  },
+  {
+   "osm": "node/5329318622",
+   "category": "restaurant",
+   "lat": 34.8491314,
+   "lon": 135.6215695,
+   "name": "ガスト",
+   "name_en": "Gusto",
+   "cuisine": "western;japanese",
+   "brand": "ガスト"
+  },
+  {
+   "osm": "way/490784097",
+   "category": "restaurant",
+   "lat": 34.8493778,
+   "lon": 135.6216907,
+   "name": "魂心家"
+  },
+  {
+   "osm": "node/5279269421",
+   "category": "restaurant",
+   "lat": 34.8497834,
+   "lon": 135.6220042,
+   "name": "がんてつ 高槻店"
+  },
+  {
+   "osm": "node/7446781018",
+   "category": "pub",
+   "lat": 34.8501134,
+   "lon": 135.6223003,
+   "name": "morimoto"
+  },
+  {
+   "osm": "node/5329318621",
+   "category": "restaurant",
+   "lat": 34.8490001,
+   "lon": 135.6213124,
+   "name": "家族亭"
+  },
+  {
+   "osm": "node/5279204836",
+   "category": "restaurant",
+   "lat": 34.8493606,
+   "lon": 135.6215964,
+   "name": "Rocca & Friends Creperie"
+  },
+  {
+   "osm": "node/10913851988",
+   "category": "fast_food",
+   "lat": 34.842283,
+   "lon": 135.616571,
+   "name": "ロッテリア",
+   "name_en": "Lotteria",
+   "cuisine": "burger",
+   "brand": "ロッテリア"
+  },
+  {
+   "osm": "node/5279204837",
+   "category": "cafe",
+   "lat": 34.850173,
+   "lon": 135.6223188,
+   "name": "三番街"
+  },
+  {
+   "osm": "node/5279265128",
+   "category": "restaurant",
+   "lat": 34.8494602,
+   "lon": 135.6216493,
+   "name": "韓国料理とお酒 てつ"
+  },
+  {
+   "osm": "node/5285528230",
+   "category": "restaurant",
+   "lat": 34.8484699,
+   "lon": 135.6207856,
+   "name": "一品料理 ひでとら"
+  },
+  {
+   "osm": "node/5285527938",
+   "category": "fast_food",
+   "lat": 34.8476057,
+   "lon": 135.6200564,
+   "name": "お好み焼 とんぼ"
+  },
+  {
+   "osm": "node/5329318623",
+   "category": "restaurant",
+   "lat": 34.8488968,
+   "lon": 135.6210969,
+   "name": "サイゼリヤ",
+   "name_en": "Saizeriya",
+   "cuisine": "italian",
+   "opening_hours": "10:00-24:00",
+   "brand": "サイゼリヤ"
+  },
+  {
+   "osm": "node/5279265130",
+   "category": "pub",
+   "lat": 34.8500965,
+   "lon": 135.6221466,
+   "name": "個室居酒屋 くいもの屋 わん 阪急高槻店"
+  },
+  {
+   "osm": "node/4991847912",
+   "category": "restaurant",
+   "lat": 34.8455175,
+   "lon": 135.6185003,
+   "name": "らぁ麺屋 はりねずみ",
+   "cuisine": "noodle"
+  },
+  {
+   "osm": "node/5285527940",
+   "category": "restaurant",
+   "lat": 34.8475137,
+   "lon": 135.6199329,
+   "name": "うまかよいか"
+  },
+  {
+   "osm": "node/5285527934",
+   "category": "restaurant",
+   "lat": 34.847933,
+   "lon": 135.6202553,
+   "name": "エアーズロック",
+   "name_en": "Ayers Rock"
+  },
+  {
+   "osm": "node/5285521053",
+   "category": "cafe",
+   "lat": 34.848048,
+   "lon": 135.6203322,
+   "name": "ココカフェ"
+  },
+  {
+   "osm": "node/5285527933",
+   "category": "bar",
+   "lat": 34.8485368,
+   "lon": 135.620717,
+   "name": "たご作 阪急高槻店"
+  },
+  {
+   "osm": "node/5279204839",
+   "category": "restaurant",
+   "lat": 34.8504135,
+   "lon": 135.622357,
+   "name": "一寸法師"
+  },
+  {
+   "osm": "node/5279204847",
+   "category": "restaurant",
+   "lat": 34.8505757,
+   "lon": 135.6224979,
+   "name": "凛太郎"
+  },
+  {
+   "osm": "node/5285527942",
+   "category": "restaurant",
+   "lat": 34.8462864,
+   "lon": 135.6189454,
+   "name": "ごまふる"
+  },
+  {
+   "osm": "node/6123167708",
+   "category": "fast_food",
+   "lat": 34.8531813,
+   "lon": 135.7047142,
+   "name": "一蘭",
+   "name_en": "Ichiran",
+   "cuisine": "noodle",
+   "opening_hours": "24/7"
+  },
+  {
+   "osm": "node/5285521052",
+   "category": "cafe",
+   "lat": 34.8484779,
+   "lon": 135.6206234,
+   "name": "プースカフェ"
+  },
+  {
+   "osm": "node/5285521068",
+   "category": "cafe",
+   "lat": 34.8454062,
+   "lon": 135.6182976,
+   "name": "バナナジュース専門店 クラムスバナナ",
+   "name_en": "Crams Banana"
+  },
+  {
+   "osm": "node/5285521057",
+   "category": "cafe",
+   "lat": 34.847816,
+   "lon": 135.6200727,
+   "name": "カフェ ニュートラル"
+  },
+  {
+   "osm": "node/7446781020",
+   "category": "pub",
+   "lat": 34.8501603,
+   "lon": 135.622058,
+   "name": "山内農場"
+  },
+  {
+   "osm": "node/9506882017",
+   "category": "cafe",
+   "lat": 34.8403201,
+   "lon": 135.6152859,
+   "name": "加賀"
+  },
+  {
+   "osm": "node/9039347717",
+   "category": "restaurant",
+   "lat": 34.8497617,
+   "lon": 135.6216254,
+   "name": "くそオヤジ最後のひとふり"
+  },
+  {
+   "osm": "node/5285527937",
+   "category": "restaurant",
+   "lat": 34.8479501,
+   "lon": 135.620097,
+   "name": "ル コワン ディススレ",
+   "name_en": "Le Coin Discret"
+  },
+  {
+   "osm": "node/13149637377",
+   "category": "pub",
+   "lat": 34.8495944,
+   "lon": 135.6214651,
+   "name": "盤石"
+  },
+  {
+   "osm": "node/5281669348",
+   "category": "cafe",
+   "lat": 34.8524608,
+   "lon": 135.6241978,
+   "name": "ドトールコーヒー 大阪医大店"
+  },
+  {
+   "osm": "node/5285527939",
+   "category": "cafe",
+   "lat": 34.8476287,
+   "lon": 135.6198218,
+   "name": "喫茶ジュン"
+  },
+  {
+   "osm": "node/13149637376",
+   "category": "bar",
+   "lat": 34.8496302,
+   "lon": 135.6214558,
+   "name": "将棋bar kozy"
+  },
+  {
+   "osm": "node/5279204863",
+   "category": "restaurant",
+   "lat": 34.8492436,
+   "lon": 135.6211173,
+   "name": "多津屋"
+  },
+  {
+   "osm": "node/5285527941",
+   "category": "restaurant",
+   "lat": 34.8475374,
+   "lon": 135.6196998,
+   "name": "お食事 山彦"
+  },
+  {
+   "osm": "node/11708593785",
+   "category": "restaurant",
+   "lat": 34.8499723,
+   "lon": 135.6217147,
+   "name": "サバイ サバイ タイ レストラン",
+   "name_en": "Sabai Sabai ThaiRestaurant",
+   "cuisine": "thai"
+  },
+  {
+   "osm": "node/5279265131",
+   "category": "restaurant",
+   "lat": 34.8501371,
+   "lon": 135.6218557,
+   "name": "餃々 高槻駅前店"
+  },
+  {
+   "osm": "node/4829734883",
+   "category": "restaurant",
+   "lat": 34.8499329,
+   "lon": 135.6216672,
+   "name": "彩色ラーメン きんせい",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/5974144889",
+   "category": "restaurant",
+   "lat": 34.7802537,
+   "lon": 135.6577361,
+   "name": "うどん・そば処 味万"
+  },
+  {
+   "osm": "node/7828817992",
+   "category": "restaurant",
+   "lat": 34.8607938,
+   "lon": 135.6942006,
+   "name": "おおの"
+  },
+  {
+   "osm": "node/7446781017",
+   "category": "pub",
+   "lat": 34.8501675,
+   "lon": 135.6218376,
+   "name": "炭火焼き 鳥とん"
+  },
+  {
+   "osm": "node/5279258227",
+   "category": "restaurant",
+   "lat": 34.8500174,
+   "lon": 135.6216912,
+   "name": "やよい軒 高槻店"
+  },
+  {
+   "osm": "node/5279204861",
+   "category": "restaurant",
+   "lat": 34.8494092,
+   "lon": 135.62114,
+   "name": "ゆったりソファ×イタリアンバル Stera"
+  },
+  {
+   "osm": "node/5285521055",
+   "category": "restaurant",
+   "lat": 34.8482045,
+   "lon": 135.6201152,
+   "name": "あした葉なかや"
+  },
+  {
+   "osm": "node/12437019628",
+   "category": "pub",
+   "lat": 34.8501527,
+   "lon": 135.6217776,
+   "name": "えん"
+  },
+  {
+   "osm": "node/5279271521",
+   "category": "restaurant",
+   "lat": 34.8504208,
+   "lon": 135.6219962,
+   "name": "蛸源"
+  },
+  {
+   "osm": "node/5279204840",
+   "category": "bar",
+   "lat": 34.8501543,
+   "lon": 135.6217043,
+   "name": "がんこ寿司 高槻店"
+  },
+  {
+   "osm": "node/5219030792",
+   "category": "restaurant",
+   "lat": 34.8588019,
+   "lon": 135.6319925,
+   "name": "ふじ好",
+   "cuisine": "noodle"
+  },
+  {
+   "osm": "node/5279265132",
+   "category": "bar",
+   "lat": 34.8506844,
+   "lon": 135.6221643,
+   "name": "G.G.G"
+  },
+  {
+   "osm": "node/5279204860",
+   "category": "restaurant",
+   "lat": 34.8493844,
+   "lon": 135.6209969,
+   "name": "La Sara",
+   "opening_hours": "12:00-20:00"
+  },
+  {
+   "osm": "node/5279204865",
+   "category": "bar",
+   "lat": 34.8487985,
+   "lon": 135.620499,
+   "name": "うどん居酒屋 新玄"
+  },
+  {
+   "osm": "node/5279204864",
+   "category": "restaurant",
+   "lat": 34.8487648,
+   "lon": 135.620389,
+   "name": "らーめん桜坂"
+  },
+  {
+   "osm": "way/575151608",
+   "category": "fast_food",
+   "lat": 34.8395099,
+   "lon": 135.7153082,
+   "name": "ケンタッキーフライドチキン",
+   "name_en": "KFC",
+   "cuisine": "chicken",
+   "brand": "ケンタッキーフライドチキン"
+  },
+  {
+   "osm": "node/5279265330",
+   "category": "restaurant",
+   "lat": 34.8507818,
+   "lon": 135.622111,
+   "name": "ごはんや要兵衛"
+  },
+  {
+   "osm": "node/7500946181",
+   "category": "restaurant",
+   "lat": 34.8502283,
+   "lon": 135.6215972,
+   "name": "ななな"
+  },
+  {
+   "osm": "node/9506882018",
+   "category": "restaurant",
+   "lat": 34.8402216,
+   "lon": 135.6147884,
+   "name": "宅配寿司 銀のさら"
+  },
+  {
+   "osm": "node/5279204846",
+   "category": "cafe",
+   "lat": 34.8506127,
+   "lon": 135.6219142,
+   "name": "Hermet Green Cafe"
+  },
+  {
+   "osm": "node/12912772466",
+   "category": "restaurant",
+   "lat": 34.8502296,
+   "lon": 135.6215648,
+   "name": "河童本舗",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/5285528234",
+   "category": "restaurant",
+   "lat": 34.8480049,
+   "lon": 135.6196771,
+   "name": "台湾屋台 御気樂"
+  },
+  {
+   "osm": "node/5857671385",
+   "category": "fast_food",
+   "lat": 34.8479932,
+   "lon": 135.6196536,
+   "name": "GYOKAI RAMEN 3104丁目",
+   "cuisine": "noodle"
+  },
+  {
+   "osm": "node/5279265336",
+   "category": "cafe",
+   "lat": 34.8493976,
+   "lon": 135.6208051,
+   "name": "壱番館"
+  },
+  {
+   "osm": "node/7446781163",
+   "category": "pub",
+   "lat": 34.8492527,
+   "lon": 135.6206213,
+   "name": "大阪MANMARU"
+  },
+  {
+   "osm": "node/7500946165",
+   "category": "pub",
+   "lat": 34.850176,
+   "lon": 135.6214102,
+   "name": "勝男"
+  },
+  {
+   "osm": "node/5279265143",
+   "category": "restaurant",
+   "lat": 34.8491504,
+   "lon": 135.6205086,
+   "name": "クンセイラヴァー Fumo"
+  },
+  {
+   "osm": "node/6123191685",
+   "category": "fast_food",
+   "lat": 34.8535969,
+   "lon": 135.7050449,
+   "name": "くら寿司",
+   "name_en": "Kurazushi",
+   "cuisine": "sushi",
+   "opening_hours": "Mo-Su 11:00-23:00",
+   "brand": "くら寿司"
+  },
+  {
+   "osm": "node/11458396058",
+   "category": "restaurant",
+   "lat": 34.8479109,
+   "lon": 135.6194735,
+   "name": "天ぷらと。"
+  },
+  {
+   "osm": "node/11612531136",
+   "category": "restaurant",
+   "lat": 34.8498087,
+   "lon": 135.6210431,
+   "name": "はまちゃん",
+   "cuisine": "barbecue"
+  },
+  {
+   "osm": "way/576610273",
+   "category": "restaurant",
+   "lat": 34.834716,
+   "lon": 135.7173216,
+   "name": "かつアンドかつ",
+   "opening_hours": "Mo-Su 11:00-22:00"
+  },
+  {
+   "osm": "node/7500946161",
+   "category": "bar",
+   "lat": 34.8499997,
+   "lon": 135.6211959,
+   "name": "jun"
+  },
+  {
+   "osm": "node/5279204857",
+   "category": "cafe",
+   "lat": 34.8496497,
+   "lon": 135.6208881,
+   "name": "純喫茶モン"
+  },
+  {
+   "osm": "node/7037533270",
+   "category": "restaurant",
+   "lat": 34.8493004,
+   "lon": 135.6205669,
+   "name": "スパイシー高槻"
+  },
+  {
+   "osm": "node/7500946162",
+   "category": "pub",
+   "lat": 34.8500489,
+   "lon": 135.6211999,
+   "name": "トリノマ"
+  },
+  {
+   "osm": "node/5279270325",
+   "category": "restaurant",
+   "lat": 34.848937,
+   "lon": 135.6202376,
+   "name": "彩鶏だいにんぐ 氣Dori"
+  },
+  {
+   "osm": "node/7500946180",
+   "category": "restaurant",
+   "lat": 34.8503439,
+   "lon": 135.6214464,
+   "name": "ZANSAN",
+   "cuisine": "italian"
+  },
+  {
+   "osm": "node/6202611585",
+   "category": "fast_food",
+   "lat": 34.8478723,
+   "lon": 135.619367,
+   "name": "一期一麺"
+  },
+  {
+   "osm": "node/7500946160",
+   "category": "restaurant",
+   "lat": 34.850047,
+   "lon": 135.6211644,
+   "name": "肉寿司"
+  },
+  {
+   "osm": "node/5279265341",
+   "category": "restaurant",
+   "lat": 34.8491662,
+   "lon": 135.6203793,
+   "name": "ラーメン鱗"
+  },
+  {
+   "osm": "node/11458365457",
+   "category": "pub",
+   "lat": 34.8477678,
+   "lon": 135.6192391,
+   "name": "居酒屋 美鶴"
+  },
+  {
+   "osm": "way/777206213",
+   "category": "restaurant",
+   "lat": 34.8433606,
+   "lon": 135.7135886,
+   "name": "きんのぶた　松井山手店"
+  },
+  {
+   "osm": "node/13797685464",
+   "category": "restaurant",
+   "lat": 34.8503403,
+   "lon": 135.6213766,
+   "name": "HAWAIIAN CAFE&DINING",
+   "cuisine": "asian"
+  },
+  {
+   "osm": "node/5279204852",
+   "category": "restaurant",
+   "lat": 34.8500383,
+   "lon": 135.6210918,
+   "name": "焼肉 牛浪漫 高槻本通り店"
+  },
+  {
+   "osm": "node/5279265139",
+   "category": "pub",
+   "lat": 34.850417,
+   "lon": 135.6214224,
+   "name": "鳥せゑ"
+  },
+  {
+   "osm": "node/5279204850",
+   "category": "bar",
+   "lat": 34.8502338,
+   "lon": 135.6212492,
+   "name": "魚鮮水産"
+  },
+  {
+   "osm": "node/11458365456",
+   "category": "bar",
+   "lat": 34.8477705,
+   "lon": 135.6191951,
+   "name": "ROCKROSES"
+  },
+  {
+   "osm": "node/7463834662",
+   "category": "cafe",
+   "lat": 34.8503868,
+   "lon": 135.6213773,
+   "name": "風",
+   "name_en": "fuu"
+  },
+  {
+   "osm": "node/11458365455",
+   "category": "bar",
+   "lat": 34.847765,
+   "lon": 135.619173,
+   "name": "BAR BACCHOUS"
+  },
+  {
+   "osm": "node/5279204845",
+   "category": "cafe",
+   "lat": 34.8506208,
+   "lon": 135.6215725,
+   "name": "Pike"
+  },
+  {
+   "osm": "node/12704831732",
+   "category": "fast_food",
+   "lat": 34.83516,
+   "lon": 135.7173473,
+   "name": "はま寿司",
+   "name_en": "Hamasushi",
+   "cuisine": "sushi",
+   "brand": "はま寿司"
+  },
+  {
+   "osm": "node/5279204858",
+   "category": "restaurant",
+   "lat": 34.8496494,
+   "lon": 135.6207056,
+   "name": "Urge 高槻店"
+  },
+  {
+   "osm": "node/5279265133",
+   "category": "restaurant",
+   "lat": 34.8509198,
+   "lon": 135.6218419,
+   "name": "ステーキ割烹 Tsuki"
+  },
+  {
+   "osm": "node/5279265331",
+   "category": "restaurant",
+   "lat": 34.8507735,
+   "lon": 135.6217,
+   "name": "プラス39"
+  },
+  {
+   "osm": "node/5279265140",
+   "category": "bar",
+   "lat": 34.8501824,
+   "lon": 135.621161,
+   "name": "さかなや道場 高槻店"
+  },
+  {
+   "osm": "node/5285521059",
+   "category": "cafe",
+   "lat": 34.847753,
+   "lon": 135.6191265,
+   "name": "Cafe121"
+  },
+  {
+   "osm": "node/7463834676",
+   "category": "ice_cream",
+   "lat": 34.8505384,
+   "lon": 135.6214434,
+   "name": "21時にアイス"
+  },
+  {
+   "osm": "node/12333467199",
+   "category": "pub",
+   "lat": 34.8463766,
+   "lon": 135.6180785,
+   "name": "やきとり大吉"
+  },
+  {
+   "osm": "node/5279204869",
+   "category": "restaurant",
+   "lat": 34.848969,
+   "lon": 135.62007,
+   "name": "まいどおいど"
+  },
+  {
+   "osm": "node/5517524766",
+   "category": "restaurant",
+   "lat": 34.839997,
+   "lon": 135.7154962,
+   "name": "ベビーフェイスプラネッツ",
+   "name_en": "ベビーフェイスプラネッツ 松井山手店",
+   "cuisine": "italian",
+   "opening_hours": "Mo-Su 11:00-00:00"
+  },
+  {
+   "osm": "node/5279204844",
+   "category": "restaurant",
+   "lat": 34.8508711,
+   "lon": 135.6217324,
+   "name": "フレンチバル 創作ダイニング Take"
+  },
+  {
+   "osm": "node/8221428073",
+   "category": "fast_food",
+   "lat": 34.8429692,
+   "lon": 135.7139501,
+   "name": "吉野家",
+   "name_en": "Yoshinoya",
+   "cuisine": "beef_bowl",
+   "brand": "吉野家"
+  },
+  {
+   "osm": "node/5279265334",
+   "category": "pub",
+   "lat": 34.8505476,
+   "lon": 135.6214259,
+   "name": "JK 高槻"
+  },
+  {
+   "osm": "node/5517524771",
+   "category": "restaurant",
+   "lat": 34.8398085,
+   "lon": 135.7156173,
+   "name": "牛角",
+   "name_en": "Gyū-Kaku",
+   "cuisine": "barbecue",
+   "brand": "牛角"
+  },
+  {
+   "osm": "node/5517524772",
+   "category": "restaurant",
+   "lat": 34.8397045,
+   "lon": 135.7156841,
+   "name": "かつ屋"
+  },
+  {
+   "osm": "node/1927245987",
+   "category": "fast_food",
+   "lat": 34.8682549,
+   "lon": 135.6592023,
+   "name": "マクドナルド",
+   "name_en": "McDonald's",
+   "cuisine": "burger",
+   "brand": "マクドナルド"
+  },
+  {
+   "osm": "node/5279265135",
+   "category": "restaurant",
+   "lat": 34.8506508,
+   "lon": 135.6214251,
+   "name": "一心 大坂高槻店"
+  },
+  {
+   "osm": "way/574771681",
+   "category": "restaurant",
+   "lat": 34.83717,
+   "lon": 135.7167975,
+   "name": "丸亀製麺",
+   "name_en": "Marugame Seimen",
+   "cuisine": "noodle",
+   "brand": "丸亀製麺"
+  },
+  {
+   "osm": "node/1952113935",
+   "category": "cafe",
+   "lat": 34.812687,
+   "lon": 135.7175285,
+   "name": "コメダcoffee",
+   "cuisine": "coffee_shop"
+  },
+  {
+   "osm": "node/5279204866",
+   "category": "restaurant",
+   "lat": 34.8493207,
+   "lon": 135.6202243,
+   "name": "寿司 若狭屋"
+  },
+  {
+   "osm": "node/5279265137",
+   "category": "bar",
+   "lat": 34.8504037,
+   "lon": 135.6211373,
+   "name": "オールズ",
+   "name_en": "OARS"
+  },
+  {
+   "osm": "node/5279265343",
+   "category": "restaurant",
+   "lat": 34.8487419,
+   "lon": 135.6196754,
+   "name": "スタンド割烹 かい"
+  },
+  {
+   "osm": "node/5279267222",
+   "category": "restaurant",
+   "lat": 34.8486869,
+   "lon": 135.6196306,
+   "name": "味のふところ へんみ"
+  },
+  {
+   "osm": "node/5279265342",
+   "category": "restaurant",
+   "lat": 34.8488453,
+   "lon": 135.6197428,
+   "name": "さふらん"
+  },
+  {
+   "osm": "node/13240140766",
+   "category": "restaurant",
+   "lat": 34.8613575,
+   "lon": 135.6945967,
+   "name": "トラットリア ラ フォンテ",
+   "cuisine": "italian"
+  },
+  {
+   "osm": "node/5279204848",
+   "category": "bar",
+   "lat": 34.8510174,
+   "lon": 135.6216305,
+   "name": "四万十川"
+  },
+  {
+   "osm": "node/13111859568",
+   "category": "restaurant",
+   "lat": 34.8496729,
+   "lon": 135.6203942,
+   "name": "丼一番",
+   "name_en": "DONBURI ICHIBAN",
+   "cuisine": "barbecue"
+  },
+  {
+   "osm": "node/7486081601",
+   "category": "restaurant",
+   "lat": 34.8499922,
+   "lon": 135.6206675,
+   "name": "焼肉 しがらき"
+  },
+  {
+   "osm": "node/7463834657",
+   "category": "pub",
+   "lat": 34.8504149,
+   "lon": 135.6210306,
+   "name": "炭火料理 炭摂家",
+   "opening_hours": "11:00-24:00"
+  },
+  {
+   "osm": "node/7486081602",
+   "category": "pub",
+   "lat": 34.8500382,
+   "lon": 135.6206692,
+   "name": "やきとり屋 すみれ"
+  },
+  {
+   "osm": "node/5279265333",
+   "category": "bar",
+   "lat": 34.8508222,
+   "lon": 135.6213576,
+   "name": "なにわ味 贔屓屋 高槻店"
+  },
+  {
+   "osm": "node/7177235585",
+   "category": "bar",
+   "lat": 34.8504102,
+   "lon": 135.6209536,
+   "name": "CASA KI·CHI·LI"
+  },
+  {
+   "osm": "node/7446781126",
+   "category": "pub",
+   "lat": 34.8495842,
+   "lon": 135.6201978,
+   "name": "杉玉"
+  },
+  {
+   "osm": "node/13797647479",
+   "category": "pub",
+   "lat": 34.8512065,
+   "lon": 135.6216403,
+   "name": "四万十川"
+  },
+  {
+   "osm": "node/5279265148",
+   "category": "restaurant",
+   "lat": 34.8486186,
+   "lon": 135.6193872,
+   "name": "一牛"
+  },
+  {
+   "osm": "node/5279265344",
+   "category": "restaurant",
+   "lat": 34.8487153,
+   "lon": 135.6194478,
+   "name": "ハットトリック"
+  },
+  {
+   "osm": "node/11612515702",
+   "category": "restaurant",
+   "lat": 34.8496306,
+   "lon": 135.6201984,
+   "name": "Le NAPOLI PRESTO",
+   "cuisine": "pizza"
+  },
+  {
+   "osm": "node/13625154909",
+   "category": "cafe",
+   "lat": 34.8510375,
+   "lon": 135.6214401,
+   "name": "手づくりカフェ"
+  },
+  {
+   "osm": "node/13797647478",
+   "category": "restaurant",
+   "lat": 34.8512642,
+   "lon": 135.621644,
+   "name": "ヴァスコ・ダ・ガマ",
+   "cuisine": "indian"
+  },
+  {
+   "osm": "node/5279204870",
+   "category": "fast_food",
+   "lat": 34.8493272,
+   "lon": 135.6199162,
+   "name": "マクドナルド",
+   "name_en": "McDonald's",
+   "cuisine": "burger",
+   "brand": "マクドナルド"
+  },
+  {
+   "osm": "node/13797640128",
+   "category": "restaurant",
+   "lat": 34.851038,
+   "lon": 135.6213964,
+   "name": "哲学カレー",
+   "cuisine": "indian"
+  },
+  {
+   "osm": "node/13625154908",
+   "category": "fast_food",
+   "lat": 34.8510973,
+   "lon": 135.6214455,
+   "name": "博多長浜ラーメンいち花",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/5279204854",
+   "category": "pub",
+   "lat": 34.8500321,
+   "lon": 135.6204788,
+   "name": "旨唐揚げと居酒メシ ミライザカ 高槻店"
+  },
+  {
+   "osm": "node/5285527948",
+   "category": "restaurant",
+   "lat": 34.843697,
+   "lon": 135.6158542,
+   "name": "餃子の王将 高槻市役所前店"
+  },
+  {
+   "osm": "node/5279305121",
+   "category": "pub",
+   "lat": 34.8511338,
+   "lon": 135.6214491,
+   "name": "アイラ"
+  },
+  {
+   "osm": "node/5279265145",
+   "category": "restaurant",
+   "lat": 34.8492095,
+   "lon": 135.6197433,
+   "name": "おたふく"
+  },
+  {
+   "osm": "node/11612555390",
+   "category": "cafe",
+   "lat": 34.8496571,
+   "lon": 135.62012,
+   "name": "タイムリー"
+  },
+  {
+   "osm": "way/581520945",
+   "category": "restaurant",
+   "lat": 34.8448249,
+   "lon": 135.7133032,
+   "name": "麺処 森元",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "way/574992656",
+   "category": "restaurant",
+   "lat": 34.835762,
+   "lon": 135.7176666,
+   "name": "焼肉じゅうじゅうカルビ 松井山手店",
+   "cuisine": "barbecue"
+  },
+  {
+   "osm": "node/5971323891",
+   "category": "restaurant",
+   "lat": 34.7842757,
+   "lon": 135.6391659,
+   "name": "鮨楽さかえや"
+  },
+  {
+   "osm": "node/7486081605",
+   "category": "restaurant",
+   "lat": 34.8501802,
+   "lon": 135.6205213,
+   "name": "ふぐ義",
+   "cuisine": "fish"
+  },
+  {
+   "osm": "node/5279204853",
+   "category": "restaurant",
+   "lat": 34.8500664,
+   "lon": 135.6204125,
+   "name": "天ぷら海鮮 友福"
+  },
+  {
+   "osm": "node/4686832174",
+   "category": "pub",
+   "lat": 34.8512134,
+   "lon": 135.6214435,
+   "name": "はてなのちゃわん",
+   "opening_hours": "Mo-Sa 17:00-23:00;Su off"
+  },
+  {
+   "osm": "node/5285527943",
+   "category": "restaurant",
+   "lat": 34.8464622,
+   "lon": 135.6175355,
+   "name": "和献洋彩 にんにん 高槻店"
+  },
+  {
+   "osm": "node/5281672582",
+   "category": "restaurant",
+   "lat": 34.8498804,
+   "lon": 135.6201809,
+   "name": "お好み・鉄板焼 よしもと3号店"
+  },
+  {
+   "osm": "node/7446781258",
+   "category": "restaurant",
+   "lat": 34.8501881,
+   "lon": 135.6204379,
+   "name": "廻る元禄寿司",
+   "cuisine": "sushi"
+  },
+  {
+   "osm": "way/574992655",
+   "category": "restaurant",
+   "lat": 34.8356217,
+   "lon": 135.7178323,
+   "name": "資さんうどん",
+   "cuisine": "noodle"
+  },
+  {
+   "osm": "node/5285527946",
+   "category": "restaurant",
+   "lat": 34.8443007,
+   "lon": 135.6160411,
+   "name": "吉野家 高槻店",
+   "name_en": "Yoshinoya Takatsuki Branch",
+   "cuisine": "beef_bowl"
+  },
+  {
+   "osm": "node/5279265332",
+   "category": "bar",
+   "lat": 34.8513211,
+   "lon": 135.6214283,
+   "name": "美蔵"
+  },
+  {
+   "osm": "node/5279265335",
+   "category": "bar",
+   "lat": 34.8502506,
+   "lon": 135.6204418,
+   "name": "全席個室居酒屋 北海の恩返し 高槻店",
+   "opening_hours": "17:00-24:00"
+  },
+  {
+   "osm": "node/5281672942",
+   "category": "bar",
+   "lat": 34.8500671,
+   "lon": 135.6202438,
+   "name": "田中",
+   "opening_hours": "17:54-06:00"
+  },
+  {
+   "osm": "node/5279305022",
+   "category": "restaurant",
+   "lat": 34.8513379,
+   "lon": 135.6213204,
+   "name": "焼肉藤子"
+  },
+  {
+   "osm": "node/7446781249",
+   "category": "restaurant",
+   "lat": 34.8502071,
+   "lon": 135.6202701,
+   "name": "スパゲッティ マダム アンスイ",
+   "cuisine": "italian"
+  },
+  {
+   "osm": "node/5281672740",
+   "category": "bar",
+   "lat": 34.8501891,
+   "lon": 135.620241,
+   "name": "赤から 高槻店",
+   "opening_hours": "Mo-Fr 17:00-24:00; Sa-Su 16:00-24:00"
+  },
+  {
+   "osm": "node/5279270326",
+   "category": "restaurant",
+   "lat": 34.849217,
+   "lon": 135.6194018,
+   "name": "アユタヤ"
+  },
+  {
+   "osm": "node/7446781248",
+   "category": "restaurant",
+   "lat": 34.8502472,
+   "lon": 135.6202715,
+   "name": "料理屋 わさび"
+  },
+  {
+   "osm": "node/7446781247",
+   "category": "restaurant",
+   "lat": 34.8502872,
+   "lon": 135.6202729,
+   "name": "八金"
+  },
+  {
+   "osm": "node/5285521067",
+   "category": "restaurant",
+   "lat": 34.8441683,
+   "lon": 135.6157452,
+   "name": "めしや食堂 高槻店"
+  },
+  {
+   "osm": "node/11612564310",
+   "category": "restaurant",
+   "lat": 34.8496971,
+   "lon": 135.6196467,
+   "name": "ぱすとらる"
+  },
+  {
+   "osm": "node/7463834653",
+   "category": "restaurant",
+   "lat": 34.8503711,
+   "lon": 135.6202089,
+   "name": "しゃぶしゃぶ温野菜"
+  },
+  {
+   "osm": "node/5279265346",
+   "category": "pub",
+   "lat": 34.8476924,
+   "lon": 135.6180035,
+   "name": "スナック 一粋"
+  },
+  {
+   "osm": "node/5281672558",
+   "category": "restaurant",
+   "lat": 34.8504379,
+   "lon": 135.6202105,
+   "name": "地酒とそば 京風おでん 三間堂 高槻店"
+  },
+  {
+   "osm": "node/5281669349",
+   "category": "restaurant",
+   "lat": 34.8531559,
+   "lon": 135.6227578,
+   "name": "焼肉のふじ"
+  },
+  {
+   "osm": "node/5281672556",
+   "category": "bar",
+   "lat": 34.850259,
+   "lon": 135.6199808,
+   "name": "おだいどこはなれ 高槻店",
+   "opening_hours": "Mo-Th 11:30-24:00, Fr-Sa 11:30-01:00, Su 11:30-24:00"
+  },
+  {
+   "osm": "node/5281672557",
+   "category": "pub",
+   "lat": 34.850288,
+   "lon": 135.6199806,
+   "name": "ビリヤード・ダーツ&Food Bar Ozbuddy",
+   "opening_hours": "Mo-Th 14:00-02:00, Fr-Sa 14:00-03:00, Su 13:00-24:00"
+  },
+  {
+   "osm": "node/5281672559",
+   "category": "cafe",
+   "lat": 34.8504737,
+   "lon": 135.6200878,
+   "name": "ハートコーヒー"
+  },
+  {
+   "osm": "node/12100207679",
+   "category": "pub",
+   "lat": 34.8500341,
+   "lon": 135.6196932,
+   "name": "ちどり亭"
+  },
+  {
+   "osm": "node/5281672835",
+   "category": "pub",
+   "lat": 34.8500727,
+   "lon": 135.6196972,
+   "name": "くろき"
+  },
+  {
+   "osm": "node/5281672578",
+   "category": "restaurant",
+   "lat": 34.8500452,
+   "lon": 135.6196415,
+   "name": "出口屋",
+   "opening_hours": "17:00-02:00"
+  },
+  {
+   "osm": "node/5281672739",
+   "category": "restaurant",
+   "lat": 34.8502201,
+   "lon": 135.6197841,
+   "name": "ぷくぷく 焼肉しゃぶしゃぶ",
+   "opening_hours": "Mo-Fr 16:30-01:00, Sa-Su 11:30-14:00,16:30-01:00"
+  },
+  {
+   "osm": "node/5281672577",
+   "category": "restaurant",
+   "lat": 34.8500898,
+   "lon": 135.6195888,
+   "name": "磯丸水産 高槻店",
+   "opening_hours": "24/7"
+  },
+  {
+   "osm": "node/5281672555",
+   "category": "restaurant",
+   "lat": 34.8502555,
+   "lon": 135.6197146,
+   "name": "高槻肉劇場",
+   "opening_hours": "11:00-23:00"
+  },
+  {
+   "osm": "node/13390523886",
+   "category": "restaurant",
+   "lat": 34.8498957,
+   "lon": 135.6193818,
+   "name": "三代目石田てっぺい",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/5281669351",
+   "category": "restaurant",
+   "lat": 34.8533383,
+   "lon": 135.6225457,
+   "name": "呑み処食べ処 あじ彩"
+  },
+  {
+   "osm": "node/5281672553",
+   "category": "bar",
+   "lat": 34.85023,
+   "lon": 135.619607,
+   "name": "小だるま JR高槻駅前店",
+   "opening_hours": "Mo-Th 11:30-14:00,17:00-23:30; Fr-Su 11:30-14:30,17:00-00:30, Su 11:30-23:30"
+  },
+  {
+   "osm": "node/5281672560",
+   "category": "pub",
+   "lat": 34.8504823,
+   "lon": 135.6197021,
+   "name": "福田バー"
+  },
+  {
+   "osm": "node/5281672573",
+   "category": "restaurant",
+   "lat": 34.8496188,
+   "lon": 135.6189115,
+   "name": "小柳寿司"
+  },
+  {
+   "osm": "node/5281672561",
+   "category": "restaurant",
+   "lat": 34.8504673,
+   "lon": 135.6196019,
+   "name": "Pizzeria Vivo"
+  },
+  {
+   "osm": "node/5281672741",
+   "category": "restaurant",
+   "lat": 34.8506119,
+   "lon": 135.6196057,
+   "name": "らふ"
+  },
+  {
+   "osm": "node/5968343091",
+   "category": "bar",
+   "lat": 34.7877711,
+   "lon": 135.6306056,
+   "name": "居酒屋ゆみ"
+  },
+  {
+   "osm": "node/7463834631",
+   "category": "bar",
+   "lat": 34.8506443,
+   "lon": 135.6196072,
+   "name": "千扇"
+  },
+  {
+   "osm": "node/5281768722",
+   "category": "cafe",
+   "lat": 34.8494745,
+   "lon": 135.6186063,
+   "name": "カフェ&バール アルベルゴ"
+  },
+  {
+   "osm": "node/5281672562",
+   "category": "bar",
+   "lat": 34.850674,
+   "lon": 135.6196085,
+   "name": "おごじょ"
+  },
+  {
+   "osm": "node/2727772593",
+   "category": "restaurant",
+   "lat": 34.8506117,
+   "lon": 135.6195387,
+   "name": "亀八寿し",
+   "cuisine": "sushi"
+  },
+  {
+   "osm": "node/5281678321",
+   "category": "pub",
+   "lat": 34.8507286,
+   "lon": 135.619611,
+   "name": "Total Darts 8121"
+  },
+  {
+   "osm": "node/5281672552",
+   "category": "restaurant",
+   "lat": 34.850834,
+   "lon": 135.6196417,
+   "name": "割烹佐々木"
+  },
+  {
+   "osm": "node/5271546426",
+   "category": "bar",
+   "lat": 34.8570879,
+   "lon": 135.6262783,
+   "name": "酒宿したら"
+  },
+  {
+   "osm": "node/5281672755",
+   "category": "restaurant",
+   "lat": 34.8498239,
+   "lon": 135.6187399,
+   "name": "ここやねん 高槻駅前店"
+  },
+  {
+   "osm": "node/2391866926",
+   "category": "fast_food",
+   "lat": 34.8506241,
+   "lon": 135.6194209,
+   "name": "松屋",
+   "name_en": "Matsuya",
+   "cuisine": "japanese",
+   "brand": "松屋"
+  },
+  {
+   "osm": "node/5281672544",
+   "category": "restaurant",
+   "lat": 34.8533511,
+   "lon": 135.6219755,
+   "name": "イ・カンピ",
+   "cuisine": "italian"
+  },
+  {
+   "osm": "way/490783909",
+   "category": "restaurant",
+   "lat": 34.8491147,
+   "lon": 135.6180978,
+   "name": "あす流"
+  },
+  {
+   "osm": "node/5281672571",
+   "category": "cafe",
+   "lat": 34.8500328,
+   "lon": 135.6187763,
+   "name": "MOS&CAFE",
+   "name_en": "STARBUCKS"
+  },
+  {
+   "osm": "node/5285528237",
+   "category": "cafe",
+   "lat": 34.8442573,
+   "lon": 135.6146285,
+   "name": "栞"
+  },
+  {
+   "osm": "node/5281672551",
+   "category": "pub",
+   "lat": 34.8508273,
+   "lon": 135.6194334,
+   "name": "かぶら屋",
+   "cuisine": "ラーメン"
+  },
+  {
+   "osm": "node/5281672940",
+   "category": "restaurant",
+   "lat": 34.8499649,
+   "lon": 135.6186868,
+   "name": "鳥貴族"
+  },
+  {
+   "osm": "node/5281672933",
+   "category": "cafe",
+   "lat": 34.8533021,
+   "lon": 135.6217025,
+   "name": "Cafe & Diner Pluto"
+  },
+  {
+   "osm": "way/454637289",
+   "category": "restaurant",
+   "lat": 34.8185157,
+   "lon": 135.6091572,
+   "name": "スシロー高槻唐崎店",
+   "cuisine": "sushi",
+   "opening_hours": "Mo-Fr 11:00-23:00;Sa,Su 10:30-23:00"
+  },
+  {
+   "osm": "node/5968338525",
+   "category": "bar",
+   "lat": 34.7872876,
+   "lon": 135.6307465,
+   "name": "我心"
+  },
+  {
+   "osm": "node/5281672570",
+   "category": "restaurant",
+   "lat": 34.8498357,
+   "lon": 135.61837,
+   "name": "高槻味楽園"
+  },
+  {
+   "osm": "node/5281672550",
+   "category": "restaurant",
+   "lat": 34.8513899,
+   "lon": 135.6196764,
+   "name": "すし処 津ごう"
+  },
+  {
+   "osm": "node/5281672736",
+   "category": "restaurant",
+   "lat": 34.853189,
+   "lon": 135.6213473,
+   "name": "たご作 JR高槻店"
+  },
+  {
+   "osm": "node/5968338515",
+   "category": "pub",
+   "lat": 34.7871678,
+   "lon": 135.630618,
+   "name": "endurance"
+  },
+  {
+   "osm": "node/5623339721",
+   "category": "bar",
+   "lat": 34.8500547,
+   "lon": 135.6183809,
+   "name": "京月"
+  },
+  {
+   "osm": "node/5971323888",
+   "category": "restaurant",
+   "lat": 34.7846721,
+   "lon": 135.6348701,
+   "name": "熊猫軒",
+   "name_en": "Pandaken",
+   "cuisine": "chinese"
+  },
+  {
+   "osm": "node/5281672938",
+   "category": "restaurant",
+   "lat": 34.8510162,
+   "lon": 135.6190147,
+   "name": "宴どころ つきの井"
+  },
+  {
+   "osm": "node/5281672937",
+   "category": "cafe",
+   "lat": 34.8507931,
+   "lon": 135.6187412,
+   "name": "Harbs 松坂屋高槻店"
+  },
+  {
+   "osm": "node/5271547323",
+   "category": "restaurant",
+   "lat": 34.8587366,
+   "lon": 135.6274409,
+   "name": "作りうどん 拾得"
+  },
+  {
+   "osm": "node/5281672826",
+   "category": "cafe",
+   "lat": 34.8517107,
+   "lon": 135.6194686,
+   "name": "マリンナ"
+  },
+  {
+   "osm": "node/5281672745",
+   "category": "bar",
+   "lat": 34.8512198,
+   "lon": 135.6190209,
+   "name": "魚民 JR高槻南口駅前店"
+  },
+  {
+   "osm": "node/5968338513",
+   "category": "bar",
+   "lat": 34.7861658,
+   "lon": 135.6317248,
+   "name": "海賊",
+   "name_en": "Kaizoku"
+  },
+  {
+   "osm": "node/5968343089",
+   "category": "restaurant",
+   "lat": 34.7870507,
+   "lon": 135.6302189,
+   "name": "きゅうろく鉄板焼屋"
+  },
+  {
+   "osm": "node/5281672747",
+   "category": "cafe",
+   "lat": 34.8514962,
+   "lon": 135.619208,
+   "name": "ドトールコーヒーショップ",
+   "name_en": "Doutor Coffee Shop",
+   "cuisine": "coffee_shop",
+   "brand": "ドトールコーヒーショップ"
+  },
+  {
+   "osm": "node/5281672547",
+   "category": "restaurant",
+   "lat": 34.8523911,
+   "lon": 135.6199714,
+   "name": "泡盛・沖縄料理 たろんち"
+  },
+  {
+   "osm": "node/5281672548",
+   "category": "restaurant",
+   "lat": 34.8522659,
+   "lon": 135.6198532,
+   "name": "やきとり 丹波路"
+  },
+  {
+   "osm": "node/12100233202",
+   "category": "cafe",
+   "lat": 34.8507847,
+   "lon": 135.6184976,
+   "name": "スターバックス",
+   "name_en": "Starbucks",
+   "cuisine": "coffee_shop",
+   "brand": "スターバックス"
+  },
+  {
+   "osm": "node/5968338516",
+   "category": "restaurant",
+   "lat": 34.7869064,
+   "lon": 135.6302069,
+   "name": "Pioggla"
+  },
+  {
+   "osm": "node/5281672425",
+   "category": "restaurant",
+   "lat": 34.8501191,
+   "lon": 135.6177394,
+   "name": "寿司栄"
+  },
+  {
+   "osm": "node/5968338522",
+   "category": "restaurant",
+   "lat": 34.7871826,
+   "lon": 135.629577,
+   "name": "お好み焼き だいちゃん"
+  },
+  {
+   "osm": "node/5968351386",
+   "category": "restaurant",
+   "lat": 34.7872459,
+   "lon": 135.6294375,
+   "name": "三味坂本",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/12383810322",
+   "category": "fast_food",
+   "lat": 34.8498266,
+   "lon": 135.6173792,
+   "name": "中村商店",
+   "opening_hours": "Mo-Su 11:00-23:00"
+  },
+  {
+   "osm": "node/5271546424",
+   "category": "restaurant",
+   "lat": 34.8578364,
+   "lon": 135.6255324,
+   "name": "芯かつ 高槻店"
+  },
+  {
+   "osm": "node/5281672752",
+   "category": "cafe",
+   "lat": 34.8496941,
+   "lon": 135.6171355,
+   "name": "エシュロンティーハウス 高槻"
+  },
+  {
+   "osm": "node/5281672832",
+   "category": "cafe",
+   "lat": 34.8498707,
+   "lon": 135.6172663,
+   "name": "歌笛堂"
+  },
+  {
+   "osm": "node/5968343099",
+   "category": "bar",
+   "lat": 34.7872796,
+   "lon": 135.6291052,
+   "name": "磯笛"
+  },
+  {
+   "osm": "node/5968338518",
+   "category": "cafe",
+   "lat": 34.7866051,
+   "lon": 135.6300697,
+   "name": "カフェ マグエイト"
+  },
+  {
+   "osm": "node/5968343100",
+   "category": "pub",
+   "lat": 34.7871965,
+   "lon": 135.6290748,
+   "name": "Hot Spot"
+  },
+  {
+   "osm": "node/8049037034",
+   "category": "restaurant",
+   "lat": 34.8158935,
+   "lon": 135.6084421,
+   "name": "丸源ラーメン",
+   "cuisine": "noodle"
+  },
+  {
+   "osm": "node/5968342790",
+   "category": "pub",
+   "lat": 34.7872685,
+   "lon": 135.6289535,
+   "name": "レインボー"
+  },
+  {
+   "osm": "node/5971324187",
+   "category": "fast_food",
+   "lat": 34.7841669,
+   "lon": 135.6341531,
+   "name": "ピザーラ",
+   "name_en": "Pizza-La",
+   "cuisine": "pizza",
+   "brand": "ピザーラ"
+  },
+  {
+   "osm": "node/5968351385",
+   "category": "restaurant",
+   "lat": 34.7870724,
+   "lon": 135.629102,
+   "name": "炭火焼肉 炎Kichi"
+  },
+  {
+   "osm": "node/8043746374",
+   "category": "pub",
+   "lat": 34.8517485,
+   "lon": 135.6185915,
+   "name": "安べゑ"
+  },
+  {
+   "osm": "node/5968338517",
+   "category": "restaurant",
+   "lat": 34.7865113,
+   "lon": 135.6299167,
+   "name": "麺道服部"
+  },
+  {
+   "osm": "node/8043746375",
+   "category": "fast_food",
+   "lat": 34.8517303,
+   "lon": 135.6184889,
+   "name": "吉野家",
+   "name_en": "Yoshinoya",
+   "cuisine": "beef_bowl",
+   "brand": "吉野家"
+  },
+  {
+   "osm": "node/5968343097",
+   "category": "restaurant",
+   "lat": 34.7870671,
+   "lon": 135.628943,
+   "name": "力餅食堂"
+  },
+  {
+   "osm": "node/8043746376",
+   "category": "fast_food",
+   "lat": 34.8516967,
+   "lon": 135.6184245,
+   "name": "麺家 うどん・そば"
+  },
+  {
+   "osm": "node/5968301113",
+   "category": "restaurant",
+   "lat": 34.7871294,
+   "lon": 135.6287792,
+   "name": "チョンサチョロン"
+  },
+  {
+   "osm": "node/12424187849",
+   "category": "restaurant",
+   "lat": 34.8509398,
+   "lon": 135.6177196,
+   "name": "ベルナルド",
+   "cuisine": "indian"
+  },
+  {
+   "osm": "node/5968350886",
+   "category": "bar",
+   "lat": 34.7869022,
+   "lon": 135.6291005,
+   "name": "居魚屋 味よし"
+  },
+  {
+   "osm": "node/5968343094",
+   "category": "bar",
+   "lat": 34.7869991,
+   "lon": 135.6289364,
+   "name": "居酒屋 優"
+  },
+  {
+   "osm": "node/5968343104",
+   "category": "bar",
+   "lat": 34.7870709,
+   "lon": 135.6287807,
+   "name": "ね蔵"
+  },
+  {
+   "osm": "node/2391504239",
+   "category": "fast_food",
+   "lat": 34.8579019,
+   "lon": 135.6248634,
+   "name": "すき家",
+   "name_en": "Sukiya",
+   "cuisine": "beef_bowl",
+   "brand": "すき家"
+  },
+  {
+   "osm": "node/5968350786",
+   "category": "restaurant",
+   "lat": 34.7869994,
+   "lon": 135.6286439,
+   "name": "いまむら",
+   "name_en": "Imamura",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/5968350885",
+   "category": "restaurant",
+   "lat": 34.786725,
+   "lon": 135.6290555,
+   "name": "幸っちゃん寿司"
+  },
+  {
+   "osm": "node/5968343095",
+   "category": "restaurant",
+   "lat": 34.786796,
+   "lon": 135.6289167,
+   "name": "やきとりの名門 秋吉 香里店"
+  },
+  {
+   "osm": "node/5271530527",
+   "category": "restaurant",
+   "lat": 34.8558635,
+   "lon": 135.6221686,
+   "name": "ヴルカーノ",
+   "name_en": "Vulcano",
+   "cuisine": "pizza;italian"
+  },
+  {
+   "osm": "node/5968350785",
+   "category": "restaurant",
+   "lat": 34.7866531,
+   "lon": 135.6290567,
+   "name": "ミヒラサ",
+   "name_en": "Mihirasa"
+  },
+  {
+   "osm": "node/5281672748",
+   "category": "restaurant",
+   "lat": 34.850054,
+   "lon": 135.6166356,
+   "name": "博多もつ処 東屋"
+  },
+  {
+   "osm": "node/5968343092",
+   "category": "restaurant",
+   "lat": 34.7865878,
+   "lon": 135.6291021,
+   "name": "うん"
+  },
+  {
+   "osm": "node/5963536377",
+   "category": "restaurant",
+   "lat": 34.7865113,
+   "lon": 135.6290434,
+   "name": "焼肉しば田"
+  },
+  {
+   "osm": "node/5963536375",
+   "category": "pub",
+   "lat": 34.7865494,
+   "lon": 135.6288594,
+   "name": "ブレーメン"
+  },
+  {
+   "osm": "node/5963479652",
+   "category": "cafe",
+   "lat": 34.8522661,
+   "lon": 135.6182665,
+   "name": "からふね屋カフェ"
+  },
+  {
+   "osm": "node/5963537290",
+   "category": "bar",
+   "lat": 34.7864981,
+   "lon": 135.6289036,
+   "name": "海鮮和酒 川上家"
+  },
+  {
+   "osm": "node/5271530526",
+   "category": "cafe",
+   "lat": 34.8557967,
+   "lon": 135.6217501,
+   "name": "カフェ・ティアラ"
+  },
+  {
+   "osm": "node/5963536349",
+   "category": "pub",
+   "lat": 34.7863844,
+   "lon": 135.6290513,
+   "name": "Darts Bar Chou-Chou"
+  },
+  {
+   "osm": "node/5271547721",
+   "category": "ice_cream",
+   "lat": 34.8584791,
+   "lon": 135.6248986,
+   "name": "サーティワンアイスクリーム",
+   "name_en": "Baskin-Robbins",
+   "cuisine": "ice_cream",
+   "brand": "バスキン・ロビンス"
+  },
+  {
+   "osm": "node/5963536332",
+   "category": "cafe",
+   "lat": 34.7855385,
+   "lon": 135.6303745,
+   "name": "ホリーズカフェ"
+  },
+  {
+   "osm": "node/5968343105",
+   "category": "restaurant",
+   "lat": 34.7873676,
+   "lon": 135.6274697,
+   "name": "どんぞこ屋",
+   "name_en": "Donzokoya",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/6227117585",
+   "category": "cafe",
+   "lat": 34.851789,
+   "lon": 135.6176684,
+   "name": "Side Trip"
+  },
+  {
+   "osm": "node/5968343106",
+   "category": "cafe",
+   "lat": 34.7873456,
+   "lon": 135.6271934,
+   "name": "Mondo"
+  },
+  {
+   "osm": "node/5968338508",
+   "category": "restaurant",
+   "lat": 34.784257,
+   "lon": 135.6321179,
+   "name": "アプリーレ",
+   "name_en": "Aprile",
+   "cuisine": "italian",
+   "opening_hours": "Mo-Su 11:00-22:00"
+  },
+  {
+   "osm": "node/7574366262",
+   "category": "restaurant",
+   "lat": 34.8540599,
+   "lon": 135.6193369,
+   "name": "カプリチョーザ",
+   "name_en": "Capricciosa",
+   "cuisine": "italian",
+   "brand": "カプリチョーザ"
+  },
+  {
+   "osm": "node/7859890162",
+   "category": "pub",
+   "lat": 34.7851871,
+   "lon": 135.6301647,
+   "name": "目利きの銀次"
+  },
+  {
+   "osm": "node/5963536347",
+   "category": "bar",
+   "lat": 34.7858477,
+   "lon": 135.6290381,
+   "name": "鳥貴族",
+   "name_en": "Torikizoku"
+  },
+  {
+   "osm": "node/5281672567",
+   "category": "bar",
+   "lat": 34.8499147,
+   "lon": 135.6155531,
+   "name": "やきとり居酒や 鳥っち"
+  },
+  {
+   "osm": "node/4959358421",
+   "category": "restaurant",
+   "lat": 34.853923,
+   "lon": 135.6190356,
+   "name": "無尽蔵",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/12692502602",
+   "category": "restaurant",
+   "lat": 34.8325205,
+   "lon": 135.6071002,
+   "name": "えんじゅう屋"
+  },
+  {
+   "osm": "node/11482408057",
+   "category": "restaurant",
+   "lat": 34.8534265,
+   "lon": 135.6183969,
+   "name": "ポムの樹"
+  },
+  {
+   "osm": "node/5963506924",
+   "category": "cafe",
+   "lat": 34.7857882,
+   "lon": 135.6288185,
+   "name": "喫茶ロンタン"
+  },
+  {
+   "osm": "node/4992467693",
+   "category": "restaurant",
+   "lat": 34.8535309,
+   "lon": 135.6184244,
+   "name": "とんかつ・豚しゃぶ かつ乃",
+   "cuisine": "japanese",
+   "opening_hours": "11:00-22:00"
+  },
+  {
+   "osm": "node/5968342792",
+   "category": "restaurant",
+   "lat": 34.789117,
+   "lon": 135.6239863,
+   "name": "肉処倉 寝屋川店"
+  },
+  {
+   "osm": "node/5263330039",
+   "category": "fast_food",
+   "lat": 34.8522567,
+   "lon": 135.6171661,
+   "name": "ゼッテリア",
+   "name_en": "Zetteria",
+   "cuisine": "burger",
+   "opening_hours": "08:00-22:00",
+   "brand": "ゼッテリア"
+  },
+  {
+   "osm": "node/5263333844",
+   "category": "bar",
+   "lat": 34.8527709,
+   "lon": 135.6175644,
+   "name": "からさき"
+  },
+  {
+   "osm": "node/5271547321",
+   "category": "restaurant",
+   "lat": 34.8569216,
+   "lon": 135.6217265,
+   "name": "やきとり大吉 高槻病院前店",
+   "name_en": "Yakitori Daikichi"
+  },
+  {
+   "osm": "node/5263334322",
+   "category": "restaurant",
+   "lat": 34.8524696,
+   "lon": 135.6171806,
+   "name": "ライオンカレー",
+   "cuisine": "curry rice",
+   "opening_hours": "Mo-Su 11:00-23:00"
+  },
+  {
+   "osm": "node/11977963561",
+   "category": "pub",
+   "lat": 34.8524891,
+   "lon": 135.617124,
+   "name": "焼鳥のヒナタ"
+  },
+  {
+   "osm": "node/12143763194",
+   "category": "cafe",
+   "lat": 34.852042,
+   "lon": 135.6166681,
+   "name": "エプロント",
+   "cuisine": "coffee_shop"
+  },
+  {
+   "osm": "node/7859890165",
+   "category": "cafe",
+   "lat": 34.7846828,
+   "lon": 135.6299559,
+   "name": "Starbucks",
+   "cuisine": "coffee_shop",
+   "brand": "Starbucks"
+  },
+  {
+   "osm": "node/10951881422",
+   "category": "bar",
+   "lat": 34.8527201,
+   "lon": 135.6172444,
+   "name": "ブルメリアリゾート"
+  },
+  {
+   "osm": "node/5963501636",
+   "category": "bar",
+   "lat": 34.7853579,
+   "lon": 135.6288198,
+   "name": "陽の鶴"
+  },
+  {
+   "osm": "node/5963501108",
+   "category": "bar",
+   "lat": 34.7854177,
+   "lon": 135.6287002,
+   "name": "鳥一番",
+   "opening_hours": "Fr-We,PH 17:00-23:00"
+  },
+  {
+   "osm": "node/5963501105",
+   "category": "restaurant",
+   "lat": 34.7852625,
+   "lon": 135.6288083,
+   "name": "大阪王将"
+  },
+  {
+   "osm": "node/11047860662",
+   "category": "restaurant",
+   "lat": 34.8524625,
+   "lon": 135.6168444,
+   "name": "麺屋きん次郎",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/10951179524",
+   "category": "pub",
+   "lat": 34.8525037,
+   "lon": 135.6168446,
+   "name": "ピエロット"
+  },
+  {
+   "osm": "node/10951179526",
+   "category": "pub",
+   "lat": 34.8524687,
+   "lon": 135.6167863,
+   "name": "すーさん"
+  },
+  {
+   "osm": "node/5265362227",
+   "category": "bar",
+   "lat": 34.8504906,
+   "lon": 135.6151268,
+   "name": "京ちゃん"
+  },
+  {
+   "osm": "node/5263330038",
+   "category": "restaurant",
+   "lat": 34.8524686,
+   "lon": 135.6167471,
+   "name": "餃子の王将",
+   "name_en": "Gyoza no Ohsho",
+   "cuisine": "chinese;gyoza",
+   "opening_hours": "Mo-Sa 11:00-23:30; Su,PH 11:00-22:30",
+   "brand": "餃子の王将"
+  },
+  {
+   "osm": "node/5968338502",
+   "category": "cafe",
+   "lat": 34.783174,
+   "lon": 135.6321906,
+   "name": "Cafe Mon"
+  },
+  {
+   "osm": "node/5963505647",
+   "category": "fast_food",
+   "lat": 34.7841214,
+   "lon": 135.6304974,
+   "name": "松屋",
+   "name_en": "Matsuya",
+   "cuisine": "japanese",
+   "brand": "松屋"
+  },
+  {
+   "osm": "node/12425518961",
+   "category": "bar",
+   "lat": 34.8505434,
+   "lon": 135.6151159,
+   "name": "将棋バー ルゥク"
+  },
+  {
+   "osm": "node/12692468293",
+   "category": "restaurant",
+   "lat": 34.8316496,
+   "lon": 135.6061658,
+   "name": "たんぽぽ"
+  },
+  {
+   "osm": "node/11175747687",
+   "category": "fast_food",
+   "lat": 34.8389903,
+   "lon": 135.6083198,
+   "name": "なか卯",
+   "name_en": "Nakau",
+   "cuisine": "udon",
+   "brand": "なか卯"
+  },
+  {
+   "osm": "node/5265346870",
+   "category": "cafe",
+   "lat": 34.8506496,
+   "lon": 135.615124,
+   "name": "オアシス長尾"
+  },
+  {
+   "osm": "node/5963536299",
+   "category": "fast_food",
+   "lat": 34.7840281,
+   "lon": 135.6304839,
+   "name": "すき家",
+   "name_en": "Sukiya",
+   "cuisine": "beef_bowl",
+   "brand": "すき家"
+  },
+  {
+   "osm": "node/5263333853",
+   "category": "cafe",
+   "lat": 34.8537657,
+   "lon": 135.6177717,
+   "name": "イマソラ珈琲"
+  },
+  {
+   "osm": "node/7489674186",
+   "category": "restaurant",
+   "lat": 34.8537714,
+   "lon": 135.6177522,
+   "name": "Pizzeria Suonare",
+   "cuisine": "pizza"
+  },
+  {
+   "osm": "node/5963506914",
+   "category": "restaurant",
+   "lat": 34.7839825,
+   "lon": 135.6304821,
+   "name": "やよい軒",
+   "name_en": "Yayoiken",
+   "cuisine": "japanese",
+   "brand": "やよい軒"
+  },
+  {
+   "osm": "node/12692468286",
+   "category": "fast_food",
+   "lat": 34.8321236,
+   "lon": 135.6061712,
+   "name": "木屋"
+  },
+  {
+   "osm": "node/5965694395",
+   "category": "bar",
+   "lat": 34.7856219,
+   "lon": 135.6277946,
+   "name": "だうんたうん"
+  },
+  {
+   "osm": "node/5963501103",
+   "category": "restaurant",
+   "lat": 34.7848241,
+   "lon": 135.6289883,
+   "name": "創作ダイニング 咲庵"
+  },
+  {
+   "osm": "node/5963501106",
+   "category": "bar",
+   "lat": 34.7849258,
+   "lon": 135.6287989,
+   "name": "海鮮七輪焼き おどりや"
+  },
+  {
+   "osm": "node/5265346871",
+   "category": "restaurant",
+   "lat": 34.8526397,
+   "lon": 135.61662,
+   "name": "黒石"
+  },
+  {
+   "osm": "node/5963536295",
+   "category": "fast_food",
+   "lat": 34.7838991,
+   "lon": 135.630483,
+   "name": "オリジン弁当",
+   "name_en": "Origin Bentō",
+   "cuisine": "japanese",
+   "brand": "オリジン弁当"
+  },
+  {
+   "osm": "node/5263335128",
+   "category": "restaurant",
+   "lat": 34.8538352,
+   "lon": 135.6176529,
+   "name": "楽呑小料理 凜"
+  },
+  {
+   "osm": "node/5963501635",
+   "category": "bar",
+   "lat": 34.7847632,
+   "lon": 135.6289776,
+   "name": "赤か"
+  },
+  {
+   "osm": "node/5265361742",
+   "category": "restaurant",
+   "lat": 34.8509464,
+   "lon": 135.6151298,
+   "name": "鳥ばやし"
+  },
+  {
+   "osm": "node/5963505666",
+   "category": "restaurant",
+   "lat": 34.7839765,
+   "lon": 135.6302522,
+   "name": "サイゼリヤ",
+   "name_en": "Saizeriya",
+   "cuisine": "italian",
+   "opening_hours": "11:00-00:00",
+   "brand": "サイゼリヤ"
+  },
+  {
+   "osm": "node/5963501634",
+   "category": "bar",
+   "lat": 34.7846247,
+   "lon": 135.6291662,
+   "name": "居酒屋まさ"
+  },
+  {
+   "osm": "node/5265361937",
+   "category": "pub",
+   "lat": 34.8509858,
+   "lon": 135.6151311,
+   "name": "Bourbon & Cocktail Bar Agit"
+  },
+  {
+   "osm": "node/5265361938",
+   "category": "restaurant",
+   "lat": 34.8532628,
+   "lon": 135.6170783,
+   "name": "レ・コパン",
+   "cuisine": "french"
+  },
+  {
+   "osm": "node/5968343108",
+   "category": "bar",
+   "lat": 34.7874798,
+   "lon": 135.6249044,
+   "name": "Takoyaki Dart Bar"
+  },
+  {
+   "osm": "node/5263330047",
+   "category": "restaurant",
+   "lat": 34.8539236,
+   "lon": 135.6176777,
+   "name": "餃子天国RS 芥川店",
+   "cuisine": "chinese"
+  },
+  {
+   "osm": "node/12709281994",
+   "category": "cafe",
+   "lat": 34.8237048,
+   "lon": 135.6051575,
+   "name": "TOSHIフローラルアートスタジオ"
+  },
+  {
+   "osm": "node/7575227316",
+   "category": "pub",
+   "lat": 34.85393,
+   "lon": 135.6176352,
+   "name": "炭火焼やきとり123"
+  },
+  {
+   "osm": "node/5963527881",
+   "category": "restaurant",
+   "lat": 34.7842522,
+   "lon": 135.6296689,
+   "name": "花らんまん",
+   "cuisine": "okonomiyaki"
+  },
+  {
+   "osm": "node/12692472622",
+   "category": "restaurant",
+   "lat": 34.8324702,
+   "lon": 135.6059921,
+   "name": "紫陽花"
+  },
+  {
+   "osm": "node/5265346872",
+   "category": "bar",
+   "lat": 34.8529177,
+   "lon": 135.6166271,
+   "name": "酒蔵島津"
+  },
+  {
+   "osm": "node/7575227321",
+   "category": "restaurant",
+   "lat": 34.853311,
+   "lon": 135.6169516,
+   "name": "dining room GOO"
+  },
+  {
+   "osm": "node/5963501639",
+   "category": "restaurant",
+   "lat": 34.7847044,
+   "lon": 135.6287689,
+   "name": "オバニ"
+  },
+  {
+   "osm": "node/5265362821",
+   "category": "cafe",
+   "lat": 34.8525298,
+   "lon": 135.6162279,
+   "name": "コメダ珈琲店",
+   "opening_hours": "07:00-23:00"
+  },
+  {
+   "osm": "node/12709366954",
+   "category": "fast_food",
+   "lat": 34.8228098,
+   "lon": 135.6050254,
+   "name": "のりまきのすけ"
+  },
+  {
+   "osm": "node/12709366953",
+   "category": "fast_food",
+   "lat": 34.822772,
+   "lon": 135.6049905,
+   "name": "からあげ屋"
+  },
+  {
+   "osm": "way/490785457",
+   "category": "restaurant",
+   "lat": 34.8534699,
+   "lon": 135.617002,
+   "name": "麺屋　八海山"
+  },
+  {
+   "osm": "node/12709281986",
+   "category": "restaurant",
+   "lat": 34.8234668,
+   "lon": 135.604963,
+   "name": "鶏炭焼らーめん専門店 田村屋",
+   "cuisine": "ramen"
+  },
+  {
+   "osm": "node/5265346851",
+   "category": "fast_food",
+   "lat": 34.8523047,
+   "lon": 135.6159547,
+   "name": "ケンタッキーフライドチキン",
+   "name_en": "KFC",
+   "cuisine": "chicken",
+   "opening_hours": "10:00-21:00",
+   "brand": "ケンタッキーフライドチキン"
+  },
+  {
+   "osm": "node/5263333850",
+   "category": "pub",
+   "lat": 34.854281,
+   "lon": 135.6177445,
+   "name": "すし一楽"
+  },
+  {
+   "osm": "node/12709354100",
+   "category": "fast_food",
+   "lat": 34.8242267,
+   "lon": 135.6049523,
+   "name": "お好み焼き たこ焼き錦"
+  },
+  {
+   "osm": "node/5265362229",
+   "category": "restaurant",
+   "lat": 34.8529111,
+   "lon": 135.6164476,
+   "name": "孫兵衛"
+  },
+  {
+   "osm": "node/6227046586",
+   "category": "bar",
+   "lat": 34.8543257,
+   "lon": 135.6177353,
+   "name": "炭火焼鳥 吉川"
+  },
+  {
+   "osm": "node/5963536374",
+   "category": "bar",
+   "lat": 34.7856271,
+   "lon": 135.627141,
+   "name": "良酒心酔 太田屋"
+  },
+  {
+   "osm": "node/7249332190",
+   "category": "restaurant",
+   "lat": 34.8517047,
+   "lon": 135.6153611,
+   "name": "牛力"
+  },
+  {
+   "osm": "node/5265361739",
+   "category": "restaurant",
+   "lat": 34.851649,
+   "lon": 135.6152975,
+   "name": "梶平"
+  },
+  {
+   "osm": "node/7037571353",
+   "category": "restaurant",
+   "lat": 34.8523054,
+   "lon": 135.6157913,
+   "name": "ヴァスコ・ダ・ガマ",
+   "cuisine": "curry",
+   "opening_hours": "Mo-Sa 11:30-14:30,17:30-21:00; Su 11:30-14:30"
+  },
+  {
+   "osm": "node/12709356111",
+   "category": "restaurant",
+   "lat": 34.8248757,
+   "lon": 135.6047609,
+   "name": "洋食こっとん"
+  },
+  {
+   "osm": "node/5265346853",
+   "category": "restaurant",
+   "lat": 34.8525018,
+   "lon": 135.6157601,
+   "name": "焼とり吉鳥",
+   "opening_hours": "Mo-Fr,Su,PH 17:00-24:00; Sa 17:00-02:00"
+  },
+  {
+   "osm": "node/11175739203",
+   "category": "restaurant",
+   "lat": 34.8406146,
+   "lon": 135.6080492,
+   "name": "LUCCA",
+   "cuisine": "italian"
+  },
+  {
+   "osm": "node/12709284562",
+   "category": "restaurant",
+   "lat": 34.8212785,
+   "lon": 135.6038519,
+   "name": "よしなるうどん"
+  },
+  {
+   "osm": "node/4535259803",
+   "category": "pub",
+   "lat": 34.8209665,
+   "lon": 135.6038404,
+   "name": "千房"
+  },
+  {
+   "osm": "node/12692472226",
+   "category": "cafe",
+   "lat": 34.8327229,
+   "lon": 135.6044743,
+   "name": "喫茶ニューチヨ"
+  },
+  {
+   "osm": "node/4535259686",
+   "category": "pub",
+   "lat": 34.8218275,
+   "lon": 135.6034608,
+   "name": "月の船"
+  },
+  {
+   "osm": "node/4535259687",
+   "category": "restaurant",
+   "lat": 34.8217471,
+   "lon": 135.6034622,
+   "name": "麵厨房　華燕",
+   "cuisine": "noodle"
+  },
+  {
+   "osm": "node/9452020917",
+   "category": "restaurant",
+   "lat": 34.839778,
+   "lon": 135.6065175,
+   "name": "まるっぽ",
+   "cuisine": "japanese"
+  },
+  {
+   "osm": "node/9452020718",
+   "category": "restaurant",
+   "lat": 34.8400159,
+   "lon": 135.6065198,
+   "name": "家庭料理 ゆう"
+  },
+  {
+   "osm": "node/9452055717",
+   "category": "fast_food",
+   "lat": 34.8401542,
+   "lon": 135.6065109,
+   "name": "ドムドムハンバーガー",
+   "name_en": "DOMDOM"
+  },
+  {
+   "osm": "node/12709284561",
+   "category": "cafe",
+   "lat": 34.8241208,
+   "lon": 135.6026516,
+   "name": "夕波里"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{# The part of the places page that changes with the filters. htmx swaps just this. #}
+<div id="browse" class="swap">
+  <div class="toolbar">
+    <fieldset class="chips">
+      <legend class="visually-hidden">Category</legend>
+      <label class="chip"><input type="radio" name="category" value=""{% if not category %} checked{% endif %}>All</label>
+      {% for value, label in categories %}
+        <label class="chip"><input type="radio" name="category" value="{{ value }}"{% if category == value %} checked{% endif %}>{{ label }}</label>
+      {% endfor %}
+    </fieldset>
+    <label class="switch"><input type="checkbox" role="switch" name="bars" value="1"{% if bars %} checked{% endif %}>Show bars and pubs</label>
+  </div>
+
+  {% if page.paginator.count %}
+    <p class="result-count">{{ page.paginator.count }} place{{ page.paginator.count|pluralize }}, nearest the Nakamiya campus first</p>
+    <ul class="cards">
+      {% for place in page %}{% include "places/_card.html" %}{% endfor %}
+    </ul>
+    {% if page.has_other_pages %}
+    <nav class="pagination" aria-label="Pages">
+      {% if page.has_previous %}
+        <a class="btn btn--secondary" href="?{% if kept_query %}{{ kept_query }}&amp;{% endif %}page={{ page.previous_page_number }}" hx-get="?{% if kept_query %}{{ kept_query }}&amp;{% endif %}page={{ page.previous_page_number }}" hx-target="#browse" hx-swap="outerHTML" hx-push-url="true">Previous</a>
+      {% endif %}
+      <span>Page {{ page.number }} of {{ page.paginator.num_pages }}</span>
+      {% if page.has_next %}
+        <a class="btn btn--secondary" href="?{% if kept_query %}{{ kept_query }}&amp;{% endif %}page={{ page.next_page_number }}" hx-get="?{% if kept_query %}{{ kept_query }}&amp;{% endif %}page={{ page.next_page_number }}" hx-target="#browse" hx-swap="outerHTML" hx-push-url="true">Next</a>
+      {% endif %}
+    </nav>
+    {% endif %}
+  {% else %}
+    <div class="empty">
+      <strong>{% if q %}No places match “{{ q }}”{% else %}No places here{% endif %}</strong>
+      Try fewer words, another category, or turn on bars and pubs.
+    </div>
+  {% endif %}
+</div>

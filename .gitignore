@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+db.sqlite3
+staticfiles/
+.DS_Store
+.env
+# Worktrees: each branch gets its own folder here (`make worktree BRANCH=name`).
+.claude/worktrees/
+# Your own Claude Code settings. The shared ones, with the prompt log, are in .claude/settings.json.
+.claude/settings.local.json

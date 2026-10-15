@@ -1,0 +1,825 @@
+/* Gaidai Eats — the design system.
+   DESIGN-SYSTEM.md says what each part is for and the rules for adding to it.
+   docs/design-system.html shows every part on one page.
+
+   1. Tokens       colours, type, space, shape, motion
+   2. Base         the page itself
+   3. Layout       header, main, footer
+   4. Components   in the order a visitor meets them */
+
+/* ── 1. Tokens ─────────────────────────────────────────────────────────── */
+
+:root {
+  color-scheme: light dark;
+
+  /* Kansai Gaidai's colours, from kansaigaidai.ac.jp */
+  --kgu-navy: #020b4a;
+  --kgu-blue: #095181;
+  --kgu-mist: #e1e9ef;
+  --kgu-mist-2: #edf1f4;
+  --kgu-orange: #ea9b59;
+  --kgu-coral: #d36a73;
+  --kgu-teal: #4db2b9;
+
+  /* What the page uses. Components use these, never the --kgu- names. */
+  --bg: #f5f8fa;
+  --surface: #ffffff;
+  --surface-2: var(--kgu-mist-2);
+  --ink: var(--kgu-navy);
+  --ink-2: #4a5468;
+  --line: #d9e1e8;
+  --brand: var(--kgu-navy);
+  --on-brand: #ffffff;
+  --link: var(--kgu-blue);
+  --focus: var(--kgu-blue);
+  --star: #b85a14; /* the university's orange, darkened to pass 3:1 on every background */
+  --star-empty: #d9e1e8;
+  --danger: #b42318;
+  --success: #2f7f86;
+  --chip: var(--kgu-mist);
+  --chip-on: var(--kgu-navy);
+  --on-chip-on: #ffffff;
+
+  --font: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", sans-serif;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+  --shadow: 0 1px 2px rgb(2 11 74 / 0.06), 0 4px 16px rgb(2 11 74 / 0.06);
+  --shadow-lift: 0 2px 4px rgb(2 11 74 / 0.08), 0 12px 32px rgb(2 11 74 / 0.12);
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --fast: 150ms;
+
+  --page: 72rem;
+}
+
+/* Dark: a deep navy, not grey, so it still looks like the university. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #030829;
+    --surface: #0b1340;
+    --surface-2: #121c52;
+    --ink: #eef2f7;
+    --ink-2: #a7b3c9;
+    --line: #1f2a63;
+    --brand: #0b1340;
+    --on-brand: #eef2f7;
+    --link: #8fc1ea;
+    --focus: #8fc1ea;
+    --star: #f2a65e;
+    --star-empty: #2a3570;
+    --danger: #f59e8b;
+    --success: #6fd0d6;
+    --chip: #121c52;
+    --chip-on: var(--kgu-mist);
+    --on-chip-on: var(--kgu-navy);
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 4px 16px rgb(0 0 0 / 0.3);
+    --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.4), 0 12px 32px rgb(0 0 0 / 0.45);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #030829;
+  --surface: #0b1340;
+  --surface-2: #121c52;
+  --ink: #eef2f7;
+  --ink-2: #a7b3c9;
+  --line: #1f2a63;
+  --brand: #0b1340;
+  --on-brand: #eef2f7;
+  --link: #8fc1ea;
+  --focus: #8fc1ea;
+  --star: #f2a65e;
+  --star-empty: #2a3570;
+  --danger: #f59e8b;
+  --success: #6fd0d6;
+  --chip: #121c52;
+  --chip-on: var(--kgu-mist);
+  --on-chip-on: var(--kgu-navy);
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 4px 16px rgb(0 0 0 / 0.3);
+  --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.4), 0 12px 32px rgb(0 0 0 / 0.45);
+}
+
+/* ── 2. Base ───────────────────────────────────────────────────────────── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: var(--text-md) / 1.6 var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  margin: 0 0 var(--space-3);
+  text-wrap: balance;
+}
+h1 {
+  font-size: var(--text-2xl);
+  letter-spacing: -0.02em;
+}
+h2 {
+  font-size: var(--text-xl);
+  letter-spacing: -0.01em;
+}
+h3 {
+  font-size: var(--text-lg);
+}
+p {
+  margin: 0 0 var(--space-4);
+  text-wrap: pretty;
+}
+a {
+  color: var(--link);
+  text-underline-offset: 0.2em;
+}
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Moving between pages fades instead of flashing, where the browser can. */
+@view-transition {
+  navigation: auto;
+}
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* htmx. Give what htmx swaps in the class "swap": it fades in instead of jumping (htmx marks
+   new content "htmx-added" for a moment, then takes the mark away). While a request is on its
+   way, the list dims a little, so the reader can see something is happening. */
+.swap {
+  transition: opacity var(--fast) var(--ease);
+}
+.swap.htmx-added {
+  opacity: 0;
+}
+.htmx-request .swap,
+.swap.htmx-request {
+  opacity: 0.6;
+}
+
+/* ── 3. Layout ─────────────────────────────────────────────────────────── */
+
+.site-header {
+  background: var(--brand);
+  color: var(--on-brand);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid rgb(255 255 255 / 0.08);
+}
+.site-header__inner {
+  max-width: var(--page);
+  margin: 0 auto;
+  padding: var(--space-2) var(--space-4);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+  flex-wrap: wrap;
+}
+.wordmark {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: var(--text-lg);
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+}
+.wordmark__dot {
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background: var(--kgu-orange);
+  align-self: center;
+}
+.site-header__nav {
+  margin-left: auto;
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+  font-size: var(--text-sm);
+}
+.site-header__nav a:not(.btn) {
+  color: inherit;
+}
+main {
+  max-width: var(--page);
+  margin: 0 auto;
+  padding: var(--space-5) var(--space-4) var(--space-7);
+}
+.site-footer {
+  border-top: 1px solid var(--line);
+  color: var(--ink-2);
+  font-size: var(--text-sm);
+}
+.site-footer__inner {
+  max-width: var(--page);
+  margin: 0 auto;
+  padding: var(--space-5) var(--space-4);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-5);
+}
+
+/* ── 4. Components ─────────────────────────────────────────────────────── */
+
+/* Search: one box, in the header or at the top of a page. On a phone it takes its own row,
+   under the wordmark and the account links, so the header stays two rows high. */
+.search {
+  order: 3;
+  flex: 1 1 100%;
+  position: relative;
+}
+@media (min-width: 48rem) {
+  .search {
+    order: 0;
+    flex: 1 1 18rem;
+  }
+}
+.search input {
+  width: 100%;
+  font: inherit;
+  padding: var(--space-2) var(--space-4) var(--space-2) 2.5rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid transparent;
+  background: rgb(255 255 255 / 0.12);
+  color: var(--on-brand);
+  transition: background var(--fast) var(--ease);
+}
+.search input::placeholder {
+  color: color-mix(in srgb, var(--on-brand) 70%, transparent);
+}
+.search input:focus {
+  background: rgb(255 255 255 / 0.2);
+}
+.search::before {
+  content: "";
+  position: absolute;
+  left: 0.9rem;
+  top: 50%;
+  width: 1rem;
+  height: 1rem;
+  transform: translateY(-50%);
+  background: currentColor;
+  opacity: 0.8;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-4-4'/%3E%3C/svg%3E")
+    center / contain no-repeat;
+}
+
+/* Chips: the category filters. A chip is a checkbox or a link; checked = on. */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: 0 0 var(--space-4);
+  padding: 0;
+  border: 0;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--chip);
+  color: var(--ink);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background var(--fast) var(--ease), color var(--fast) var(--ease);
+}
+.chip input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.chip:has(input:checked),
+.chip[aria-current="true"] {
+  background: var(--chip-on);
+  color: var(--on-chip-on);
+}
+.chip:has(input:focus-visible) {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* Switch: an on/off choice, like "Show bars and pubs". A checkbox underneath. */
+.switch {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+.switch input {
+  appearance: none;
+  width: 2.5rem;
+  height: 1.5rem;
+  border-radius: var(--radius-pill);
+  background: var(--star-empty);
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  transition: background var(--fast) var(--ease);
+}
+.switch input::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: var(--shadow);
+  transition: transform var(--fast) var(--ease);
+}
+.switch input:checked {
+  background: var(--link);
+}
+.switch input:checked::after {
+  transform: translateX(1rem);
+}
+
+/* Row: things side by side that wrap on a phone, like a box and its button. */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: center;
+}
+.row > input {
+  flex: 1 1 14rem;
+}
+
+/* Toolbar: the row of filters above a list. */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+.toolbar .chips {
+  margin: 0;
+}
+.result-count {
+  color: var(--ink-2);
+  font-size: var(--text-sm);
+  margin: 0 0 var(--space-3);
+}
+
+/* Cards: a grid that becomes two or three columns when there is room. */
+.cards {
+  container-type: inline-size;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+}
+
+/* Place card: the whole card is one link, to the place. */
+.card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: var(--space-2);
+  transition: transform var(--fast) var(--ease), box-shadow var(--fast) var(--ease);
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lift);
+}
+.card:has(a:focus-visible) {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+.card__title {
+  font-size: var(--text-lg);
+  margin: 0;
+}
+.card__title a {
+  color: inherit;
+  text-decoration: none;
+}
+.card__title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+.card__title a:focus-visible {
+  outline: none;
+}
+.name-local {
+  display: block;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  color: var(--ink-2);
+}
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-3);
+  color: var(--ink-2);
+  font-size: var(--text-sm);
+  margin: 0;
+}
+.meta > * + *::before {
+  content: "·";
+  margin-right: var(--space-3);
+}
+
+/* Category tag: the small coloured label. The colours are the university's tile colours. */
+.tag {
+  display: inline-block;
+  padding: 0 var(--space-2);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: color-mix(in srgb, var(--tag, var(--kgu-blue)) 18%, transparent);
+  color: var(--ink);
+  border-left: 3px solid var(--tag, var(--kgu-blue));
+}
+.tag--restaurant {
+  --tag: var(--kgu-coral);
+}
+.tag--cafe {
+  --tag: var(--kgu-orange);
+}
+.tag--fast_food {
+  --tag: var(--kgu-teal);
+}
+.tag--ice_cream {
+  --tag: #b36fa2;
+}
+.tag--bar,
+.tag--pub {
+  --tag: #4d709d;
+}
+
+/* Rating: stars, the number, and how many reviews. Always all three, or "No reviews yet". */
+.rating {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+}
+.stars {
+  --size: 1.1em;
+  display: inline-block;
+  width: calc(var(--size) * 5);
+  height: var(--size);
+  background: linear-gradient(
+    90deg,
+    var(--star) calc(var(--rating, 0) / 5 * 100%),
+    var(--star-empty) 0
+  );
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z'/%3E%3C/svg%3E")
+    left / var(--size) var(--size) repeat-x;
+  flex: none;
+}
+.rating__score {
+  font-weight: 800;
+  font-size: var(--text-md);
+  font-variant-numeric: tabular-nums;
+  color: var(--star);
+}
+.rating__count {
+  color: var(--ink-2);
+}
+.rating--none {
+  color: var(--ink-2);
+  font-style: italic;
+}
+.rating--large {
+  font-size: var(--text-md);
+}
+.rating--large .stars {
+  --size: 1.6em;
+}
+.rating--large .rating__score {
+  font-size: var(--text-2xl);
+}
+
+/* Place hero: the top of a place's page. */
+.hero {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+.hero h1 {
+  margin: 0;
+}
+.hero .name-local {
+  font-size: var(--text-md);
+}
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+/* Buttons: one primary per page, at most. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font: inherit;
+  font-weight: 700;
+  font-size: var(--text-sm);
+  padding: var(--space-2) var(--space-4);
+  min-height: 2.75rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid transparent;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform var(--fast) var(--ease), background var(--fast) var(--ease);
+}
+.btn:active {
+  transform: scale(0.97);
+}
+.btn--primary {
+  background: var(--brand);
+  color: var(--on-brand);
+}
+.btn--primary:hover {
+  background: color-mix(in srgb, var(--brand) 85%, var(--kgu-blue));
+}
+:root[data-theme="dark"] .btn--primary {
+  background: var(--kgu-mist);
+  color: var(--kgu-navy);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .btn--primary {
+    background: var(--kgu-mist);
+    color: var(--kgu-navy);
+  }
+}
+.btn--secondary {
+  background: var(--surface);
+  color: var(--ink);
+  border-color: var(--line);
+}
+.btn--secondary:hover {
+  background: var(--surface-2);
+}
+.btn--ghost {
+  background: transparent;
+  color: var(--link);
+  padding-inline: var(--space-2);
+}
+.btn--danger {
+  background: transparent;
+  color: var(--danger);
+  border-color: currentColor;
+}
+
+/* Reviews: newest first, separated by a line, not boxed. */
+.reviews {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+}
+.review {
+  padding: var(--space-4) var(--space-5);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-1) var(--space-3);
+}
+.review + .review {
+  border-top: 1px solid var(--line);
+}
+.avatar {
+  grid-row: span 2;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  background: var(--chip);
+  color: var(--ink);
+  text-transform: uppercase;
+}
+.review__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-1) var(--space-3);
+  font-size: var(--text-sm);
+}
+.review__author {
+  font-weight: 700;
+}
+.review__date {
+  color: var(--ink-2);
+}
+.review__text {
+  grid-column: 2;
+  margin: 0;
+  white-space: pre-line;
+}
+.review__actions {
+  grid-column: 2;
+  display: flex;
+  gap: var(--space-2);
+}
+
+/* Forms: a label above every box, the help under it, the error under that. */
+.form {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  display: grid;
+  gap: var(--space-4);
+  max-width: 36rem;
+}
+.field {
+  display: grid;
+  gap: var(--space-1);
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.field > label,
+.field > legend {
+  font-weight: 700;
+  font-size: var(--text-sm);
+  padding: 0;
+}
+.field input:not([type="radio"], [type="checkbox"]),
+.field textarea {
+  font: inherit;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: var(--space-2) var(--space-3);
+  width: 100%;
+  transition: border-color var(--fast) var(--ease), box-shadow var(--fast) var(--ease);
+}
+.field input:focus,
+.field textarea:focus {
+  outline: none;
+  border-color: var(--focus);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--focus) 30%, transparent);
+}
+.field textarea {
+  min-height: 8rem;
+  resize: vertical;
+}
+.field__help {
+  color: var(--ink-2);
+  font-size: var(--text-sm);
+}
+.field__error {
+  color: var(--danger);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+.field:has(.field__error) input,
+.field:has(.field__error) textarea {
+  border-color: var(--danger);
+}
+
+/* Star picker: five radio buttons that look like stars. Works with the keyboard (arrow keys). */
+.star-picker {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: var(--space-1);
+}
+.star-picker input {
+  position: absolute;
+  opacity: 0;
+}
+.star-picker label {
+  width: 2.25rem;
+  height: 2.25rem;
+  cursor: pointer;
+  background: var(--star-empty);
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z'/%3E%3C/svg%3E")
+    center / contain no-repeat;
+  transition: transform var(--fast) var(--ease), background var(--fast) var(--ease);
+}
+.star-picker input:checked ~ label,
+.star-picker label:hover,
+.star-picker label:hover ~ label {
+  background: var(--star);
+}
+.star-picker label:hover {
+  transform: scale(1.12);
+}
+.star-picker:has(input:focus-visible) {
+  outline: 3px solid var(--focus);
+  outline-offset: 4px;
+  border-radius: var(--radius-sm);
+}
+
+/* Messages: what just happened ("Your review is saved"). */
+.message {
+  border-radius: var(--radius);
+  padding: var(--space-3) var(--space-4);
+  margin-bottom: var(--space-4);
+  font-weight: 600;
+  background: color-mix(in srgb, var(--success) 15%, var(--surface));
+  border-left: 4px solid var(--success);
+}
+.message--error {
+  background: color-mix(in srgb, var(--danger) 12%, var(--surface));
+  border-left-color: var(--danger);
+}
+
+/* Pagination. */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+  font-size: var(--text-sm);
+}
+
+/* Empty state: when there is nothing to show, say so and say what to do. */
+.empty {
+  text-align: center;
+  padding: var(--space-7) var(--space-4);
+  color: var(--ink-2);
+  background: var(--surface);
+  border: 1px dashed var(--line);
+  border-radius: var(--radius-lg);
+}
+.empty strong {
+  display: block;
+  color: var(--ink);
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-2);
+}

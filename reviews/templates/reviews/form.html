@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Review {{ place.display_name }} · Gaidai Eats{% endblock %}
+{% block content %}
+<p><a href="{% url 'places:detail' place.pk %}">← {{ place.display_name }}</a></p>
+<h1>Write a review</h1>
+<form class="form" method="post" novalidate>
+  {% csrf_token %}
+  {% for error in form.non_field_errors %}<div class="message message--error">{{ error }}</div>{% endfor %}
+
+  <fieldset class="field">
+    <legend>{{ form.rating.label }}</legend>
+    {# Written 5 to 1: the CSS draws them 1 to 5, and colours a star and every star before it. #}
+    <div class="star-picker">
+      {% for value, label in form.fields.rating.choices reversed %}{% if value %}
+        <input type="radio" name="rating" id="rating-{{ value }}" value="{{ value }}"{% if form.rating.value|stringformat:"s" == value|stringformat:"s" %} checked{% endif %}>
+        <label for="rating-{{ value }}"><span class="visually-hidden">{{ label }}</span></label>
+      {% endif %}{% endfor %}
+    </div>
+    {% for error in form.rating.errors %}<span class="field__error">{{ error }}</span>{% endfor %}
+  </fieldset>
+
+  <div class="field">
+    <label for="{{ form.text.id_for_label }}">{{ form.text.label }}</label>
+    <textarea id="{{ form.text.id_for_label }}" name="text" maxlength="2000" aria-describedby="text-help{% if form.text.errors %} text-error{% endif %}">{{ form.text.value|default_if_none:"" }}</textarea>
+    <span class="field__help" id="text-help">{{ form.text.help_text }}</span>
+    {% for error in form.text.errors %}<span class="field__error" id="text-error">{{ error }}</span>{% endfor %}
+  </div>
+
+  <div class="row">
+    <button class="btn btn--primary" type="submit">Post review</button>
+    <a class="btn btn--ghost" href="{% url 'places:detail' place.pk %}">Cancel</a>
+  </div>
+</form>
+{% endblock %}

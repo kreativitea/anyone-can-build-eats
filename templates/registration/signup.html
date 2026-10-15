@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Sign up · Gaidai Eats{% endblock %}
+{% block content %}
+<h1>Sign up</h1>
+<p>Reading is free. An account lets you write reviews. Pick a username, not your real name: everyone can see it.</p>
+<form class="form" method="post">
+  {% csrf_token %}
+  {% include "registration/_form_fields.html" %}
+  <input type="hidden" name="next" value="{{ next }}">
+  <div class="row">
+    <button class="btn btn--primary" type="submit">Sign up</button>
+    <a class="btn btn--ghost" href="{% url 'login' %}">Have an account? Log in</a>
+  </div>
+</form>
+{% endblock %}

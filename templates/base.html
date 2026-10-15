@@ -1,0 +1,49 @@
+{% load static %}<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Gaidai Eats{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'eats.css' %}">
+  <script src="{% static 'htmx.min.js' %}" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="wordmark" href="{% url 'places:list' %}"><span class="wordmark__dot" aria-hidden="true"></span>Gaidai Eats</a>
+      {% block header_search %}
+      <form class="search" role="search" method="get" action="{% url 'places:list' %}">
+        <label class="visually-hidden" for="header-q">Search places</label>
+        <input id="header-q" type="search" name="q" placeholder="Search places">
+      </form>
+      {% endblock %}
+      <nav class="site-header__nav" aria-label="Account">
+        {% if user.is_authenticated %}
+          <span>{{ user.username }}</span>
+          <form method="post" action="{% url 'logout' %}">
+            {% csrf_token %}
+            <button class="btn btn--secondary" type="submit">Log out</button>
+          </form>
+        {% else %}
+          <a href="{% url 'login' %}?next={{ request.get_full_path|urlencode }}">Log in</a>
+          <a class="btn btn--secondary" href="{% url 'signup' %}">Sign up</a>
+        {% endif %}
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {% for message in messages %}
+      <div class="message{% if message.tags == 'error' %} message--error{% endif %}" role="status">{{ message }}</div>
+    {% endfor %}
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span>Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a></span>
+      <span>A student project. Not run by Kansai Gaidai University.</span>
+    </div>
+  </footer>
+</body>
+</html>

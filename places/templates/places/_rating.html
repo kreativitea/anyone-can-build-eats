@@ -1,0 +1,10 @@
+{# A place's rating: stars, the number and the count, always together; or "No reviews yet". #}
+{% if place.review_count %}
+<div class="rating{% if large %} rating--large{% endif %}">
+  <span class="stars" style="--rating: {{ place.rating|floatformat:'1u' }}" role="img" aria-label="{{ place.rating|floatformat:1 }} out of 5 stars"></span>
+  <span class="rating__score">{{ place.rating|floatformat:1 }}</span>
+  <span class="rating__count">{{ place.review_count }} review{{ place.review_count|pluralize }}</span>
+</div>
+{% else %}
+<div class="rating rating--none">No reviews yet</div>
+{% endif %}

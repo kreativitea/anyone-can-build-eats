@@ -1,0 +1,10 @@
+<li class="card">
+  <h3 class="card__title">
+    <a href="{% url 'places:detail' place.pk %}">{{ place.display_name }}{% if place.local_name %}<span class="name-local">{{ place.local_name }}</span>{% endif %}</a>
+  </h3>
+  <p class="meta">
+    <span class="tag tag--{{ place.category }}">{{ place.get_category_display }}</span>
+    {% if place.cuisine_label %}<span>{{ place.cuisine_label }}</span>{% endif %}
+  </p>
+  {% include "places/_rating.html" %}
+</li>

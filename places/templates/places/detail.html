@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}{{ place.display_name }} · Gaidai Eats{% endblock %}
+{% block content %}
+<div class="hero">
+  <p class="meta">
+    <span class="tag tag--{{ place.category }}">{{ place.get_category_display }}</span>
+    {% if place.cuisine_label %}<span>{{ place.cuisine_label }}</span>{% endif %}
+  </p>
+  <h1>{{ place.display_name }}{% if place.local_name %} <span class="name-local">{{ place.local_name }}</span>{% endif %}</h1>
+  {% include "places/_rating.html" with large=True %}
+  <div class="hero__actions">
+    <a class="btn btn--primary" href="{% url 'reviews:create' place.pk %}">Write a review</a>
+    <a class="btn btn--ghost" href="{{ place.osm_url }}" rel="noopener">See it on OpenStreetMap</a>
+  </div>
+</div>
+
+<h2>Reviews</h2>
+{% if reviews %}
+<ul class="reviews">
+  {% for review in reviews %}
+  <li class="review">
+    <span class="avatar" aria-hidden="true">{{ review.author.username|first }}</span>
+    <div class="review__head">
+      <span class="review__author">{{ review.author.username }}</span>
+      <span class="stars" style="--rating: {{ review.rating }}" role="img" aria-label="{{ review.rating }} out of 5 stars"></span>
+      <span class="review__date">{{ review.created_at|date:"j M Y" }}</span>
+    </div>
+    <p class="review__text">{{ review.text }}</p>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<div class="empty"><strong>No reviews yet</strong>Been here? Be the first to write one.</div>
+{% endif %}
+{% endblock %}

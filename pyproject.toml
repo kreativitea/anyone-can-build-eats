@@ -1,0 +1,32 @@
+[project]
+name = "anyone-can-build-eats"
+version = "0.1.0"
+description = "Gaidai Eats: a review site for the places to eat near Kansai Gaidai, in Django."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.2,<5.3",
+    "gunicorn>=23",
+    "whitenoise>=6.7",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4",
+    "ruff>=0.12",
+    "tblib>=3.2.2",
+]
+
+[tool.ruff]
+line-length = 88
+# Ruff also formats Python blocks inside Markdown. The plans in docs/ show code
+# on purpose, so leave Markdown alone.
+extend-exclude = ["*/migrations/*", "*.md"]
+
+[tool.ruff.lint]
+# E/W: style errors · F: real mistakes (unused names, undefined names)
+# I: import order · B: likely bugs · UP: newer Python syntax · DJ: Django habits
+select = ["E", "W", "F", "I", "B", "UP", "DJ"]
+# Line length is the formatter's job. It cannot split a long string, so the
+# lint rule for it would only complain about lines nobody can shorten.
+ignore = ["E501"]
