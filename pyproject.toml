@@ -5,8 +5,11 @@ description = "Gaidai Eats: a review site for the places to eat near Kansai Gaid
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "dj-database-url>=3.1.2",
     "django>=5.2,<5.3",
     "gunicorn>=23",
+    "psycopg[binary]>=3.3.8",
+    "python-dotenv>=1.2.4",
     "whitenoise>=6.7",
 ]
 
