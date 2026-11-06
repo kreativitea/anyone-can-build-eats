@@ -9,12 +9,20 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 import os
+import sys
 from pathlib import Path
 
+import dj_database_url
 from django.core.exceptions import ImproperlyConfigured
+from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Read secrets from a .env file next to manage.py, if there is one. .env is in
+# .gitignore, so it never goes into git. .env.example shows what goes in it.
+# A variable already set in the shell wins over the file.
+load_dotenv(BASE_DIR / ".env")
 
 
 # Quick-start development settings - unsuitable for production
@@ -39,6 +47,9 @@ if not DEBUG and (not _live_key or _live_key.startswith("django-insecure-")):
 
 # The addresses this site answers to, separated by commas.
 ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS", "localhost,127.0.0.1").split(",")
+# Render tells the site its own address, for example gaidai-eats.onrender.com.
+if os.environ.get("RENDER_EXTERNAL_HOSTNAME"):
+    ALLOWED_HOSTS.append(os.environ["RENDER_EXTERNAL_HOSTNAME"])
 
 # Forms sent from these addresses are accepted.
 CSRF_TRUSTED_ORIGINS = [f"https://{host}" for host in ALLOWED_HOSTS]
@@ -112,11 +123,20 @@ WSGI_APPLICATION = "config.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
+# With DATABASE_URL set (for example to Supabase's Session pooler string), Django
+# uses that Postgres database. Without it, or when it is empty, Django uses
+# db.sqlite3 on this laptop, as before. The URL holds the database password:
+# keep it in .env, never in git.
+# `manage.py test` always uses SQLite, so the tests never touch the real database.
+SQLITE_URL = f"sqlite:///{BASE_DIR / 'db.sqlite3'}"
+TESTING = sys.argv[1:2] == ["test"]
+DATABASE_URL = os.environ.get("DATABASE_URL", "").strip()
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
+    "default": dj_database_url.parse(
+        SQLITE_URL if TESTING or not DATABASE_URL else DATABASE_URL,
+        conn_max_age=600,
+        conn_health_checks=True,
+    )
 }
 
 
