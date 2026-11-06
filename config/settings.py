@@ -47,6 +47,9 @@ if not DEBUG and (not _live_key or _live_key.startswith("django-insecure-")):
 
 # The addresses this site answers to, separated by commas.
 ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS", "localhost,127.0.0.1").split(",")
+# Render tells the site its own address, for example gaidai-eats.onrender.com.
+if os.environ.get("RENDER_EXTERNAL_HOSTNAME"):
+    ALLOWED_HOSTS.append(os.environ["RENDER_EXTERNAL_HOSTNAME"])
 
 # Forms sent from these addresses are accepted.
 CSRF_TRUSTED_ORIGINS = [f"https://{host}" for host in ALLOWED_HOSTS]
