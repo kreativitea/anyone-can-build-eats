@@ -1,0 +1,21 @@
+# Render reads this file to set up the live site (a "Blueprint").
+# The database is Supabase. Its Session pooler URL holds the password, so it is
+# not in this file: Render asks for DATABASE_URL and keeps it secret.
+services:
+  - type: web
+    name: gaidai-eats-demo
+    runtime: python
+    plan: free
+    region: singapore  # the closest Render region to Supabase's Sydney
+    buildCommand: pip install uv && uv sync --locked --no-dev && uv run --no-sync python manage.py collectstatic --noinput
+    # migrate and load_places are run by hand, from a laptop with .env set.
+    startCommand: uv run --no-sync gunicorn config.wsgi --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.13"
+      - key: DJANGO_DEBUG
+        value: "False"
+      - key: DJANGO_SECRET_KEY
+        generateValue: true  # Render makes a long random key
+      - key: DATABASE_URL
+        sync: false  # Render asks for it; paste the Session pooler URL
